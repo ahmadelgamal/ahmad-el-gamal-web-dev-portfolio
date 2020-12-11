@@ -1,38 +1,485 @@
-.App {
+/*-----------------------------global styles------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  font-family: 'Cairo', sans-serif;
+  /*The following line fixes issue of bold text not displaying correctly on Google Chrome*/
+  -webkit-font-smoothing: antialiased;
+  /*The following line fixes ensures that viewport is 100% after changing orientation, by telling browser not to adjust text size*/
+  -webkit-text-size-adjust: 100%;
+  --main-bg-color: #13073a; /* rgb: 19,7,58 */
+}
+
+/*----------------------------- xs (<= 768px) - phone styles------------------------------*/
+/*-----------------------------common styles------------------------------*/
+/* The following anchor offsets fix issue caused by position:fixed in navbar */
+#about-header,
+#about,
+#skills-header,
+#skills,
+#work-header,
+#work,
+#contacts {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+hr {
+  margin: 10px 0px;
+}
+
+h1 {
+  padding: 1rem 0px;
+  font-size: 24px;
+  line-height: 2rem;
+  font-weight: 700px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 18px;
+  font-weight: 700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h4,
+p,
+ul li {
+  font-size: 16px;
+}
+
+h4 {
+  font-weight: 700px;
+}
+
+p,
+ul li {
+  font-weight: 400px;
+}
+
+p,
+ul {
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: justify;
+}
+
+/*-----------------------------header styles------------------------------*/
+#navbar-bg {
+  z-index: 9;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  transition: height 0.5s;
+  background-color: rgba(19, 7, 58, 1);
+}
+
+#logo {
+  z-index: 10;
+  position: fixed;
+  top: 5px;
+  transition: top 0.5s;
+  left: 5%;
+}
+
+#logo img {
+  height: 40px;
+  transition: height 0.5s;
+}
+
+#burger-icon {
+  z-index: 10;
+  display: inline-block;
+  position: fixed;
+  top: 16px;
+  right: 5%;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  margin: 3px 0px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.burger-menu-x .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-3px, 4px);
+  transform: rotate(-45deg) translate(-3px, 4px);
+}
+
+.burger-menu-x .bar2 {
+  opacity: 0;
+}
+
+.burger-menu-x .bar3 {
+  -webkit-transform: rotate(45deg) translate(-3px, -4px);
+  transform: rotate(45deg) translate(-3px, -4px);
+}
+
+#burger-toggle {
+  display: none;
+}
+
+#burger-toggle:checked + .navmenu {
+  display: block;
+}
+
+.navmenu {
+  z-index: 10;
+  display: none;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  background-color: rgba(19, 7, 58, 0.8);
+}
+
+.navmenu a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  transition: font-size 0.5s;
+  line-height: 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navmenu a:hover {
+  color: #daa520;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#carousel {
+  margin-top: 50px;
+}
+
+.carouselPics {
+  z-index: 0;
+  position: relative;
+  text-align: center;
+}
+
+.carouselPics img {
+  width: 100%;
+  display: block;
+}
+
+.carouselPics h1 {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(19, 7, 58, 0.4);
+  color: #ffffff;
+  text-align: center;
+  bottom: 9px;
+}
+
+/*-----------------------------main styles------------------------------*/
+main {
+  color: var(--main-bg-color);
+}
+
+main a,
+main a:visited {
+  text-decoration: none;
+  color: var(--main-bg-color);
+  text-align: justify;
+  font-size: 16px; /* same as p */
+  padding: 0px 0px 20px 0px;
+}
+
+main li {
+  margin-left: 20px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+.showcase-project,
+.project {
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.showcase-project:hover,
+.project:hover {
+  transform: scale(1.05);
+}
+
+.showcase-project h4,
+.project h4 {
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(19, 7, 58, 0.4);
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  bottom: 9px;
+}
+
+.showcase-project span,
+.project span {
+  font-style: italic;
+}
+
+.showcase-project img,
+.project img {
+  z-index: 0;
+  width: 100%;
+}
+
+/*-----------------------------footer styles------------------------------*/
+footer {
+  padding: 20px;
+  background-color: var(--main-bg-color);
+  color: #ffffff;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+.social-media ul {
+  text-align: center;
+}
+
+.social-media li {
+  display: inline;
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.social-media img {
+  height: 30px;
+}
+
+/*----------------------------- sm (768px < 992px) tablets styles------------------------------*/
+@media screen and (min-width: 768px) {
+  /* The following anchor offsets fix issue caused by position:fixed in navbar */
+  #about-header,
+  #about,
+  #skills-header,
+  #skills,
+  #work-header,
+  #work,
+  #contacts {
+    padding-top: 80px;
+    margin-top: -80px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .phone-only {
+    display: none;
+  }
+
+  /*-----------------------------common styles------------------------------*/
+  h1 {
+    padding: 2rem 0px;
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4,
+  p,
+  ul li {
+    font-size: 18px;
+  }
+
+  /*-----------------------------header styles------------------------------*/
+  #burger-icon {
+    display: none;
+  }
+
+  #navbar-bg {
+    height: 70px;
+    transition: height 0.5s;
+  }
+
+  #logo {
+    top: 10px;
+    transition: top 0.5s;
+  }
+
+  #logo img {
+    height: 50px;
+    transition: height 0.5s;
+  }
+
+  .navmenu {
+    display: inline-block;
+    top: 10px;
+    right: 2rem;
+    width: auto;
+    text-align: right;
+    background-color: inherit;
+  }
+
+  .navmenu a {
+    display: inline-block;
+    padding-left: 1rem;
+    font-size: 24px;
+  }
+
+  #carousel {
+    margin-top: 70px;
+  }
+
+  /*-----------------------------main styles------------------------------*/
+  main {
+    display: grid;
+    grid-template-columns: minmax(auto, 20%) auto;
+    grid-template-rows: auto auto auto;
+    padding: 15px 0px;
+  }
+
+  main a {
+    font-size: 18px; /* same as p */
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .flex-list {
+    width: 50%;
+  }
+
+  article {
+    margin-bottom: 50px;
+  }
+
+  /*-----------------------------footer styles------------------------------*/
+  footer p {
+    font-size: 16px;
+  }
+
+  .social-media img {
+    height: 40px;
+  }
+}
+
+/*----------------------------- md (992px < 1199px) small laptops styles------------------------------*/
+@media screen and (min-width: 992px) {
+  /*-----------------------------common styles------------------------------*/
+  .container {
+    margin: 0 5%;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4,
+  p,
+  ul {
+    font-size: 20px;
+  }
+
+  /*-----------------------------header styles------------------------------*/
+  nav a {
+    font-size: 28px; /* same as h2 */
+  }
+
+  /*-----------------------------main styles------------------------------*/
+  main a {
+    font-size: 20px; /* same as p */
+  }
+
+  main li {
+    margin-left: 5%;
+  }
+
+  article {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 70px;
+  }
+
+  article:nth-child(even) {
+    margin-right: 3%;
+  }
+
+  #showcase article {
+    display: block;
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .showcase-project h4,
+  .project h4 {
+    bottom: 11px;
+  }
+
+  /*-----------------------------footer styles------------------------------*/
+}
+
+/*----------------------------- lg (>= 1200px) laptops & desktops styles------------------------------*/
+@media screen and (min-width: 1200px) {
+  .flex-list {
+    width: 33%;
+  }
+
+  article {
+    width: 31%;
+  }
+
+  article:nth-child(even) {
+    margin-right: 0;
+  }
+
+  article:nth-child(3n) {
+    margin: 0 3%;
+  }
+
+  #showcase article {
+    margin: 0%;
+  }
+
+  .social-media img {
+    height: 50px;
   }
 }
