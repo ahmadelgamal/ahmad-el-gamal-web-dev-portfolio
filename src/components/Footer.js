@@ -11,35 +11,35 @@ function Footer() {
       <div id="contacts" className="social-media">
         <ul>
           <li>
-            <a href="tel:6572462334" target="_blank"
+            <a href="tel:6572462334" target="_blank" rel="noreferrer"
             ><img
                 src={phoneIcon}
                 alt="Link to Ahmad El Gamal's Portfolio"
               /></a>
           </li>
           <li>
-            <a href="mailto:ahmad@crescentapplications.com" target="_blank"
+            <a href="mailto:ahmad@crescentapplications.com" target="_blank" rel="noreferrer"
             ><img
                 src={emailIcon}
                 alt="Link to Ahmad El Gamal's Email"
               /></a>
           </li>
           <li>
-            <a href="#"
+            <a href="#top"
             ><img
                 src={globeIcon}
                 alt="Link to Ahmad El Gamal's Portfolio (This website)"
               /></a>
           </li>
           <li>
-            <a href="https://github.com/ahmadelgamal" target="_blank"
+            <a href="https://github.com/ahmadelgamal" target="_blank" rel="noreferrer"
             ><img
                 src={githubIcon}
                 alt="Link to Ahmad El Gamal's GitHub Page"
               /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ahmadelgamal/" target="_blank"
+            <a href="https://www.linkedin.com/in/ahmadelgamal/" target="_blank" rel="noreferrer"
             ><img
                 src={linkedinIcon}
                 alt="Link to Ahmad El Gamal's LinkedIn Page"
