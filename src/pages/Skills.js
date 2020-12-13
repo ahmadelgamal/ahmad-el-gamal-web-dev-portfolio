@@ -38,14 +38,15 @@ function Skills() {
           <ul>
             <li>Bootstrap 4</li>
             <li>UIkit</li>
+            <li>Materialize</li>
           </ul>
         </div>
 
         <div className="flex-list">
           <h3>Other Front-End:</h3>
           <ul>
-            <li>APIs</li>
             <li>JSON</li>
+            <li>APIs</li>
             <li>AJAX</li>
           </ul>
         </div>
@@ -53,47 +54,22 @@ function Skills() {
         <div className="flex-list">
           <h3>Back-End:</h3>
           <ul>
-            <li>Node.js</li>
+            <li>Node.js &amp; npm</li>
             <li>Express.js</li>
             <li>Handlebars.js</li>
             <li>EJS</li>
-            <li>Authentication using Cookies &amp; Express Session</li>
+            <li>Authentication</li>
           </ul>
         </div>
 
         <div className="flex-list">
-          <h3>Back-End Database:</h3>
+          <h3>Database:</h3>
           <ul>
-            <li>SQL</li>
-            <li>SQLite</li>
-            <li>MySQL</li>
+            <li>SQL, SQLite &amp; MySQL</li>
             <li>Sequelize</li>
             <li>ORM</li>
             <li>MongoDB</li>
             <li>Mongoose</li>
-          </ul>
-        </div>
-
-        <div className="flex-list">
-          <h3>Source Control:</h3>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>GitLab</li>
-          </ul>
-        </div>
-
-        <div className="flex-list">
-          <h3>DevTools:</h3>
-          <ul>
-            <li>VS Code</li>
-            <li>Brackets</li>
-            <li>Terminal</li>
-            <li>Chrome DevTools</li>
-            <li>npm</li>
-            <li>Jest</li>
-            <li>Heroku</li>
-            <li>Insomnia Core</li>
           </ul>
         </div>
 
@@ -108,6 +84,28 @@ function Skills() {
             <li>Progressive Web Applications (PWA)</li>
           </ul>
         </div>
+
+        <div className="flex-list">
+          <h3>DevTools:</h3>
+          <ul>
+            <li>VS Code &amp; Brackets</li>
+            <li>Terminal &amp; iTerm2</li>
+            <li>Chrome DevTools</li>
+            <li>Jest</li>
+            <li>Heroku</li>
+            <li>Insomnia Core</li>
+          </ul>
+        </div>
+
+        <div className="flex-list">
+          <h3>Source Control:</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitLab</li>
+          </ul>
+        </div>
+
       </div>
     </main>
   );
