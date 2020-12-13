@@ -46,36 +46,38 @@ function FeaturedProjects() {
         </div>
       </section>
 
-      <h2>Featured Projects</h2>
-      <section id="showcase">
-        {featuredProjects.map((project) => (
+      <div className="container">
+        <h2>Featured Projects</h2>
+        <section id="showcase">
+          {featuredProjects.map((project) => (
 
-          <article key={project.id} id={project.id}>
-            <div className={project.category}>
-              <h4>
-                {project.name}<br />
-                <span>
-                  {project.tech}
-                </span>
-              </h4>
+            <article key={project.id} id={project.id}>
+              <div className={project.category}>
+                <h4>
+                  {project.name}<br />
+                  <span>
+                    {project.tech}
+                  </span>
+                </h4>
 
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-              ><img
-                  src={require(`../assets/images/screenshots/${project.screenshot}`).default}
-                  alt={project.alt}
-                  width="100%"
-                /></a>
-            </div>
-            <p>
-              {project.description}
-            </p>
-          </article>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                ><img
+                    src={require(`../assets/images/screenshots/${project.screenshot}`).default}
+                    alt={project.alt}
+                    width="100%"
+                  /></a>
+              </div>
+              <p>
+                {project.description}
+              </p>
+            </article>
 
-        ))}
-      </section>
+          ))}
+        </section>
+      </div>
     </main>
   );
 };

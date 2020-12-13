@@ -9,7 +9,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/code-quiz.png",
+      screenshot: "code-quiz.png",
       alt: "Code Quiz",
       link: "https://ahmadelgamal.github.io/ucb-code-quiz/"
     },
@@ -19,7 +19,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/git-it-done.png",
+      screenshot: "git-it-done.png",
       alt: "Git it Done",
       link: "https://ahmadelgamal.github.io/ucb-git-it-done/"
     },
@@ -29,7 +29,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3",
-      screenshot: "../assets/images/screenshots/horiseon.png",
+      screenshot: "horiseon.png",
       alt: "Horiseon",
       link: "https://ahmadelgamal.github.io/ucb-horiseon/"
     },
@@ -39,7 +39,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/password-generator.png",
+      screenshot: "password-generator.png",
       alt: "Password Generator",
       link: "https://ahmadelgamal.github.io/ucb-password-generator/"
     },
@@ -49,7 +49,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "JavaScript",
-      screenshot: "../assets/images/screenshots/robot-gladiators.png",
+      screenshot: "robot-gladiators.png",
       alt: "Robot Gladiators",
       link: "https://ahmadelgamal.github.io/ucb-robot-gladiators/"
     },
@@ -59,7 +59,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3",
-      screenshot: "../assets/images/screenshots/run-buddy.png",
+      screenshot: "run-buddy.png",
       alt: "Run Buddy",
       link: "https://ahmadelgamal.github.io/ucb-run-buddy/"
     },
@@ -69,7 +69,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/taskinator.png",
+      screenshot: "taskinator.png",
       alt: "Taskinator",
       link: "https://ahmadelgamal.github.io/ucb-taskinator/"
     },
@@ -79,7 +79,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/taskmaster-pro.png",
+      screenshot: "taskmaster-pro.png",
       alt: "Taskmaster Pro",
       link: "https://ahmadelgamal.github.io/ucb-taskmaster-pro/"
     },
@@ -89,7 +89,7 @@ function TemplateProjects() {
       category: "Templates",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/weather-dashboard.png",
+      screenshot: "weather-dashboard.png",
       alt: "Weather Dashboard",
       link: "https://ahmadelgamal.github.io/ucb-weather-dashboard/"
     },
@@ -101,40 +101,43 @@ function TemplateProjects() {
         <div key="carousel-6" id="carousel-6" className="carouselPics">
           <img
             src={require(`../assets/images/carousel/carousel-6.jpg`).default}
-            alt={"Computer screen with web-dev code on it."}
+            alt={"Mobile, pencils, notes, eraser and scissors."}
           />
         </div>
       </section>
 
-      <h2>Template Projects</h2>
-      <section id="practice">
-        {templateProjects.map((project) => (
+      <div className="container">
+        <h2>Template Projects</h2>
+        <section id="practice">
+          {templateProjects.map((project) => (
 
-          <article key={project.id} id={project.id}>
-            <div className={project.category}>
-              <h4>
-                {project.name}<br />
-                <span>
-                  {project.tech}
-                </span>
-              </h4>
+            <article key={project.id} id={project.id}>
+              <div className={project.category}>
+                <h4>
+                  {project.name}<br />
+                  <span>
+                    {project.tech}
+                  </span>
+                </h4>
 
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-              ><img
-                  src={project.screenshot}
-                  alt={project.alt}
-                /></a>
-            </div>
-            <p>
-              {project.description}
-            </p>
-          </article>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                ><img
+                    src={require(`../assets/images/screenshots/${project.screenshot}`).default}
+                    alt={project.alt}
+                    width="100%"
+                  /></a>
+              </div>
+              <p>
+                {project.description}
+              </p>
+            </article>
 
-        ))}
-      </section>
+          ))}
+        </section>
+      </div>
     </main>
   );
 };

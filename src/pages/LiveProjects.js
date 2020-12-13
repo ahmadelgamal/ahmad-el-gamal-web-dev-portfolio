@@ -9,7 +9,7 @@ function LiveProjects() {
       category: "Live",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/crescent-trade.png",
+      screenshot: "crescent-trade.png",
       alt: "Crescent Trade",
       link: "https://crescenttrade.com/"
     },
@@ -19,7 +19,7 @@ function LiveProjects() {
       category: "Live",
       description: "",
       tech: "iWeb",
-      screenshot: "../assets/images/screenshots/elgamal-group.png",
+      screenshot: "elgamal-group.png",
       alt: "El Gamal Group",
       link: "http://elgamalgroup.com/"
     },
@@ -29,7 +29,7 @@ function LiveProjects() {
       category: "Live",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/alazhar.png",
+      screenshot: "alazhar.png",
       alt: "El Gamal's Azhari Guide",
       link: "https://ahmadelgamal.com/alazhar/"
     },
@@ -39,7 +39,7 @@ function LiveProjects() {
       category: "Live",
       description: "",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/imam-ahmad.png",
+      screenshot: "imam-ahmad.png",
       alt: "Imam Ahmad El Gamal",
       link: "https://ahmadelgamal.com/"
     },
@@ -49,7 +49,7 @@ function LiveProjects() {
       category: "Live",
       description: "",
       tech: "HTML5/CSS3/JavaScript/React",
-      screenshot: "../assets/images/screenshots/portfolio.png",
+      screenshot: "portfolio.png",
       alt: "Ahmad El Gamal's Portfolio",
       link: "https://ahmadelgamal.github.io/"
     },
@@ -66,35 +66,38 @@ function LiveProjects() {
         </div>
       </section>
 
-      <h2>Live Projects</h2>
-      <section id="live">
-        {liveProjects.map((project) => (
+      <div className="container">
+        <h2>Live Projects</h2>
+        <section id="live">
+          {liveProjects.map((project) => (
 
-          <article key={project.id} id={project.id}>
-            <div className={project.category}>
-              <h4>
-                {project.name}<br />
-                <span>
-                  {project.tech}
-                </span>
-              </h4>
+            <article key={project.id} id={project.id}>
+              <div className={project.category}>
+                <h4>
+                  {project.name}<br />
+                  <span>
+                    {project.tech}
+                  </span>
+                </h4>
 
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-              ><img
-                  src={project.screenshot}
-                  alt={project.alt}
-                /></a>
-            </div>
-            <p>
-              {project.description}
-            </p>
-          </article>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                ><img
+                    src={require(`../assets/images/screenshots/${project.screenshot}`).default}
+                    alt={project.alt}
+                    width="100%"
+                  /></a>
+              </div>
+              <p>
+                {project.description}
+              </p>
+            </article>
 
-        ))}
-      </section>
+          ))}
+        </section>
+      </div>
     </main>
   );
 };

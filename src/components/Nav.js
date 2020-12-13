@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../logo-ahmad.png';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012121127PM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012121152PM';
 
 function Nav(props) {
 

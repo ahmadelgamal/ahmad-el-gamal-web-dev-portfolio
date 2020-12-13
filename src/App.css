@@ -3,8 +3,7 @@
  *
  * @format
  */
-
-@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap');
 
 * {
   margin: 0px;
@@ -45,34 +44,63 @@ h1 {
   padding: 1rem 0px;
   font-size: 24px;
   line-height: 2rem;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: center;
 }
 
 h2 {
   font-size: 20px;
   text-align: center;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
-h3 {
+h3,
+label,
+#contact-submit {
   font-size: 18px;
-  font-weight: 700px;
+  font-weight: 700;
+}
+
+label,
+input,
+#message-input,
+#contact-submit {
+  display: block;
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+
+input,
+textarea {
+  padding: 0 10px;
+}
+
+#message-input {
+  display: block;
+  height: 10rem;
+  padding-top: 10px;
+}
+
+#contact-form {
+  margin-bottom: 2rem;
 }
 
 h4,
 p,
-ul li {
+ul li,
+input,
+textarea {
   font-size: 16px;
 }
 
 h4 {
-  font-weight: 700px;
+  font-weight: 700;
+  text-align: center;
 }
 
 p,
 ul li {
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 p,
@@ -362,12 +390,12 @@ footer a {
   }
 
   /*-----------------------------main styles------------------------------*/
-  main {
-    /* display: grid; */
-    /* grid-template-columns: minmax(auto, 20%) auto; */
-    /* grid-template-rows: auto auto auto; */
-    /* padding: 15px 0px; */
-  }
+  /* main {
+    display: grid;
+    grid-template-columns: minmax(auto, 20%) auto;
+    grid-template-rows: auto auto auto;
+    padding: 15px 0px;
+  } */
 
   main a {
     font-size: 18px; /* same as p */
@@ -445,7 +473,7 @@ footer a {
   }
 
   article:nth-child(even) {
-    margin-right: 3%;
+    margin-left: 4%;
   }
 
   #showcase article {
@@ -473,11 +501,12 @@ footer a {
   }
 
   article:nth-child(even) {
-    margin-right: 0;
+    margin-left: 0;
   }
 
+  article:nth-child(3n + 2),
   article:nth-child(3n) {
-    margin: 0 3%;
+    margin-left: 3%;
   }
 
   #showcase article {
