@@ -1,4 +1,9 @@
-/*-----------------------------global styles------------------------------*/
+/**
+ * /*-----------------------------global styles------------------------------
+ *
+ * @format
+ */
+
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 
 * {
@@ -186,7 +191,7 @@ p {
 .carouselPics h1 {
   position: absolute;
   width: 100%;
-  background-color: rgba(19, 7, 58, 0.4);
+  /* background-color: rgba(19, 7, 58, 0.4); */
   color: #ffffff;
   text-align: center;
   bottom: 9px;
@@ -358,10 +363,10 @@ footer a {
 
   /*-----------------------------main styles------------------------------*/
   main {
-    display: grid;
-    grid-template-columns: minmax(auto, 20%) auto;
-    grid-template-rows: auto auto auto;
-    padding: 15px 0px;
+    /* display: grid; */
+    /* grid-template-columns: minmax(auto, 20%) auto; */
+    /* grid-template-rows: auto auto auto; */
+    /* padding: 15px 0px; */
   }
 
   main a {

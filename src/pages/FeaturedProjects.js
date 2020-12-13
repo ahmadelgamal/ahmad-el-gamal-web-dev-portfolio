@@ -9,7 +9,7 @@ function FeaturedProjects() {
       category: "Featured",
       description: "My Food Choices is a smart tool that allows hosts to query guests on their dietary restrictions and food favorites, in order to prepare the food that fits them.",
       tech: "HTML5/CSS3/JavaScript/Materialize <br /> Node.js / Express.js / EJS <br /> MySQL / Sequelize / Heroku",
-      screenshot: "./src/assets/images/screenshots/mfc-user-update-profile.gif",
+      screenshot: "mfc-user-update-profile.gif",
       alt: "My Food Choices",
       link: "https://myfoodchoices.herokuapp.com/"
     },
@@ -19,7 +19,7 @@ function FeaturedProjects() {
       category: "Featured",
       description: "Users can get quick quotes for airfare &amp; lodging costs, and save &amp; retrieve favorites results.",
       tech: "HTML5/CSS3/JavaScript/jQuery/UIkit<br />Node.js/Express.js",
-      screenshot: "../assets/images/screenshots/bootcamp-travel-flights.gif",
+      screenshot: "bootcamp-travel-flights.gif",
       alt: "Bootcamp Travel",
       link: "https://bootcamp-travel.herokuapp.com/"
     },
@@ -29,42 +29,54 @@ function FeaturedProjects() {
       category: "Featured",
       description: "App displays a catalog of products, with specifications, pictures and prices, for a furniture company.",
       tech: "HTML5/CSS3/JavaScript",
-      screenshot: "../assets/images/screenshots/lifetime-egypt.png",
+      screenshot: "lifetime-egypt.png",
       alt: "Lifetime Egypt",
       link: "https://lifetimeegypt.com/"
     }
   ]);
 
   return (
-    <section id="showcase">
-      <h3>Featured Projects</h3>
-      {featuredProjects.map((project) => (
+    <main>
+      <section id="carousel">
+        <div key="carousel-4" id="carousel-4" className="carouselPics">
+          <img
+            src={require(`../assets/images/carousel/carousel-4.jpg`).default}
+            alt={"MacBook with web-dev code on the screen, next to a notebook with a pen on it."}
+          />
+        </div>
+      </section>
 
-        <article key={project.id} id={project.id}>
-          <div className={project.category}>
-            <h4>
-              {project.name}<br />
-              <span>
-                {project.tech}
-              </span>
-            </h4>
+      <h2>Featured Projects</h2>
+      <section id="showcase">
+        {featuredProjects.map((project) => (
 
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noreferrer"
-            ><img
-                src={project.screenshot}
-                alt={project.alt}
-              /></a>
-          </div>
-          <p>
-            {project.description}
-          </p>
-        </article>
+          <article key={project.id} id={project.id}>
+            <div className={project.category}>
+              <h4>
+                {project.name}<br />
+                <span>
+                  {project.tech}
+                </span>
+              </h4>
 
-      ))}
-    </section>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+              ><img
+                  src={require(`../assets/images/screenshots/${project.screenshot}`).default}
+                  alt={project.alt}
+                  width="100%"
+                /></a>
+            </div>
+            <p>
+              {project.description}
+            </p>
+          </article>
+
+        ))}
+      </section>
+    </main>
   );
 };
 
