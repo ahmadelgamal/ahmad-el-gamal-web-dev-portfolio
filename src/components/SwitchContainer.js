@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Nav from './Nav';
 import About from '../pages/About';
 import Skills from '../pages/Skills';
 import FeaturedProjects from '../pages/FeaturedProjects';
-import LiveProjects from '../pages/LiveProjects';
+import PrivateProjects from '../pages/PrivateProjects';
 import TemplateProjects from '../pages/TemplateProjects';
 import Contact from '../pages/Contact';
 
@@ -17,10 +17,10 @@ function SwitchContainer() {
     switch (currentPage) {
       case 'Featured':
         return <FeaturedProjects />;
-      case 'Live':
-        return <LiveProjects />;
       case 'Templates':
         return <TemplateProjects />;
+      case 'Private':
+        return <PrivateProjects />;
       case 'Skills':
         return <Skills />;
       case 'Contact':
@@ -34,10 +34,10 @@ function SwitchContainer() {
 
   return (
     <div>
-      {/* Pass the state value and the setter as props to NavTabs */}
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Call the renderPage function passing in the currentPage */}
-      <div>{renderPage(currentPage)}</div>
+      {/* Pass the state value and the setter as props to NavTabs */ }
+      <Nav currentPage={ currentPage } handlePageChange={ handlePageChange } />
+      {/* Call the renderPage function passing in the currentPage */ }
+      <div>{ renderPage(currentPage) }</div>
     </div>
   );
 }

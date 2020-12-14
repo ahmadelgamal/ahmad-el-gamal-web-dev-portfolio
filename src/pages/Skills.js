@@ -3,8 +3,8 @@ import React from 'react';
 function Skills() {
   return (
     <main>
-      <section id="carousel">
-        <div key="carousel-2" id="carousel-2" className="carouselPics">
+      <section id="jumbotron">
+        <div key="carousel-2" id="carousel-2" className="jumbotronPics">
           <img
             src={require(`../assets/images/carousel/carousel-2.jpg`).default}
             alt={"Ahmad El Gamal at New Vision International School's construction site in Giza, Egypt."}

@@ -4,7 +4,7 @@ import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pd
 
 function Nav(props) {
 
-  const tabs = ['About', 'Skills', 'Featured', 'Live', 'Templates', 'Contact'];
+  const tabs = ['About', 'Skills', 'Featured', 'Templates', 'Private', 'Contact'];
 
   return (
     <header>

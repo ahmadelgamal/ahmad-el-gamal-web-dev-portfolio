@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return (
     <main>
-      <section id="carousel">
-        <div key="carousel-1" id="carousel-1" className="carouselPics">
+      <section id="jumbotron">
+        <div key="carousel-1" id="carousel-1" className="jumbotronPics">
           <img
             src={require(`../assets/images/carousel/carousel-1.jpg`).default}
             alt={"Ahmad El Gamal in his office in Irvine, CA."}

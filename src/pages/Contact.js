@@ -8,8 +8,8 @@ function Contact() {
   }
   return (
     <main>
-      <section id="carousel">
-        <div key="carousel-3" id="carousel-3" className="carouselPics">
+      <section id="jumbotron">
+        <div key="carousel-3" id="carousel-3" className="jumbotronPics">
           <img
             src={require(`../assets/images/carousel/carousel-3.jpg`).default}
             alt={"Ahmad El Gamal at home in Irvine, CA."}

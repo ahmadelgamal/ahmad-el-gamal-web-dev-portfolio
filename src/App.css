@@ -1,8 +1,5 @@
-/**
- * /*-----------------------------global styles------------------------------
- *
- * @format
- */
+/*-----------------------------global styles------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700;900&display=swap');
 
 * {
@@ -20,24 +17,8 @@
 
 /*----------------------------- xs (<= 768px) - phone styles------------------------------*/
 /*-----------------------------common styles------------------------------*/
-/* The following anchor offsets fix issue caused by position:fixed in navbar */
-#about-header,
-#about,
-#skills-header,
-#skills,
-#work-header,
-#work,
-#contacts {
-  padding-top: 60px;
-  margin-top: -60px;
-}
-
 .container {
   margin: 0 20px;
-}
-
-hr {
-  margin: 10px 0px;
 }
 
 h1 {
@@ -52,8 +33,10 @@ h2 {
   font-size: 20px;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
+/* h3 used in Skills.js, label used in Contact.js */
 h3,
 label,
 #contact-submit {
@@ -85,6 +68,7 @@ textarea {
   margin-bottom: 2rem;
 }
 
+/* h4 used in projects */
 h4,
 p,
 ul li,
@@ -137,47 +121,6 @@ p {
   transition: height 0.5s;
 }
 
-#burger-icon {
-  z-index: 10;
-  display: inline-block;
-  position: fixed;
-  top: 16px;
-  right: 5%;
-  cursor: pointer;
-}
-
-.bar1,
-.bar2,
-.bar3 {
-  width: 20px;
-  height: 2px;
-  background-color: #fff;
-  margin: 3px 0px;
-  transition: transform 0.5s ease-in-out;
-}
-
-.burger-menu-x .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-3px, 4px);
-  transform: rotate(-45deg) translate(-3px, 4px);
-}
-
-.burger-menu-x .bar2 {
-  opacity: 0;
-}
-
-.burger-menu-x .bar3 {
-  -webkit-transform: rotate(45deg) translate(-3px, -4px);
-  transform: rotate(45deg) translate(-3px, -4px);
-}
-
-#burger-toggle {
-  display: none;
-}
-
-#burger-toggle:checked + .navmenu {
-  display: block;
-}
-
 .navmenu {
   z-index: 10;
   display: none;
@@ -198,31 +141,22 @@ p {
 }
 
 .navmenu a:hover {
-  color: #daa520;
+  text-decoration: underline;
 }
 
-#carousel {
+#jumbotron {
   margin-top: 50px;
 }
 
-.carouselPics {
+.jumbotronPics {
   z-index: 0;
   position: relative;
   text-align: center;
 }
 
-.carouselPics img {
+.jumbotronPics img {
   width: 100%;
   display: block;
-}
-
-.carouselPics h1 {
-  position: absolute;
-  width: 100%;
-  /* background-color: rgba(19, 7, 58, 0.4); */
-  color: #ffffff;
-  text-align: center;
-  bottom: 9px;
 }
 
 /*-----------------------------main styles------------------------------*/
@@ -245,21 +179,25 @@ main li {
 
 article {
   margin-bottom: 40px;
+  vertical-align: top;
 }
 
-.showcase-project,
-.project {
+.featured,
+.private,
+.templates {
   position: relative;
   transition: all 0.2s ease-in-out;
 }
 
-.showcase-project:hover,
-.project:hover {
+.featured:hover,
+.private:hover,
+.templates:hover {
   transform: scale(1.05);
 }
 
-.showcase-project h4,
-.project h4 {
+.featured h4,
+.private h4,
+.templates h4 {
   z-index: 1;
   position: absolute;
   background-color: rgba(19, 7, 58, 0.4);
@@ -269,13 +207,26 @@ article {
   bottom: 9px;
 }
 
-.showcase-project span,
-.project span {
-  font-style: italic;
+.featured .github-logo,
+.private .github-logo,
+.templates .github-logo {
+  z-index: 1;
+  position: absolute;
+  width: 40px;
+  right: 20px;
+  top: 20%;
 }
 
-.showcase-project img,
-.project img {
+.featured span,
+.private span,
+.templates span {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.featured img,
+.private img,
+.templates img {
   z-index: 0;
   width: 100%;
 }
@@ -314,18 +265,6 @@ footer a {
 
 /*----------------------------- sm (768px < 992px) tablets styles------------------------------*/
 @media screen and (min-width: 768px) {
-  /* The following anchor offsets fix issue caused by position:fixed in navbar */
-  #about-header,
-  #about,
-  #skills-header,
-  #skills,
-  #work-header,
-  #work,
-  #contacts {
-    padding-top: 80px;
-    margin-top: -80px;
-  }
-
   .phone-only {
     display: none;
   }
@@ -340,21 +279,21 @@ footer a {
     font-size: 24px;
   }
 
-  h3 {
+  h3,
+  label,
+  #contact-submit {
     font-size: 20px;
   }
 
   h4,
   p,
-  ul li {
+  ul li,
+  input,
+  textarea {
     font-size: 18px;
   }
 
   /*-----------------------------header styles------------------------------*/
-  #burger-icon {
-    display: none;
-  }
-
   #navbar-bg {
     height: 70px;
     transition: height 0.5s;
@@ -385,18 +324,15 @@ footer a {
     font-size: 24px;
   }
 
-  #carousel {
+  .navmenu .active {
+    color: #daa520;
+  }
+
+  #jumbotron {
     margin-top: 70px;
   }
 
   /*-----------------------------main styles------------------------------*/
-  /* main {
-    display: grid;
-    grid-template-columns: minmax(auto, 20%) auto;
-    grid-template-rows: auto auto auto;
-    padding: 15px 0px;
-  } */
-
   main a {
     font-size: 18px; /* same as p */
   }
@@ -404,7 +340,6 @@ footer a {
   #skills {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
   }
@@ -442,13 +377,17 @@ footer a {
     font-size: 28px;
   }
 
-  h3 {
+  h3,
+  label,
+  #contact-submit {
     font-size: 24px;
   }
 
   h4,
   p,
-  ul {
+  ul li,
+  input,
+  textarea {
     font-size: 20px;
   }
 
@@ -476,14 +415,15 @@ footer a {
     margin-left: 4%;
   }
 
-  #showcase article {
+  #featured article {
     display: block;
     width: 100%;
     margin-right: 0%;
   }
 
-  .showcase-project h4,
-  .project h4 {
+  .featured,
+  .private img,
+  .templates img {
     bottom: 11px;
   }
 
@@ -509,7 +449,7 @@ footer a {
     margin-left: 3%;
   }
 
-  #showcase article {
+  #featured article {
     margin: 0%;
   }
 
