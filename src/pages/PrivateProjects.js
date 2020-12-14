@@ -1,9 +1,19 @@
 import React, { useState } from 'react';
-import githubLogo from '../assets/images/GitHub-Mark-120px-plus.png'
 
 function PrivateProjects() {
 
   const [PrivateProjects] = useState([
+    {
+      id: "lifetime-egypt",
+      name: "Lifetime Egypt",
+      category: "featured",
+      description: "App displays a catalog of products, with specifications, pictures and prices, for a furniture company.",
+      tech: "HTML5 | CSS3 | JavaScript",
+      screenshot: "lifetime-egypt.png",
+      alt: "Lifetime Egypt",
+      link: "https://lifetimeegypt.com/",
+      repo: "https://github.com/ahmadelgamal/lifetime-egypt"
+    },
     {
       id: "crescent-trade",
       name: "Crescent Trade",
@@ -44,16 +54,6 @@ function PrivateProjects() {
       alt: "Imam Ahmad El Gamal",
       link: "https://ahmadelgamal.com/",
     },
-    {
-      id: "ahmad-el-gamal-web-dev-portfolio",
-      name: "Ahmad's Portfolio",
-      category: "private",
-      description: "",
-      tech: "HTML5 | CSS3 | JavaScript | React",
-      screenshot: "portfolio.png",
-      alt: "Ahmad El Gamal's Portfolio",
-      link: "https://ahmadelgamal.com/portfolio",
-    }
   ]);
 
   return (
@@ -68,7 +68,7 @@ function PrivateProjects() {
       </section>
 
       <div className="container">
-        <h2>Private Projects</h2>
+        <h2>Private-Repository Projects</h2>
         <section id="private">
           { PrivateProjects.map((project) => (
 
@@ -89,17 +89,6 @@ function PrivateProjects() {
                   <img
                     src={ require(`../assets/images/screenshots/${project.screenshot}`).default }
                     alt={ project.alt }
-                  />
-                </a>
-                <a
-                  href={ project.repo }
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    className="github-logo"
-                    src={ githubLogo }
-                    alt="GitHub Repo link"
                   />
                 </a>
               </div>

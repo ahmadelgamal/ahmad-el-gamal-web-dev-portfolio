@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from '../logo-ahmad.png';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012121152PM';
 
 function Nav(props) {
 
-  const tabs = ['About', 'Skills', 'Featured', 'Templates', 'Private', 'Contact'];
+  const tabs = ['About', 'Featured', 'Templates', 'Private', 'Contact', 'Resume'];
 
   return (
     <header>
@@ -17,6 +16,7 @@ function Nav(props) {
         >
           <img src={logo} alt="Logo" />
         </a>
+        <span id="last-name">El Gamal</span>
 
         <nav>
           <div className="navmenu">
@@ -34,12 +34,6 @@ function Nav(props) {
                 {tab}
               </a>
             ))}
-            <a
-              href={resume}
-              target="_blank"
-              rel="noreferrer"
-            >Resume</a
-            >
           </div>
         </nav>
       </div>

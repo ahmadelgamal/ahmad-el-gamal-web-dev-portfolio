@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Nav';
-import SwitchContainer from './components/SwitchContainer';
+import Header from './components/Header';
+import Project from './components/Project';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <SwitchContainer />
+    <div id="app">
+      <Header />
+      <Project />
       <Footer />
     </div>
   );

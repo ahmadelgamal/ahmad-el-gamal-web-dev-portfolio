@@ -1,16 +1,28 @@
 import React from 'react';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012121152PM';
 
-function Skills() {
+function Resume() {
   return (
     <main>
       <section id="jumbotron">
         <div key="carousel-2" id="carousel-2" className="jumbotronPics">
           <img
-            src={require(`../assets/images/carousel/carousel-2.jpg`).default}
-            alt={"Ahmad El Gamal at New Vision International School's construction site in Giza, Egypt."}
+            src={ require(`../assets/images/carousel/carousel-2.jpg`).default }
+            alt={ "Ahmad El Gamal at New Vision International School's construction site in Giza, Egypt." }
           />
         </div>
       </section>
+
+      <h2>To download&nbsp;
+        <a
+          id="resume-link"
+          href={ resume }
+          target="_blank"
+          rel="noreferrer"
+        >
+          resume, click here
+      </a>
+      </h2>
 
       <h2>Technical Skills</h2>
       <div id="skills" className="container">
@@ -111,4 +123,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Resume;

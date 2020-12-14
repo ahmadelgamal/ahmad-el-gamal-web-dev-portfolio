@@ -6,7 +6,7 @@ import linkedinIcon from '../assets/images/social-media/icon-linkedin.svg';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer grid-container" >
       <div id="contacts" className="social-media">
         <ul>
           <li>

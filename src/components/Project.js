@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Nav from './Nav';
+import Navigation from './Navigation';
 import About from '../pages/About';
-import Skills from '../pages/Skills';
 import FeaturedProjects from '../pages/FeaturedProjects';
 import PrivateProjects from '../pages/PrivateProjects';
 import TemplateProjects from '../pages/TemplateProjects';
 import Contact from '../pages/Contact';
+import Resume from '../pages/Resume';
 
 function SwitchContainer() {
 
@@ -21,10 +21,10 @@ function SwitchContainer() {
         return <TemplateProjects />;
       case 'Private':
         return <PrivateProjects />;
-      case 'Skills':
-        return <Skills />;
       case 'Contact':
         return <Contact />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <About />;
     }
@@ -33,9 +33,9 @@ function SwitchContainer() {
   document.title = currentPage + ' - AEG - Portfolio';
 
   return (
-    <div>
+    <div className="grid-container">
       {/* Pass the state value and the setter as props to NavTabs */ }
-      <Nav currentPage={ currentPage } handlePageChange={ handlePageChange } />
+      <Navigation currentPage={ currentPage } handlePageChange={ handlePageChange } />
       {/* Call the renderPage function passing in the currentPage */ }
       <div>{ renderPage(currentPage) }</div>
     </div>

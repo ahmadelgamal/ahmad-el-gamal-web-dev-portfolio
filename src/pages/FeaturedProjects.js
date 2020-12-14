@@ -38,15 +38,15 @@ function FeaturedProjects() {
       repo: "https://github.com/ahmadelgamal/README-Gen-Pro"
     },
     {
-      id: "lifetime-egypt",
-      name: "Lifetime Egypt",
-      category: "featured",
-      description: "App displays a catalog of products, with specifications, pictures and prices, for a furniture company.",
-      tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "lifetime-egypt.png",
-      alt: "Lifetime Egypt",
-      link: "https://lifetimeegypt.com/",
-      repo: "https://github.com/ahmadelgamal/lifetime-egypt"
+      id: "ahmad-el-gamal-web-dev-portfolio",
+      name: "Ahmad El Gamal's Web-Development Portfolio (this website)",
+      category: "private",
+      description: "",
+      tech: "HTML5 | CSS3 | JavaScript | React",
+      screenshot: "portfolio.png",
+      alt: "Ahmad El Gamal's Portfolio",
+      link: "https://ahmadelgamal.com/portfolio",
+      repo: "https://github.com/ahmadelgamal/ahmad-el-gamal-web-dev-portfolio"
     },
   ]);
 

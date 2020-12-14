@@ -17,6 +17,21 @@
 
 /*----------------------------- xs (<= 768px) - phone styles------------------------------*/
 /*-----------------------------common styles------------------------------*/
+/* html {
+  height: 100%;
+}
+
+#app {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+
+.footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+} */
+
 .container {
   margin: 0 20px;
 }
@@ -29,7 +44,8 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2,
+#resume-link {
   font-size: 20px;
   text-align: center;
   font-weight: 700;
@@ -121,6 +137,7 @@ p {
   transition: height 0.5s;
 }
 
+#last-name,
 .navmenu {
   z-index: 10;
   display: none;
@@ -130,6 +147,7 @@ p {
   background-color: rgba(19, 7, 58, 0.8);
 }
 
+#last-name,
 .navmenu a {
   display: block;
   text-decoration: none;
@@ -233,6 +251,7 @@ article {
 
 /*-----------------------------footer styles------------------------------*/
 footer {
+  width: 100%;
   padding: 20px;
   background-color: var(--main-bg-color);
   color: #ffffff;
@@ -265,9 +284,9 @@ footer a {
 
 /*----------------------------- sm (768px < 992px) tablets styles------------------------------*/
 @media screen and (min-width: 768px) {
-  .phone-only {
+  /* .phone-only {
     display: none;
-  }
+  } */
 
   /*-----------------------------common styles------------------------------*/
   h1 {
@@ -275,7 +294,8 @@ footer a {
     font-size: 28px;
   }
 
-  h2 {
+  h2,
+  #resume-link {
     font-size: 24px;
   }
 
@@ -307,6 +327,15 @@ footer a {
   #logo img {
     height: 50px;
     transition: height 0.5s;
+  }
+
+  #last-name {
+    display: inline-block;
+    top: 10px;
+    left: 120px;
+    width: auto;
+    background-color: inherit;
+    font-size: 24px;
   }
 
   .navmenu {
@@ -373,7 +402,8 @@ footer a {
     font-size: 36px;
   }
 
-  h2 {
+  h2,
+  #resume-link {
     font-size: 28px;
   }
 
@@ -392,6 +422,7 @@ footer a {
   }
 
   /*-----------------------------header styles------------------------------*/
+  #last-name,
   nav a {
     font-size: 28px; /* same as h2 */
   }
@@ -447,10 +478,6 @@ footer a {
   article:nth-child(3n + 2),
   article:nth-child(3n) {
     margin-left: 3%;
-  }
-
-  #featured article {
-    margin: 0%;
   }
 
   .social-media img {
