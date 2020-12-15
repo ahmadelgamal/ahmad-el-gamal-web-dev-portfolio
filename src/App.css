@@ -402,6 +402,22 @@ footer a {
     margin-bottom: 50px;
   }
 
+  article {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 70px;
+  }
+
+  article:nth-child(even) {
+    margin-left: 4%;
+  }
+
+  #featured article {
+    display: block;
+    width: 100%;
+    margin-right: 0%;
+  }
+
   label,
   input,
   #message-input,
@@ -462,22 +478,6 @@ footer a {
 
   .main li {
     margin-left: 5%;
-  }
-
-  article {
-    display: inline-block;
-    width: 48%;
-    margin-bottom: 70px;
-  }
-
-  article:nth-child(even) {
-    margin-left: 4%;
-  }
-
-  #featured article {
-    display: block;
-    width: 100%;
-    margin-right: 0%;
   }
 
   /*-----------------------------footer styles------------------------------*/
