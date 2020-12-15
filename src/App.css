@@ -140,6 +140,7 @@ p {
   top: 5px;
   transition: top 0.5s;
   left: 5%;
+  text-decoration: none;
 }
 
 #logo img {
@@ -147,14 +148,12 @@ p {
   transition: height 0.5s;
 }
 
-#navbar a {
-  text-decoration: none;
-}
 #last-name {
+  vertical-align: top;
   padding-left: 15px;
   color: #ffffff;
-  font-size: 24px;
-  vertical-align: top;
+  font-size: 24px; /* same as navmenu */
+  font-weight: 700;
 }
 
 .navmenu {
@@ -174,6 +173,7 @@ p {
   transition: font-size 0.5s;
   line-height: 50px;
   color: white;
+  font-weight: 700;
 }
 
 .navmenu a:hover {
@@ -196,20 +196,21 @@ p {
 }
 
 /*-----------------------------main styles------------------------------*/
-main {
+.main {
   color: var(--main-bg-color);
 }
 
-main a,
-main a:visited {
+.main a,
+.main a:visited {
   text-decoration: none;
   color: var(--main-bg-color);
   text-align: justify;
   font-size: 16px; /* same as p */
+  font-weight: 700;
   padding: 0px 0px 20px 0px;
 }
 
-main li {
+.main li {
   margin-left: 20px;
 }
 
@@ -354,7 +355,11 @@ footer a {
     font-size: 24px;
   }
 
-  .navmenu .active {
+  .navmenu a:visited {
+    color: #ffffff;
+  }
+
+  .navmenu a.active {
     color: #daa520;
   }
 
@@ -363,7 +368,7 @@ footer a {
   }
 
   /*-----------------------------main styles------------------------------*/
-  main a {
+  .main a {
     font-size: 18px; /* same as p */
   }
 
@@ -429,11 +434,11 @@ footer a {
   }
 
   /*-----------------------------main styles------------------------------*/
-  main a {
+  .main a {
     font-size: 20px; /* same as p */
   }
 
-  main li {
+  .main li {
     margin-left: 5%;
   }
 

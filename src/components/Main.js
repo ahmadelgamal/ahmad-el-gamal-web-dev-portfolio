@@ -5,7 +5,7 @@ import Project from '../pages/Project';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
 
-function Portfolio() {
+function Main() {
 
   // Using useState, set the default value for currentPage to 'Home'
   const [currentPage, handlePageChange] = useState('About');
@@ -27,13 +27,13 @@ function Portfolio() {
   document.title = currentPage + ' - Ahmad El Gamal - Web-Dev';
 
   return (
-    <div className="grid-container">
+    <main className="grid-container">
       {/* Pass the state value and the setter as props to NavTabs */ }
       <Navigation currentPage={ currentPage } handlePageChange={ handlePageChange } />
       {/* Call the renderPage function passing in the currentPage */ }
-      <div>{ renderPage(currentPage) }</div>
-    </div>
+      <div className="main">{ renderPage(currentPage) }</div>
+    </main>
   );
 }
 
-export default Portfolio;
+export default Main;

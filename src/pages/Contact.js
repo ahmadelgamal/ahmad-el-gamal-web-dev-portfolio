@@ -9,8 +9,9 @@ function Contact() {
     }
     console.log('test');
   }
+
   return (
-    <main>
+    <div>
       <section id="jumbotron">
         <div key="carousel-3" id="carousel-3" className="jumbotronPics">
           <img
@@ -34,7 +35,7 @@ function Contact() {
         </form>
         <p id="contact-form-error-message"></p>
       </div >
-    </main >
+    </div >
   )
 }
 

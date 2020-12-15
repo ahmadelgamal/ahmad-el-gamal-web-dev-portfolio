@@ -16,17 +16,6 @@ function Project() {
       repo: "https://github.com/ahmadelgamal/ucb-my-food-choices"
     },
     {
-      id: "ucb-bootcamp-travel",
-      name: "Bootcamp Travel",
-      category: "featured",
-      description: "Users can get quick quotes for airfare &amp; lodging costs, and save &amp; retrieve favorites results.",
-      tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js",
-      screenshot: "bootcamp-travel-flights.gif",
-      alt: "Bootcamp Travel",
-      link: "https://bootcamp-travel.herokuapp.com/",
-      repo: "https://github.com/ahmadelgamal/BootCamp-Travel"
-    },
-    {
       id: "readme-gen-pro",
       name: "Readme Gen Pro",
       category: "featured",
@@ -36,28 +25,6 @@ function Project() {
       alt: "Readme Gen Pro",
       link: "https://github.com/ahmadelgamal/README-Gen-Pro",
       repo: "https://github.com/ahmadelgamal/README-Gen-Pro"
-    },
-    {
-      id: "ahmad-el-gamal-web-dev-portfolio",
-      name: "Ahmad El Gamal's Web-Development Portfolio (this website)",
-      category: "private",
-      description: "",
-      tech: "HTML5 | CSS3 | JavaScript | React",
-      screenshot: "portfolio.png",
-      alt: "Ahmad El Gamal's Portfolio",
-      link: "https://ahmadelgamal.com/portfolio",
-      repo: "https://github.com/ahmadelgamal/ahmad-el-gamal-web-dev-portfolio"
-    },
-    {
-      id: "ucb-note-taker",
-      name: "Note Taker",
-      category: "templates",
-      description: "A web application for users to add, delete and retrieve notes. Your data will be saved to the cloud and you can access it from any browser with internet access.",
-      tech: "HTML5 | CSS3 | JavaScript | JSON | Node.js | Express.js | Uniqid.js",
-      screenshot: "note-taker.gif",
-      alt: "Note Taker",
-      link: "https://ucb-note-taker.herokuapp.com/",
-      repo: "https://github.com/ahmadelgamal/ucb-note-taker"
     },
     {
       id: "ucb-weather-dashboard",
@@ -103,12 +70,45 @@ function Project() {
       link: "https://ahmadelgamal.github.io/ucb-horiseon/",
       repo: "https://github.com/ahmadelgamal/horiseon/"
     },
+    {
+      id: "ucb-bootcamp-travel",
+      name: "Bootcamp Travel",
+      category: "featured",
+      description: "Users can get quick quotes for airfare &amp; lodging costs, and save &amp; retrieve favorites results.",
+      tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js",
+      screenshot: "bootcamp-travel-flights.gif",
+      alt: "Bootcamp Travel",
+      link: "https://bootcamp-travel.herokuapp.com/",
+      repo: "https://github.com/ahmadelgamal/BootCamp-Travel"
+    },
+    {
+      id: "ucb-note-taker",
+      name: "Note Taker",
+      category: "templates",
+      description: "A web application for users to add, delete and retrieve notes. Your data will be saved to the cloud and you can access it from any browser with internet access.",
+      tech: "HTML5 | CSS3 | JavaScript | JSON | Node.js | Express.js | Uniqid.js",
+      screenshot: "note-taker.gif",
+      alt: "Note Taker",
+      link: "https://ucb-note-taker.herokuapp.com/",
+      repo: "https://github.com/ahmadelgamal/ucb-note-taker"
+    },
+    {
+      id: "ahmad-el-gamal-web-dev-portfolio",
+      name: "Ahmad El Gamal's Web‑Development Portfolio",
+      category: "private",
+      description: "This website!",
+      tech: "HTML5 | CSS3 | JavaScript | React",
+      screenshot: "portfolio.png",
+      alt: "Ahmad El Gamal's Portfolio",
+      link: "https://ahmadelgamal.com/portfolio",
+      repo: "https://github.com/ahmadelgamal/ahmad-el-gamal-web-dev-portfolio"
+    },
   ]);
 
   return (
-    <main>
+    <div>
       <section id="jumbotron">
-        <div key="carousel-6" id="carousel-6" className="jumbotronPics">
+        <div key="carousel-5" id="carousel-5" className="jumbotronPics">
           <img
             src={ require(`../assets/images/carousel/carousel-5.jpg`).default }
             alt={ "Mobile, pencils, notes, eraser and scissors." }
@@ -116,7 +116,7 @@ function Project() {
         </div>
       </section>
 
-      <h2>Projects</h2>
+      <h2>Web&#8209;Development Portfolio</h2>
       <div id="projects" className="container">
         { projects.map((project) => (
 
@@ -156,7 +156,7 @@ function Project() {
 
         )) }
       </div>
-    </main>
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pd
 
 function Resume() {
   return (
-    <main>
+    <div>
       <section id="jumbotron">
         <div key="carousel-2" id="carousel-2" className="jumbotronPics">
           <img
@@ -119,7 +119,7 @@ function Resume() {
         </div>
 
       </div>
-    </main>
+    </div>
   );
 }
 
