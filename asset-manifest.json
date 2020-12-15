@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.172575e3.chunk.css",
-    "main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.cb56f0e8.chunk.js",
-    "main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.cb56f0e8.chunk.js.map",
+    "main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.f0a0b3f0.chunk.js",
+    "main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.f0a0b3f0.chunk.js.map",
     "runtime-main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.f8cc34f7.js",
     "runtime-main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.f8cc34f7.js.map",
     "static/js/2.284dd495.chunk.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.284dd495.chunk.js",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.f8cc34f7.js",
     "static/js/2.284dd495.chunk.js",
     "static/css/main.172575e3.chunk.css",
-    "static/js/main.cb56f0e8.chunk.js"
+    "static/js/main.f0a0b3f0.chunk.js"
   ]
 }
