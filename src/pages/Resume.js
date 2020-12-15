@@ -15,7 +15,7 @@ function Resume() {
 
       <h1>Technical Skills</h1>
 
-      <h3>To download&nbsp;
+      <h3 id="download-header">
         <a
           id="resume-link"
           href={ resume }
@@ -23,7 +23,7 @@ function Resume() {
           // rel="noreferrer"
           download
         >
-          resume, click here
+          To download resume, click here
       </a>
       </h3>
 
