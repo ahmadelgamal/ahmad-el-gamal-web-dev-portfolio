@@ -15,23 +15,8 @@
   --main-bg-color: #13073a; /* rgb: 19,7,58 */
 }
 
-/*----------------------------- xs (<= 768px) - phone styles------------------------------*/
+/*----------------------- xs (<= 768px) - phone styles------------------------*/
 /*-----------------------------common styles------------------------------*/
-/* html {
-  height: 100%;
-}
-
-#app {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto auto auto;
-}
-
-.footer {
-  grid-row-start: 3;
-  grid-row-end: 4;
-} */
-
 .container {
   margin: 0 20px;
 }
@@ -149,31 +134,52 @@ p {
 }
 
 #last-name {
+  line-height: 40px;
   vertical-align: top;
-  padding-left: 15px;
+  padding-left: 10px;
   color: #ffffff;
-  font-size: 24px; /* same as navmenu */
+  font-size: 18px; /* same as navmenu */
   font-weight: 700;
 }
 
 .navmenu {
+  display: inline-block;
   z-index: 10;
-  display: none;
   position: fixed;
+  top: 0px;
+  right: 10px;
+  width: auto;
+  text-align: right;
+  background-color: inherit;
+}
+/* .navmenu {
+  display: none;
   top: 50px;
   width: 100%;
   background-color: rgba(19, 7, 58, 0.8);
-}
+} */
 
 .navmenu a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  font-size: 20px;
-  transition: font-size 0.5s;
-  line-height: 50px;
+  display: inline-block;
+  padding-left: 10px;
   color: white;
   font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  transition: font-size 0.5s;
+  line-height: 50px;
+}
+/* .navmenu a {
+  display: block;
+} */
+
+.navmenu a:visited {
+  color: #ffffff;
+}
+
+.navmenu a.active {
+  color: #daa520;
 }
 
 .navmenu a:hover {
@@ -340,27 +346,17 @@ footer a {
     transition: height 0.5s;
   }
 
-  .navmenu {
-    display: inline-block;
-    top: 10px;
-    right: 2rem;
-    width: auto;
-    text-align: right;
-    background-color: inherit;
-  }
-
+  #last-name,
   .navmenu a {
-    display: inline-block;
-    padding-left: 1rem;
     font-size: 24px;
   }
 
-  .navmenu a:visited {
-    color: #ffffff;
+  #last-name {
+    line-height: 50px;
   }
 
-  .navmenu a.active {
-    color: #daa520;
+  .navmenu a {
+    line-height: 70px;
   }
 
   #jumbotron {
