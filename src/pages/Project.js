@@ -94,7 +94,7 @@ function Project() {
     },
     {
       id: "ahmad-el-gamal-web-dev-portfolio",
-      name: "Ahmad El Gamal's Web‑Development Portfolio",
+      name: "My Web‑Dev Portfolio",
       category: "private",
       description: "This website!",
       tech: "HTML5 | CSS3 | JavaScript | React",
