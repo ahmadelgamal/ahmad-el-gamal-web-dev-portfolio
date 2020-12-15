@@ -69,7 +69,6 @@ textarea {
 }
 
 #message-input {
-  height: 10rem;
   padding-top: 10px;
 }
 
@@ -124,7 +123,7 @@ p {
   position: fixed;
   top: 5px;
   transition: top 0.5s;
-  left: 5%;
+  left: 10px;
   text-decoration: none;
 }
 
@@ -338,6 +337,7 @@ footer a {
 
   #logo {
     top: 10px;
+    left: 5%;
     transition: top 0.5s;
   }
 
@@ -352,11 +352,17 @@ footer a {
   }
 
   #last-name {
+    padding-left: 20px;
     line-height: 50px;
+  }
+
+  .navmenu {
+    right: 5%;
   }
 
   .navmenu a {
     line-height: 70px;
+    padding-left: 2rem;
   }
 
   #jumbotron {

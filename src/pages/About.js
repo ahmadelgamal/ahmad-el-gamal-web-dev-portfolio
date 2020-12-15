@@ -1,7 +1,7 @@
 import React from 'react';
 
 function About() {
-  
+
   return (
     <div>
       <section id="jumbotron">
@@ -33,9 +33,6 @@ function About() {
         </p>
         <p>
           Samples of his web‑development work can be seen in the Portfolio section of this website. The porfolio demonstrates proficiency in both the front-end and back-end stacks. Please feel free to visit the deployed websites of each project and browse their code repositories on <a href="https://github.com/ahmadelgamal" target="_blank" rel="noreferrer">GitHub</a>. Also, please feel free to contact him by <a href="mailto:ahmad@crescentapplications.com" target="_blank" rel="noreferrer">email</a>.
-        </p>
-        <p>
-           The combination of competence in full‑stack web‑development, experience in leadership &amp; management, excellent communication skills, strong attention to detail, patience and hard work qualify Ahmad for a leadership role in technology.
         </p>
         <p>
           Ahmad was born in Egypt and is also a United States citizen. He lives
