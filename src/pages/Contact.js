@@ -38,7 +38,7 @@ function Contact() {
   }
 
   return (
-    <div>
+    <>
       <section id="jumbotron">
         <div key="carousel-3" id="carousel-3" className="jumbotronPics">
           <img
@@ -48,7 +48,7 @@ function Contact() {
         </div>
       </section>
 
-      <h2>Contact Ahmad El Gamal</h2>
+      <h1>Contact Ahmad El Gamal</h1>
       <div id="contacts" className="container">
         <form id="contact-form" onSubmit={ handleSubmit }>
           <div>
@@ -70,8 +70,8 @@ function Contact() {
           ) }
           <button id="contact-submit" type="submit" >Submit</button>
         </form>
-      </div >
-    </div >
+      </div>
+    </>
   )
 }
 

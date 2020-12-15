@@ -3,7 +3,7 @@ import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pd
 
 function Resume() {
   return (
-    <div>
+    <>
       <section id="jumbotron">
         <div key="carousel-2" id="carousel-2" className="jumbotronPics">
           <img
@@ -13,7 +13,9 @@ function Resume() {
         </div>
       </section>
 
-      <h2>To download&nbsp;
+      <h1>Technical Skills</h1>
+
+      <h3>To download&nbsp;
         <a
           id="resume-link"
           href={ resume }
@@ -23,9 +25,8 @@ function Resume() {
         >
           resume, click here
       </a>
-      </h2>
+      </h3>
 
-      <h2>Technical Skills</h2>
       <div id="skills" className="container">
         <div className="flex-list">
           <h3>Front-End Languages:</h3>
@@ -120,7 +121,7 @@ function Resume() {
         </div>
 
       </div>
-    </div>
+    </>
   );
 }
 

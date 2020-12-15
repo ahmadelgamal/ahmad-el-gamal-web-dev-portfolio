@@ -44,8 +44,7 @@ h1 {
   line-height: 2rem;
 }
 
-h2,
-#resume-link {
+h2 {
   margin: 2rem 0;
   font-size: 20px;
 }
@@ -53,8 +52,13 @@ h2,
 /* h3 used in Skills.js, label used in Contact.js */
 h3,
 label,
-#contact-submit {
+#contact-submit,
+#resume-link {
   font-size: 18px;
+}
+
+#resume-link {
+  margin-bottom: 200px;
 }
 
 label,
@@ -318,14 +322,14 @@ footer a {
     font-size: 28px;
   }
 
-  h2,
-  #resume-link {
+  h2 {
     font-size: 24px;
   }
 
   h3,
   label,
-  #contact-submit {
+  #contact-submit,
+  #resume-link {
     font-size: 20px;
   }
 
@@ -426,14 +430,14 @@ footer a {
     font-size: 36px;
   }
 
-  h2,
-  #resume-link {
+  h2 {
     font-size: 28px;
   }
 
   h3,
   label,
-  #contact-submit {
+  #contact-submit,
+  #resume-link {
     font-size: 24px;
   }
 

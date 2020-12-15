@@ -106,7 +106,7 @@ function Project() {
   ]);
 
   return (
-    <div>
+    <>
       <section id="jumbotron">
         <div key="carousel-5" id="carousel-5" className="jumbotronPics">
           <img
@@ -116,14 +116,14 @@ function Project() {
         </div>
       </section>
 
-      <h2>Web&#8209;Development Portfolio</h2>
+      <h1>Web&#8209;Development Portfolio</h1>
       <div id="projects" className="container">
         { projects.map((project) => (
 
           <article key={ project.id } id={ project.id } className={ project.category }>
-            <h4>
+            <h3>
               { project.name }
-            </h4>
+            </h3>
 
             <a
               href={ project.link }
@@ -156,7 +156,7 @@ function Project() {
 
         )) }
       </div>
-    </div>
+    </>
   );
 };
 

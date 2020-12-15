@@ -13,7 +13,7 @@ function About() {
         </div>
       </section>
 
-      <h2>About Ahmad El Gamal</h2>
+      <h1>About Ahmad El Gamal</h1>
       <div id="about" className="container">
         <p>
           Entrepreneur, strategic planner, software developer, and civil
