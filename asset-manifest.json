@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.2e233cf1.chunk.css",
+    "main.css": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.3a68f69b.chunk.css",
     "main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.b0bca8e3.chunk.js",
     "main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.b0bca8e3.chunk.js.map",
     "runtime-main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.885091fb.js",
@@ -10,7 +10,7 @@
     "static/js/3.fc33a495.chunk.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/3.fc33a495.chunk.js",
     "static/js/3.fc33a495.chunk.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/3.fc33a495.chunk.js.map",
     "index.html": "/ahmad-el-gamal-web-dev-portfolio/index.html",
-    "static/css/main.2e233cf1.chunk.css.map": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.2e233cf1.chunk.css.map",
+    "static/css/main.3a68f69b.chunk.css.map": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.3a68f69b.chunk.css.map",
     "static/js/2.404e7c52.chunk.js.LICENSE.txt": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.404e7c52.chunk.js.LICENSE.txt",
     "static/media/Ahmad-El-Gamal-Web-Development-resume.98807e2b.pdf": "/ahmad-el-gamal-web-dev-portfolio/static/media/Ahmad-El-Gamal-Web-Development-resume.98807e2b.pdf",
     "static/media/alazhar.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/alazhar.255b9b1c.png",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.885091fb.js",
     "static/js/2.404e7c52.chunk.js",
-    "static/css/main.2e233cf1.chunk.css",
+    "static/css/main.3a68f69b.chunk.css",
     "static/js/main.b0bca8e3.chunk.js"
   ]
 }
