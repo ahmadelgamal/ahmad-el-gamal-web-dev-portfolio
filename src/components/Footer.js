@@ -1,32 +1,13 @@
 import React from 'react';
-import emailIcon from '../assets/images/social-media/icon-email.svg';
-import globeIcon from '../assets/images/social-media/icon-globe.svg';
 import githubIcon from '../assets/images/social-media/icon-github.svg';
 import linkedinIcon from '../assets/images/social-media/icon-linkedin.svg';
+import stackoverflowIcon from '../assets/images/social-media/icon-stackoverflow.svg';
 
 function Footer() {
   return (
     <footer className="footer grid-container" >
       <div id="contacts" className="social-media">
         <ul>
-          <li>
-            <a
-              href="mailto:ahmad@crescentapplications.com"
-              target="_blank"
-              rel="noreferrer"
-            ><img
-                src={emailIcon}
-                alt="Link to Ahmad El Gamal's Email"
-              /></a>
-          </li>
-          <li>
-            <a
-              href="#top"
-            ><img
-                src={globeIcon}
-                alt="Link to Ahmad El Gamal's Portfolio (This website)"
-              /></a>
-          </li>
           <li>
             <a
               href="https://github.com/ahmadelgamal"
@@ -45,6 +26,16 @@ function Footer() {
             ><img
                 src={linkedinIcon}
                 alt="Link to Ahmad El Gamal's LinkedIn Page"
+              /></a>
+          </li>
+          <li>
+            <a
+              href="https://stackoverflow.com/users/13940472/ahmad-el-gamal"
+              target="_blank"
+              rel="noreferrer"
+            ><img
+                src={stackoverflowIcon}
+                alt="Link to Ahmad El Gamal's StackOverflow Page"
               /></a>
           </li>
         </ul>

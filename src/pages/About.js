@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
 
   return (
-    <div>
+    <>
       <section id="jumbotron">
         <div key="carousel-1" id="carousel-1" className="jumbotronPics">
           <img
@@ -39,7 +39,7 @@ function About() {
           in Irvine, California, with his wife and five children.
         </p>
       </div>
-    </div>
+    </>
   )
 }
 

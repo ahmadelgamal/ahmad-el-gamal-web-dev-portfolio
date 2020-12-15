@@ -17,6 +17,13 @@
 
 /*----------------------- xs (<= 768px) - phone styles------------------------*/
 /*-----------------------------common styles------------------------------*/
+/* The following code pushes the footer to the bottom of the viewport */
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .container {
   margin: 0 20px;
 }
@@ -55,7 +62,7 @@ input,
 #message-input,
 #contact-submit {
   display: block;
-  width: 25rem;
+  width: 100%;
 }
 
 input,
@@ -133,6 +140,7 @@ p {
 }
 
 #last-name {
+  display: none;
   line-height: 40px;
   vertical-align: top;
   padding-left: 10px;
@@ -352,6 +360,7 @@ footer a {
   }
 
   #last-name {
+    display: inline;
     padding-left: 20px;
     line-height: 50px;
   }
@@ -387,6 +396,13 @@ footer a {
 
   article {
     margin-bottom: 50px;
+  }
+
+  label,
+  input,
+  #message-input,
+  #contact-submit {
+    width: 50%;
   }
 
   /*-----------------------------footer styles------------------------------*/
@@ -480,6 +496,13 @@ footer a {
   article:nth-child(3n + 2),
   article:nth-child(3n) {
     margin-left: 3%;
+  }
+
+  label,
+  input,
+  #message-input,
+  #contact-submit {
+    width: 40%;
   }
 
   .social-media img {

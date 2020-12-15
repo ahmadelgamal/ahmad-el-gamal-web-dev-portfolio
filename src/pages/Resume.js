@@ -13,12 +13,13 @@ function Resume() {
         </div>
       </section>
 
-      <h2>To open&nbsp;
+      <h2>To download&nbsp;
         <a
           id="resume-link"
           href={ resume }
-          target="_blank"
-          rel="noreferrer"
+          // target="_blank"
+          // rel="noreferrer"
+          download
         >
           resume, click here
       </a>
