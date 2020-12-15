@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div id="app">
       <Header />
-      <Project />
+      <Portfolio />
       <Footer />
     </div>
   );

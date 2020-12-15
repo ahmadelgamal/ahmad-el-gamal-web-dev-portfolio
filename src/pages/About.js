@@ -6,8 +6,8 @@ function About() {
       <section id="jumbotron">
         <div key="carousel-1" id="carousel-1" className="jumbotronPics">
           <img
-            src={require(`../assets/images/carousel/carousel-1.jpg`).default}
-            alt={"Ahmad El Gamal in his office in Irvine, CA."}
+            src={ require(`../assets/images/carousel/carousel-1.jpg`).default }
+            alt={ "Ahmad El Gamal in his office in Irvine, CA." }
           />
         </div>
       </section>
@@ -23,15 +23,15 @@ function About() {
         </p>
         <p>
           Ahmad started programming on Sinclair computers in the 1980s. He
-          started web-development in the 1990s. He also took some mobile-app
-          development courses at the University of California Irvine (UCI)
+          started web&#8209;development in the 1990s. He also studied mobile&#8209;app
+          development at the University of California Irvine (UCI)
           extension (online) in 2013 and produced his first app, that was
           published to Apple's App Store, in 2014.
         </p>
         <p>
-          However, all of this development was amateurish until he started
-          studying coding, professionally, at the University of California,
-          Berkeley (UCB), extension (online), in July of 2020.
+          In July 2020, Ahmad updated his knowledge and skills by joining a coding bootcamp,
+           for full&#8209;stack web&#8209;development, at the University of California, Berkeley
+            (UCB), extension (online).
         </p>
         <p>
           Ahmad was born in Egypt and is also a United States citizen. He lives

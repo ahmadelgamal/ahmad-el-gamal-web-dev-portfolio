@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012121152PM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012140417PM';
 
 function Resume() {
   return (
@@ -13,7 +13,7 @@ function Resume() {
         </div>
       </section>
 
-      <h2>To download&nbsp;
+      <h2>To open&nbsp;
         <a
           id="resume-link"
           href={ resume }

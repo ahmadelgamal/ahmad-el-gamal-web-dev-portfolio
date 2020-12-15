@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../logo-ahmad.png';
 
-function Nav(props) {
+function Navigation(props) {
 
-  const tabs = ['About', 'Featured', 'Templates', 'Private', 'Contact', 'Resume'];
+  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
   return (
     <header>
@@ -14,9 +14,8 @@ function Nav(props) {
           id="logo"
           onClick={() => props.handlePageChange('About')}
         >
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" /><span id="last-name">El Gamal</span>
         </a>
-        <span id="last-name">El Gamal</span>
 
         <nav>
           <div className="navmenu">
@@ -41,51 +40,4 @@ function Nav(props) {
   );
 }
 
-// function categorySelected(name) {
-//   console.log(`${name} clicked`);
-// }
-
-// return (
-//   <header>
-//     <div id="navbar">
-//       <span id="navbar-bg"></span>
-//       <a href="#top" id="logo"><img src={logo} alt="Logo" /></a>
-
-//       <nav>
-//         <label htmlFor="burger-toggle" id="burger-icon">
-//           <div id="toggle-bars">
-//             <div className="bar1"></div>
-//             <div className="bar2"></div>
-//             <div className="bar3"></div>
-//           </div>
-//         </label>
-//         <input type="checkbox" id="burger-toggle" />
-
-//         <div className="navmenu">
-//           <a href="#about-header">About</a>
-//           <a href="#skills-header">Skills</a>
-
-//           {categories.map((category) => (
-//             <a
-//               key={category.name}
-//               href={category.href}
-//             >
-//               {category.name}
-//             </a>
-//           ))}
-
-//           <a href="#contacts">Contact</a>
-//           <a
-//             href={resume}
-//             target="_blank"
-//             rel="noreferrer"
-//           >Resume</a
-//           >
-//         </div>
-//       </nav>
-//     </div>
-//   </header>
-// );
-// }
-
-export default Nav;
+export default Navigation;

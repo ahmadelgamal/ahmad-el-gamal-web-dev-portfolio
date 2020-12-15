@@ -24,7 +24,7 @@ function Footer() {
               href="#top"
             ><img
                 src={globeIcon}
-                alt="Link to Ahmad El Gamal's Portfolio (This website)"
+                alt="Link to Ahmad El Gamal's Portfolio (This website)"
               /></a>
           </li>
           <li>

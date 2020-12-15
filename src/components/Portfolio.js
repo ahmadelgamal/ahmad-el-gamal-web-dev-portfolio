@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 import About from '../pages/About';
-import FeaturedProjects from '../pages/FeaturedProjects';
-import PrivateProjects from '../pages/PrivateProjects';
-import TemplateProjects from '../pages/TemplateProjects';
+import Project from '../pages/Project';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
 
-function SwitchContainer() {
+function Portfolio() {
 
   // Using useState, set the default value for currentPage to 'Home'
   const [currentPage, handlePageChange] = useState('About');
@@ -15,12 +13,8 @@ function SwitchContainer() {
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
-      case 'Featured':
-        return <FeaturedProjects />;
-      case 'Templates':
-        return <TemplateProjects />;
-      case 'Private':
-        return <PrivateProjects />;
+      case 'Portfolio':
+        return <Project />;
       case 'Contact':
         return <Contact />;
       case 'Resume':
@@ -30,7 +24,7 @@ function SwitchContainer() {
     }
   };
 
-  document.title = currentPage + ' - AEG - Portfolio';
+  document.title = currentPage + ' - Ahmad El Gamal - Web-Dev';
 
   return (
     <div className="grid-container">
@@ -42,4 +36,4 @@ function SwitchContainer() {
   );
 }
 
-export default SwitchContainer;
+export default Portfolio;
