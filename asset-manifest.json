@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.3a68f69b.chunk.css",
-    "main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.b0bca8e3.chunk.js",
-    "main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.b0bca8e3.chunk.js.map",
-    "runtime-main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.885091fb.js",
-    "runtime-main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.885091fb.js.map",
-    "static/js/2.404e7c52.chunk.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.404e7c52.chunk.js",
-    "static/js/2.404e7c52.chunk.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.404e7c52.chunk.js.map",
-    "static/js/3.fc33a495.chunk.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/3.fc33a495.chunk.js",
-    "static/js/3.fc33a495.chunk.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/3.fc33a495.chunk.js.map",
+    "main.css": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.95a93264.chunk.css",
+    "main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.a6128791.chunk.js",
+    "main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/main.a6128791.chunk.js.map",
+    "runtime-main.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.f8cc34f7.js",
+    "runtime-main.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/runtime-main.f8cc34f7.js.map",
+    "static/js/2.284dd495.chunk.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.284dd495.chunk.js",
+    "static/js/2.284dd495.chunk.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.284dd495.chunk.js.map",
+    "static/js/3.a2630a60.chunk.js": "/ahmad-el-gamal-web-dev-portfolio/static/js/3.a2630a60.chunk.js",
+    "static/js/3.a2630a60.chunk.js.map": "/ahmad-el-gamal-web-dev-portfolio/static/js/3.a2630a60.chunk.js.map",
     "index.html": "/ahmad-el-gamal-web-dev-portfolio/index.html",
-    "static/css/main.3a68f69b.chunk.css.map": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.3a68f69b.chunk.css.map",
-    "static/js/2.404e7c52.chunk.js.LICENSE.txt": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.404e7c52.chunk.js.LICENSE.txt",
+    "static/css/main.95a93264.chunk.css.map": "/ahmad-el-gamal-web-dev-portfolio/static/css/main.95a93264.chunk.css.map",
+    "static/js/2.284dd495.chunk.js.LICENSE.txt": "/ahmad-el-gamal-web-dev-portfolio/static/js/2.284dd495.chunk.js.LICENSE.txt",
     "static/media/Ahmad-El-Gamal-Web-Development-resume.98807e2b.pdf": "/ahmad-el-gamal-web-dev-portfolio/static/media/Ahmad-El-Gamal-Web-Development-resume.98807e2b.pdf",
     "static/media/alazhar.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/alazhar.255b9b1c.png",
     "static/media/bootcamp-travel-flights.gif": "/ahmad-el-gamal-web-dev-portfolio/static/media/bootcamp-travel-flights.31f336a3.gif",
@@ -26,10 +26,9 @@
     "static/media/elgamal-group.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/elgamal-group.da56125c.png",
     "static/media/git-it-done.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/git-it-done.2e061e1c.png",
     "static/media/horiseon.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/horiseon.b25b343e.png",
-    "static/media/icon-email.b1c3dacd.svg": "/ahmad-el-gamal-web-dev-portfolio/static/media/icon-email.b1c3dacd.svg",
     "static/media/icon-github.2f563030.svg": "/ahmad-el-gamal-web-dev-portfolio/static/media/icon-github.2f563030.svg",
-    "static/media/icon-globe.01e93477.svg": "/ahmad-el-gamal-web-dev-portfolio/static/media/icon-globe.01e93477.svg",
     "static/media/icon-linkedin.8359812e.svg": "/ahmad-el-gamal-web-dev-portfolio/static/media/icon-linkedin.8359812e.svg",
+    "static/media/icon-stackoverflow.6cfac674.svg": "/ahmad-el-gamal-web-dev-portfolio/static/media/icon-stackoverflow.6cfac674.svg",
     "static/media/imam-ahmad.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/imam-ahmad.a6f026a4.png",
     "static/media/lifetime-egypt.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/lifetime-egypt.0668df1a.png",
     "static/media/logo-ahmad.943abef9.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/logo-ahmad.943abef9.png",
@@ -46,9 +45,9 @@
     "static/media/work-day-scheduler.png": "/ahmad-el-gamal-web-dev-portfolio/static/media/work-day-scheduler.b56a6346.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.885091fb.js",
-    "static/js/2.404e7c52.chunk.js",
-    "static/css/main.3a68f69b.chunk.css",
-    "static/js/main.b0bca8e3.chunk.js"
+    "static/js/runtime-main.f8cc34f7.js",
+    "static/js/2.284dd495.chunk.js",
+    "static/css/main.95a93264.chunk.css",
+    "static/js/main.a6128791.chunk.js"
   ]
 }
