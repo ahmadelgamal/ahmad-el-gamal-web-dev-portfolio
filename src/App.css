@@ -268,7 +268,7 @@ article:hover {
   top: 120px;
 }
 
-#projects:hover .github-logo {
+#projects article:hover .github-logo {
   display: inline;
 }
 

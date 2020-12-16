@@ -100,8 +100,8 @@ function Project() {
       tech: "HTML5 | CSS3 | JavaScript | React",
       screenshot: "portfolio.png",
       alt: "Ahmad El Gamal's Portfolio",
-      link: "https://ahmadelgamal.com/portfolio",
-      repo: "https://github.com/ahmadelgamal/ahmad-el-gamal-web-dev-portfolio"
+      link: "https://ahmadelgamal.github.io/",
+      repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
     },
   ]);
 
