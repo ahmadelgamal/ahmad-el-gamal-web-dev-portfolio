@@ -116,7 +116,7 @@ function Project() {
         </div>
       </section>
 
-      <h1>Web&#8209;Development Portfolio</h1>
+      <h1>Coding Portfolio</h1>
       <div id="projects" className="container">
         { projects.map((project) => (
 
