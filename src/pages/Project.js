@@ -98,7 +98,7 @@ function Project() {
       category: "private",
       description: "This website!",
       tech: "HTML5 | CSS3 | JavaScript | React",
-      screenshot: "portfolio.png",
+      screenshot: "portfolio.gif",
       alt: "Ahmad El Gamal's Portfolio",
       link: "https://ahmadelgamal.github.io/",
       repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"

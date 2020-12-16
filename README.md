@@ -1,4 +1,4 @@
-# Ahmad El Gamal's Web-Development Portfolio
+# My Web-Development Portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ahmadelgamal/ahmadelgamal.github.io?style=plastic)
 ![GitHub code size](https://img.shields.io/github/languages/code-size/ahmadelgamal/ahmadelgamal.github.io?style=plastic)
@@ -46,7 +46,7 @@ https://github.com/ahmadelgamal/ahmadelgamal.github.io
 1. Displays a list of Ahmad's latest technical skills in the field of web-development.
 
 ### Screenshot / Gif Animation
-![Screenshot / Gif Animation](./src/assets/images/screenshots/portfolio.png)
+![Screenshot / Gif Animation](./src/assets/images/screenshots/portfolio.gif)
 
 ## Technologies Used
 1. HTML5
