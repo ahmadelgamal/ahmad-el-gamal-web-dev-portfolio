@@ -6,8 +6,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ahmadelgamal/ahmadelgamal.github.io?style=plastic)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ahmadelgamal/ahmadelgamal.github.io?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ahmadelgamal/ahmadelgamal.github.io?color=green&style=plastic)
-![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/ahmadelgamal/ahmadelgamal.github.io?color=red&style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/ahmadelgamal/ahmadelgamal.github.io?color=green&style=plastic)
 ![GitHub open issues](https://img.shields.io/github/issues-raw/ahmadelgamal/ahmadelgamal.github.io?color=red&style=plastic)
 
