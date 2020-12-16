@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "ahmad-el-gamal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -76,7 +76,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
-  "homepage": "https://ahmadelgamal.github.io/portfolio/",
+  "homepage": "https://ahmadelgamal.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
