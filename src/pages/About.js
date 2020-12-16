@@ -23,7 +23,7 @@ function About() {
           organize and sort almost anything!
         </p>
         <p>
-          Ahmad has always been passionate about computers and coding. For over three decades he has been learning, working, troubleshooting and, occasionally, programming, in different languages, on different devices and operating systems, including windows, macOS, iOS, Android, linux, and unix!
+          Ahmad has always been passionate about computers and coding. For over three decades he has been learning, working, troubleshooting and, occasionally, programming, in different languages, on different devices and operating systems, including Windows, MacOS, iOS, Android, Linux, and Unix!
         </p>
         <p>
           He started programming, as a young child, in the mid 1980s, in the programming language of <i>Basic</i>, on <i>Sinclair</i> computers. At the age of 16, Ahmad was admitted to the University of Colorado at Boulder (CU), as a Computer Science major, but switched to Civil Engineering in order to join his family business, in construction. However, during his time at CU, he began web‑development, at the rise of the internet, in the mid 1990s.
