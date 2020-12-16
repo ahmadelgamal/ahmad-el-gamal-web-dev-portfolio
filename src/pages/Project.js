@@ -16,6 +16,28 @@ function Project() {
       repo: "https://github.com/ahmadelgamal/ucb-my-food-choices"
     },
     {
+      id: "ucb-bootcamp-travel",
+      name: "Bootcamp Travel",
+      category: "featured",
+      description: "Users can get quick quotes for airfare &amp; lodging costs, and save &amp; retrieve favorites results.",
+      tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js",
+      screenshot: "bootcamp-travel-flights.gif",
+      alt: "Bootcamp Travel",
+      link: "https://bootcamp-travel.herokuapp.com/",
+      repo: "https://github.com/ahmadelgamal/BootCamp-Travel"
+    },
+    {
+      id: "ucb-note-taker",
+      name: "Note Taker",
+      category: "templates",
+      description: "A web application for users to add, delete and retrieve notes. Your data will be saved to the cloud and you can access it from any browser with internet access.",
+      tech: "HTML5 | CSS3 | JavaScript | JSON | Node.js | Express.js | Uniqid.js",
+      screenshot: "note-taker.gif",
+      alt: "Note Taker",
+      link: "https://ucb-note-taker.herokuapp.com/",
+      repo: "https://github.com/ahmadelgamal/ucb-note-taker"
+    },
+    {
       id: "readme-gen-pro",
       name: "Readme Gen Pro",
       category: "featured",
@@ -69,28 +91,6 @@ function Project() {
       alt: "Horiseon",
       link: "https://ahmadelgamal.github.io/ucb-horiseon/",
       repo: "https://github.com/ahmadelgamal/horiseon/"
-    },
-    {
-      id: "ucb-bootcamp-travel",
-      name: "Bootcamp Travel",
-      category: "featured",
-      description: "Users can get quick quotes for airfare &amp; lodging costs, and save &amp; retrieve favorites results.",
-      tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js",
-      screenshot: "bootcamp-travel-flights.gif",
-      alt: "Bootcamp Travel",
-      link: "https://bootcamp-travel.herokuapp.com/",
-      repo: "https://github.com/ahmadelgamal/BootCamp-Travel"
-    },
-    {
-      id: "ucb-note-taker",
-      name: "Note Taker",
-      category: "templates",
-      description: "A web application for users to add, delete and retrieve notes. Your data will be saved to the cloud and you can access it from any browser with internet access.",
-      tech: "HTML5 | CSS3 | JavaScript | JSON | Node.js | Express.js | Uniqid.js",
-      screenshot: "note-taker.gif",
-      alt: "Note Taker",
-      link: "https://ucb-note-taker.herokuapp.com/",
-      repo: "https://github.com/ahmadelgamal/ucb-note-taker"
     },
     {
       id: "ahmad-el-gamal-web-dev-portfolio",
