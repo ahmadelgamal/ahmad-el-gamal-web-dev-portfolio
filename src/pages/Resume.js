@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012140417PM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012151122PM';
 
 function Resume() {
   return (
