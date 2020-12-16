@@ -2,9 +2,11 @@
   "name": "Ahmad El Gamal's Web-Development Portfolio",
   "short_name": "AEG Portfolio",
   "description": "Ahmad El Gamal's Web-Development Portfolio",
+  "start_url": "/index.html",
   "theme_color": "#13073a",
   "background_color": "#13073a",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "icons": [
       {
           "src": "../src/assets/images/favicon/android-chrome-36x36.png?v=20191125145PM",
