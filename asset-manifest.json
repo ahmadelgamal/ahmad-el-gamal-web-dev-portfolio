@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.20d5e844.chunk.css",
-    "main.js": "/static/js/main.6fcb4c6f.chunk.js",
-    "main.js.map": "/static/js/main.6fcb4c6f.chunk.js.map",
+    "main.js": "/static/js/main.d85d2925.chunk.js",
+    "main.js.map": "/static/js/main.d85d2925.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.833f3404.js",
     "runtime-main.js.map": "/static/js/runtime-main.833f3404.js.map",
     "static/js/2.9b82c602.chunk.js": "/static/js/2.9b82c602.chunk.js",
@@ -35,7 +35,7 @@
     "static/media/mfc-user-update-profile.gif": "/static/media/mfc-user-update-profile.83ed22bf.gif",
     "static/media/note-taker.gif": "/static/media/note-taker.cc8d4d63.gif",
     "static/media/password-generator.png": "/static/media/password-generator.d5a42b25.png",
-    "static/media/portfolio.png": "/static/media/portfolio.55508f5a.png",
+    "static/media/portfolio.gif": "/static/media/portfolio.3eb6c492.gif",
     "static/media/readme-gen-pro.gif": "/static/media/readme-gen-pro.da485ccf.gif",
     "static/media/robot-gladiators.png": "/static/media/robot-gladiators.422f5064.png",
     "static/media/run-buddy.png": "/static/media/run-buddy.021c4833.png",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.833f3404.js",
     "static/js/2.9b82c602.chunk.js",
     "static/css/main.20d5e844.chunk.css",
-    "static/js/main.6fcb4c6f.chunk.js"
+    "static/js/main.d85d2925.chunk.js"
   ]
 }
