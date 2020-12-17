@@ -19,7 +19,7 @@ function Project() {
       id: "ucb-bootcamp-travel",
       name: "Bootcamp Travel",
       category: "featured",
-      description: "Users can get quick quotes for airfare &amp; lodging costs, and save &amp; retrieve favorites results.",
+      description: "Users can get quick quotes for airfare & lodging costs, and save & retrieve favorites results.",
       tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js",
       screenshot: "bootcamp-travel-flights.gif",
       alt: "Bootcamp Travel",
