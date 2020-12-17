@@ -265,6 +265,7 @@ hr {
 #projects h5 {
   z-index: 1;
   width: 100%;
+  padding: 0 10px;
   background-color: rgba(19, 7, 58, 0.75);
   color: #ffffff;
   text-align: center;
