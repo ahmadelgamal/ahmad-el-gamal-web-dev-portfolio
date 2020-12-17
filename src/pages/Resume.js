@@ -68,7 +68,8 @@ function Resume() {
         <div className="flex-list">
           <h3>Back-End:</h3>
           <ul>
-            <li>Node.js &amp; npm</li>
+            <li>Node.js</li>
+            <li>npm</li>
             <li>Express.js</li>
             <li>Handlebars.js</li>
             <li>EJS</li>
@@ -88,7 +89,7 @@ function Resume() {
         </div>
 
         <div className="flex-list">
-          <h3>Techniques:</h3>
+          <h3>Concepts:</h3>
           <ul>
             <li>Functional Programming</li>
             <li>Object-Oriented Programming (OOP)</li>
@@ -100,23 +101,27 @@ function Resume() {
         </div>
 
         <div className="flex-list">
-          <h3>DevTools:</h3>
-          <ul>
-            <li>VS Code &amp; Brackets</li>
-            <li>Terminal &amp; iTerm2</li>
-            <li>Chrome DevTools</li>
-            <li>Jest</li>
-            <li>Heroku</li>
-            <li>Insomnia Core</li>
-          </ul>
-        </div>
-
-        <div className="flex-list">
           <h3>Source Control:</h3>
           <ul>
             <li>Git</li>
             <li>GitHub</li>
             <li>GitLab</li>
+          </ul>
+        </div>
+
+        <div className="flex-list">
+          <h3>DevTools:</h3>
+          <ul>
+            <li>VS Code</li>
+            <li>Brackets</li>
+            <li>Xcode</li>
+            <li>Xamarin</li>
+            <li>Terminal</li>
+            <li>iTerm2</li>
+            <li>Chrome DevTools</li>
+            <li>Jest</li>
+            <li>Heroku</li>
+            <li>Insomnia Core</li>
           </ul>
         </div>
 
