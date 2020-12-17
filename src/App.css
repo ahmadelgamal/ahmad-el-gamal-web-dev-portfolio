@@ -124,6 +124,10 @@ hr {
   height: 2px;
 }
 
+#public-repo-title {
+  margin-top:0;
+}
+
 /*-----------------------------header styles------------------------------*/
 #navbar-bg {
   z-index: 9;

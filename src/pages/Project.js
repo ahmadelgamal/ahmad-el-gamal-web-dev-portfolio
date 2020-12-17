@@ -227,7 +227,8 @@ function Project() {
       <h1>Coding Portfolio</h1>
       <div id="projects" className="container">
         <div className="public-repo">
-          <h2>PUBLIC REPO PROJECTS</h2>
+
+          <h2 id="public-repo-title">PUBLIC REPO PROJECTS</h2>
           { publicProjects.map((project) => (
 
             <article key={ project.id } id={ project.id } className={ project.category }>
