@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.20d5e844.chunk.css",
-    "main.js": "/static/js/main.9e2d3151.chunk.js",
-    "main.js.map": "/static/js/main.9e2d3151.chunk.js.map",
+    "main.css": "/static/css/main.2d8ffa19.chunk.css",
+    "main.js": "/static/js/main.9179927e.chunk.js",
+    "main.js.map": "/static/js/main.9179927e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b3cb69a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.b3cb69a9.js.map",
-    "static/js/2.9b82c602.chunk.js": "/static/js/2.9b82c602.chunk.js",
-    "static/js/2.9b82c602.chunk.js.map": "/static/js/2.9b82c602.chunk.js.map",
+    "static/js/2.77eaee73.chunk.js": "/static/js/2.77eaee73.chunk.js",
+    "static/js/2.77eaee73.chunk.js.map": "/static/js/2.77eaee73.chunk.js.map",
     "static/js/3.9f89117d.chunk.js": "/static/js/3.9f89117d.chunk.js",
     "static/js/3.9f89117d.chunk.js.map": "/static/js/3.9f89117d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.20d5e844.chunk.css.map": "/static/css/main.20d5e844.chunk.css.map",
-    "static/js/2.9b82c602.chunk.js.LICENSE.txt": "/static/js/2.9b82c602.chunk.js.LICENSE.txt",
+    "static/css/main.2d8ffa19.chunk.css.map": "/static/css/main.2d8ffa19.chunk.css.map",
+    "static/js/2.77eaee73.chunk.js.LICENSE.txt": "/static/js/2.77eaee73.chunk.js.LICENSE.txt",
     "static/media/Ahmad-El-Gamal-Web-Development-resume.d45865db.pdf": "/static/media/Ahmad-El-Gamal-Web-Development-resume.d45865db.pdf",
     "static/media/alazhar.png": "/static/media/alazhar.255b9b1c.png",
     "static/media/bootcamp-travel-flights.gif": "/static/media/bootcamp-travel-flights.5dff5322.gif",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b3cb69a9.js",
-    "static/js/2.9b82c602.chunk.js",
-    "static/css/main.20d5e844.chunk.css",
-    "static/js/main.9e2d3151.chunk.js"
+    "static/js/2.77eaee73.chunk.js",
+    "static/css/main.2d8ffa19.chunk.css",
+    "static/js/main.9179927e.chunk.js"
   ]
 }
