@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4827c6ae.chunk.css",
-    "main.js": "/static/js/main.28c8e503.chunk.js",
-    "main.js.map": "/static/js/main.28c8e503.chunk.js.map",
+    "main.js": "/static/js/main.538bcafe.chunk.js",
+    "main.js.map": "/static/js/main.538bcafe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b3cb69a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.b3cb69a9.js.map",
     "static/js/2.77eaee73.chunk.js": "/static/js/2.77eaee73.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/crescent-academy.png": "/static/media/crescent-academy.87028015.png",
     "static/media/crescent-trade.png": "/static/media/crescent-trade.50607852.png",
     "static/media/elgamal-group.png": "/static/media/elgamal-group.da56125c.png",
-    "static/media/git-it-done.png": "/static/media/git-it-done.2e061e1c.png",
+    "static/media/git-it-done.gif": "/static/media/git-it-done.2ee18bbc.gif",
     "static/media/horiseon.png": "/static/media/horiseon.b25b343e.png",
     "static/media/icon-github.2f563030.svg": "/static/media/icon-github.2f563030.svg",
     "static/media/icon-linkedin.8359812e.svg": "/static/media/icon-linkedin.8359812e.svg",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.b3cb69a9.js",
     "static/js/2.77eaee73.chunk.js",
     "static/css/main.4827c6ae.chunk.css",
-    "static/js/main.28c8e503.chunk.js"
+    "static/js/main.538bcafe.chunk.js"
   ]
 }
