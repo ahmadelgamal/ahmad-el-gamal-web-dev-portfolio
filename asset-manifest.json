@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5ea861ae.chunk.css",
-    "main.js": "/static/js/main.7baa6d8e.chunk.js",
-    "main.js.map": "/static/js/main.7baa6d8e.chunk.js.map",
+    "main.js": "/static/js/main.b6fafd1b.chunk.js",
+    "main.js.map": "/static/js/main.b6fafd1b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b3cb69a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.b3cb69a9.js.map",
     "static/js/2.77eaee73.chunk.js": "/static/js/2.77eaee73.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/ahmad-nvis.jpg": "/static/media/ahmad-nvis.d9827ecf.jpg",
     "static/media/alazhar.png": "/static/media/alazhar.255b9b1c.png",
     "static/media/bootcamp-travel-flights.gif": "/static/media/bootcamp-travel-flights.5dff5322.gif",
-    "static/media/cairo-skyline.jpg": "/static/media/cairo-skyline.3316334b.jpg",
+    "static/media/cairo-skyline.jpg": "/static/media/cairo-skyline.0688cd10.jpg",
     "static/media/code-macbook.jpg": "/static/media/code-macbook.2a5eba2f.jpg",
     "static/media/code-quiz.png": "/static/media/code-quiz.46af97ea.png",
     "static/media/crescent-academy.png": "/static/media/crescent-academy.87028015.png",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.b3cb69a9.js",
     "static/js/2.77eaee73.chunk.js",
     "static/css/main.5ea861ae.chunk.css",
-    "static/js/main.7baa6d8e.chunk.js"
+    "static/js/main.b6fafd1b.chunk.js"
   ]
 }
