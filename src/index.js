@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga'; //google analytics
 
-// starts code is for google analytics
+// code for google analytics
 ReactGA.initialize('UA-135993630-4');
 ReactGA.pageview(window.location.pathname + window.location.search);
 

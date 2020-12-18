@@ -29,13 +29,14 @@
   --h2-font-size: 21px;
   --h3-font-size: 18px; /* same as navbar */
   --h4-font-size: 16px;
-  --h5-font-size: 16px; /* same as p (no h5 used so far) */
-  --h6-font-size: 16px; /* same as p (no h6 used so far) */
+  --h5-font-size: 16px; /* used for size of p (no h5 used so far) */
+  --h6-font-size: 16px; /* (no h6 used so far) */
   --footer-p-font-size: 14px;
   --font-size-plus-two: 2px;
   --font-size-plus-four: 4px;
   --font-size-plus-six: 6px;
   --font-size-plus-eight: 8px;
+  --font-size-plus-ten: 10px;
   --font-size-plus-twelve: 12px;
 }
 
@@ -71,6 +72,7 @@ h2 {
   font-size: var(--h2-font-size);
 }
 
+p,
 h3 {
   padding: calc(var(--h3-font-size) * 0.5) 0;
   font-size: var(--h3-font-size);
@@ -81,7 +83,7 @@ h4 {
   font-size: var(--h4-font-size);
 }
 
-p,
+h5,
 ul li {
   font-weight: 400;
   font-size: var(--h5-font-size);
@@ -298,7 +300,6 @@ textarea {
 /* ----------------- starts styling for Resume.js component ----------------- */
 #resume-link {
   color: var(--secondary-color-hex);
-  font-size: var(--h2-font-size);
 }
 
 #skills ul {
@@ -360,12 +361,12 @@ footer a {
     font-size: calc(var(--h2-font-size) + var(--font-size-plus-four));
   }
 
+  p,
   h3,
   #last-name,
   .navmenu a,
   label,
-  #contact-submit,
-  #resume-link {
+  #contact-submit {
     font-size: calc(var(--h3-font-size) + var(--font-size-plus-four));
   }
 
@@ -376,7 +377,7 @@ footer a {
     font-size: calc(var(--h4-font-size) + var(--font-size-plus-two));
   }
 
-  p {
+  h5 {
     font-size: calc(var(--h5-font-size) + var(--font-size-plus-two));
   }
 
@@ -482,12 +483,12 @@ footer a {
     font-size: calc(var(--h2-font-size) + var(--font-size-plus-eight));
   }
 
+  p,
   h3,
   #last-name,
   .navmenu a,
   label,
-  #contact-submit,
-  #resume-link {
+  #contact-submit {
     font-size: calc(var(--h3-font-size) + var(--font-size-plus-six));
   }
 
@@ -498,7 +499,7 @@ footer a {
     font-size: calc(var(--h4-font-size) + var(--font-size-plus-four));
   }
 
-  p {
+  h5 {
     font-size: calc(var(--h5-font-size) + var(--font-size-plus-four));
   }
 }
@@ -510,18 +511,18 @@ footer a {
     font-size: calc(var(--h1-font-size) + var(--font-size-plus-twelve));
   }
 
-  /* h2 {
-    font-size: calc(var(--h2-font-size) + var(--font-size-plus-eight));
-  } */
+  h2 {
+    font-size: calc(var(--h2-font-size) + var(--font-size-plus-ten));
+  }
 
-  /* h3,
+  /* h3, */
+  p,
   #last-name,
   .navmenu a,
   label,
-  #contact-submit,
-  #resume-link {
-    font-size: calc(var(--h3-font-size) + var(--font-size-plus-six));
-  } */
+  #contact-submit {
+    font-size: calc(var(--h3-font-size) + var(--font-size-plus-eight));
+  }
 
   /* h4,
   ul li,
@@ -530,7 +531,7 @@ footer a {
     font-size: calc(var(--h4-font-size) + var(--font-size-plus-four));
   } */
 
-  /* p {
+  /* h5 {
     font-size: calc(var(--h5-font-size) + var(--font-size-plus-four));
   } */
 

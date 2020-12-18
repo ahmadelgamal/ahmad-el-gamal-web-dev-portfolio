@@ -259,9 +259,9 @@ function Project() {
               <h4>
                 { project.tech }
               </h4>
-              <p>
+              <h5>
                 { project.description }
-              </p>
+              </h5>
             </article>
           )) }
         </div>
@@ -290,9 +290,9 @@ function Project() {
               <h4>
                 { project.tech }
               </h4>
-              <p>
+              <h5>
                 { project.description }
-              </p>
+              </h5>
             </article>
           )) }
         </div>
