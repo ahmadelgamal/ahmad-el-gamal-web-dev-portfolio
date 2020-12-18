@@ -537,7 +537,7 @@ footer a {
 
   .public-repo article,
   .private-repo article {
-    width: 28.33%;
+    width: 30%;
   }
 
   .public-repo article:nth-of-type(even),
