@@ -40,9 +40,9 @@ function Contact() {
   return (
     <>
       <section id="jumbotron">
-        <div key="carousel-3" id="carousel-3" className="jumbotronPics">
+        <div key="carousel-7" id="carousel-7" className="jumbotronPics">
           <img
-            src={ require(`../assets/images/carousel/carousel-3.jpg`).default }
+            src={ require(`../assets/images/carousel/carousel-7.jpg`).default }
             alt={ "Ahmad El Gamal at home in Irvine, CA." }
           />
         </div>
