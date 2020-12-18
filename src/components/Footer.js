@@ -5,7 +5,7 @@ import stackoverflowIcon from '../assets/images/social-media/icon-stackoverflow.
 
 function Footer() {
   return (
-    <footer className="footer grid-container" >
+    <footer className="grid-container" >
       <div id="contacts" className="social-media">
         <ul>
           <li>

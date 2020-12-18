@@ -46,8 +46,8 @@ function Contact() {
         />
       </section>
 
+      <section id="contacts" className="container">
       <h1>Contact Ahmad El Gamal</h1>
-      <div id="contacts" className="container">
         <form id="contact-form" onSubmit={ handleSubmit }>
           <div>
             <label htmlFor="name">Name:</label>
@@ -68,7 +68,7 @@ function Contact() {
           ) }
           <button id="contact-submit" type="submit" >Submit</button>
         </form>
-      </div>
+      </section>
     </>
   )
 }

@@ -1,5 +1,4 @@
-/*-----------------------------global styles------------------------------*/
-
+/*----------------------------starts global styles----------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700;900&display=swap');
 
 * {
@@ -10,27 +9,45 @@
   -webkit-box-sizing: border-box;
   border-collapse: collapse;
   font-family: 'Cairo', sans-serif;
+
   /*The following line fixes issue of bold text not displaying correctly on Google Chrome*/
   -webkit-font-smoothing: antialiased;
+
   /*The following line fixes ensures that viewport is 100% after changing orientation, by telling browser not to adjust text size*/
   -webkit-text-size-adjust: 100%;
+
+  /* color settings */
   --primary-color-hex: #13073a; /* dark blue */
   --primary-color-rgb: 19, 7, 58;
   --secondary-color-hex: #ff9800; /* materialize orange */
   --secondary-color-rgb: 255, 152, 0;
   --tertiary-color-hex: #ffffff;
   --tertiary-color-rgb: 255, 255, 255;
+
+  /* font-size settings */
+  --h1-font-size: 24px;
+  --h2-font-size: 22px;
+  --h3-font-size: 20px; /* same as navbar */
+  --h4-font-size: 18px;
+  --h5-font-size: 16px; /* same as p (no h5 used so far) */
+  --h6-font-size: 16px; /* same as p (no h6 used so far) */
+  --footer-p-font-size: 14px;
+  --font-size-plus-two: 2px;
+  --font-size-plus-four: 4px;
+  --font-size-plus-six: 6px;
+  --font-size-plus-eight: 8px;
 }
 
-/*----------------------- xs (<= 768px) - phone styles------------------------*/
-/*-----------------------------common styles------------------------------*/
-/* The following code pushes the footer to the bottom of the viewport */
+/* the following code pushes the footer to the bottom of the viewport */
 #root {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+/*-----------------------------ends global styles-----------------------------*/
 
+/*---------------------starts xs (<= 768px) - phone styles--------------------*/
+/*----------------------------starts common styles----------------------------*/
 .container {
   margin: 0 20px;
 }
@@ -38,90 +55,35 @@
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-weight: 700;
   text-align: center;
 }
 
 h1 {
-  padding: 1rem 0px;
-  font-size: 24px;
-  line-height: 2rem;
+  padding: calc(var(--h1-font-size) * 0.5) 0;
+  font-size: var(--h1-font-size);
 }
 
 h2 {
-  margin: 2rem 0;
-  font-size: 20px;
+  padding-bottom: var(--h2-font-size);
+  font-size: var(--h2-font-size);
 }
 
-/* h3 used in Skills.js, label used in Contact.js */
-h3,
-label,
-#contact-submit,
-#resume-link {
-  font-size: 18px;
+h3 {
+  padding: calc(var(--h3-font-size) * 0.5) 0;
+  font-size: var(--h3-font-size);
 }
 
-#download-header {
-  margin-bottom: 1.5rem;
-}
-
-label,
-input,
-#message-input,
-#contact-submit {
-  display: block;
-  width: 100%;
-}
-
-input,
-textarea {
-  margin-bottom: 1rem;
-}
-
-input,
-textarea {
-  padding: 0 10px;
-}
-
-#message-input {
-  padding-top: 10px;
-}
-
-#contact-submit {
-  border: none;
-  border-radius: 20px;
-  background-color: var(--secondary-color-hex);
-}
-
-#contact-form {
-  margin-bottom: 2rem;
-}
-
-/* h4 used in projects */
-h4,
-h5,
-p,
-ul li,
-input,
-textarea {
-  font-size: 16px;
+h4 {
+  padding: calc(var(--h4-font-size) * 0.5) 5px;
+  font-size: var(--h4-font-size);
 }
 
 p,
 ul li {
   font-weight: 400;
-}
-
-p,
-ul {
-  margin-bottom: 1rem;
-}
-
-p {
-  text-align: justify;
+  font-size: var(--h5-font-size);
 }
 
 hr {
@@ -130,12 +92,10 @@ hr {
   border-style: solid;
   height: 1px;
 }
+/*-----------------------------ends common styles-----------------------------*/
 
-#public-repo-title {
-  margin-top: 0;
-}
-
-/*-----------------------------header styles------------------------------*/
+/*----------------------------starts header styles----------------------------*/
+/*-----------------------------starts nav styles------------------------------*/
 #navbar-bg {
   z-index: 9;
   position: fixed;
@@ -151,9 +111,9 @@ hr {
   z-index: 10;
   position: fixed;
   top: 10px;
-  transition: top 0.5s;
   left: 10px;
   text-decoration: none;
+  transition: top 0.5s;
 }
 
 #logo img {
@@ -167,7 +127,7 @@ hr {
   vertical-align: top;
   padding-left: 10px;
   color: var(--tertiary-color-hex);
-  font-size: 18px; /* same as navmenu */
+  font-size: var(--h4-font-size); /* same as navmenu a */
   font-weight: 700;
 }
 
@@ -181,6 +141,8 @@ hr {
   text-align: right;
   background-color: inherit;
 }
+
+/* The following lines were used for burger menu in navbar */
 /* .navmenu {
   display: none;
   top: 50px;
@@ -196,12 +158,12 @@ hr {
   display: inline-block;
   padding-left: 10px;
   color: var(--tertiary-color-hex);
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-  font-size: 18px;
-  transition: font-size 0.5s;
   line-height: 50px;
+  font-size: var(--h4-font-size);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: font-size 0.5s;
 }
 
 .navmenu a:visited {
@@ -215,7 +177,10 @@ hr {
 .navmenu a:hover {
   text-decoration: underline;
 }
+/*------------------------------ends nav styles-------------------------------*/
 
+/*-----------------------------starts main styles-----------------------------*/
+/* ----------- starts styling for sections with hero-images class ----------- */
 .hero-images {
   margin-top: 50px;
   z-index: 0;
@@ -227,24 +192,31 @@ hr {
   width: 100%;
   display: block;
 }
-
-/*-----------------------------main styles------------------------------*/
-.main {
+/* ------------ ends styling for sections with hero-images class ------------ */
+/* ------------------ starts common styling for main section ---------------- */
+main,
+main a,
+main a:visited {
   color: var(--primary-color-hex);
 }
 
-.main a,
-.main a:visited {
+main a,
+main a:visited {
   text-decoration: none;
-  color: var(--primary-color-hex);
-  font-size: 16px; /* same as p */
   font-weight: 700;
 }
-
-.main li {
-  margin-left: 20px;
+/* ------------------- ends common styling for main section ----------------- */
+/* ----------------- starts styling for About.js component ------------------ */
+#about p {
+  margin-bottom: var(--h5-font-size);
 }
 
+p {
+  text-align: justify;
+}
+/* ------------------ ends styling for About.js component ------------------- */
+
+/* ---------------- starts styling for Project.js component ----------------- */
 .public-repo article,
 .private-repo article {
   margin-bottom: 40px;
@@ -259,26 +231,20 @@ hr {
 }
 
 #projects h3 {
-  text-align: center;
   width: 100%;
   background-color: rgba(var(--primary-color-rgb), 0.8);
   color: var(--tertiary-color-hex);
 }
 
-#projects h5 {
+#projects h4 {
   z-index: 1;
   width: 100%;
-  padding: 0 5px;
-  text-align: center;
   background-color: rgba(var(--secondary-color-rgb), 0.8);
 }
 
-#projects img {
+#projects img.project-screenshot {
   z-index: 0;
   width: 100%;
-}
-
-.project-screenshot {
   border: solid var(--primary-color-hex) 1px;
 }
 
@@ -295,28 +261,67 @@ hr {
   display: inline;
 }
 
+#projects hr {
+  margin-bottom: var(--h3-font-size);
+}
+/* ----------------- ends styling for Project.js component ------------------ */
+
+/* ---------------- starts styling for Contact.js component ----------------- */
+label,
+input,
+#message-input,
+#contact-submit {
+  display: block;
+  width: 100%;
+}
+
+label,
+#contact-submit {
+  font-size: var(--h3-font-size);
+}
+
+input,
+textarea {
+  font-size: var(--h6-font-size);
+  margin-bottom: var(--h6-font-size);
+  padding: 0 10px;
+}
+
+#contact-submit {
+  border: none;
+  border-radius: 20px;
+  background-color: var(--secondary-color-hex);
+}
+/* ----------------- ends styling for Contact.js component ------------------ */
+
+/* ----------------- starts styling for Resume.js component ----------------- */
 #resume-link {
   color: var(--secondary-color-hex);
+  font-size: var(--h2-font-size);
+}
+
+#skills ul {
+  margin-left: 20px;
 }
 
 #skills h3 {
   text-align: left;
 }
+/* ------------------ ends styling for Resume.js component ------------------ */
+/*------------------------------ends main styles------------------------------*/
 
-/*-----------------------------footer styles------------------------------*/
+/*----------------------------starts footer styles----------------------------*/
 footer {
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 40px;
   padding: 20px;
   background-color: var(--primary-color-hex);
   color: var(--tertiary-color-hex);
 }
 
 footer p {
-  margin-top: 10px;
-  font-size: 14px;
+  font-size: var(--footer-p-font-size);
   text-align: center;
-  line-height: 1.5rem;
 }
 
 footer a {
@@ -334,34 +339,44 @@ footer a {
 }
 
 .social-media img {
-  height: 30px;
+  height: 40px;
 }
+/*-----------------------------ends footer styles-----------------------------*/
+/*----------------------ends xs (<= 768px) - phone styles---------------------*/
 
-/*----------------------------- sm (768px < 992px) tablets styles------------------------------*/
+/*------------------starts sm (768px < 992px) tablets styles------------------*/
 @media screen and (min-width: 768px) {
-  /*-----------------------------common styles------------------------------*/
+  /*------------------------------common styles-------------------------------*/
+  .container {
+    margin: 0 5%;
+  }
+
   h1 {
-    padding: 2rem 0px;
-    font-size: 28px;
+    font-size: calc(var(--h1-font-size) + var(--font-size-plus-two));
   }
 
   h2 {
-    font-size: 24px;
+    font-size: calc(var(--h2-font-size) + var(--font-size-plus-two));
   }
 
   h3,
   label,
   #contact-submit,
   #resume-link {
-    font-size: 20px;
+    font-size: calc(var(--h3-font-size) + var(--font-size-plus-two));
   }
 
   h4,
-  p,
+  #last-name,
+  .navmenu a,
   ul li,
   input,
   textarea {
-    font-size: 18px;
+    font-size: calc(var(--h4-font-size) + var(--font-size-plus-two));
+  }
+
+  p {
+    font-size: calc(var(--h5-font-size) + var(--font-size-plus-two));
   }
 
   /*-----------------------------header styles------------------------------*/
@@ -379,11 +394,6 @@ footer a {
   #logo img {
     height: 50px;
     transition: height 0.5s;
-  }
-
-  #last-name,
-  .navmenu a {
-    font-size: 24px;
   }
 
   #last-name {
@@ -406,37 +416,26 @@ footer a {
   }
 
   /*-----------------------------main styles------------------------------*/
-  .main a {
-    font-size: 18px; /* same as p */
-  }
-
-  #skills {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .flex-list {
-    width: 50%;
-  }
-
   .public-repo article,
   .private-repo article {
     display: inline-block;
-    width: 48%;
-    margin-bottom: 70px;
+    width: 47.5%;
+    margin-bottom: 50px;
   }
 
   .public-repo article:nth-of-type(even),
   .private-repo article:nth-of-type(even) {
-    margin-left: 4%;
+    margin-left: 5%;
   }
 
-  /* .public-repo article.featured {
+  /* The following code makes the featured projects span 100% width */
+  /* 
+  .public-repo article.featured {
     display: block;
     width: 100%;
-    margin-left: 0%;
+  }
+  .public-repo article.featured:nth-of-type(even) {
+    margin-left: 0;
   } */
 
   label,
@@ -446,73 +445,97 @@ footer a {
     width: 50%;
   }
 
+  #skills {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #skills ul {
+    margin-left: 5%;
+  }
+
+  .flex-list {
+    width: 50%;
+  }
   /*-----------------------------footer styles------------------------------*/
   footer p {
-    font-size: 16px;
+    font-size: calc(var(--footer-p-font-size) + var(--font-size-plus-two));
   }
 
   .social-media img {
-    height: 40px;
+    height: 50px;
   }
 }
+/*-------------------ends sm (768px < 992px) tablets styles-------------------*/
 
-/*----------------------------- md (992px < 1199px) small laptops styles------------------------------*/
+/*--------------starts md (992px < 1199px) small laptops styles---------------*/
 @media screen and (min-width: 992px) {
-  /*-----------------------------common styles------------------------------*/
-  .container {
-    margin: 0 5%;
-  }
-
+  /*------------------------------common styles-------------------------------*/
   h1 {
-    font-size: 36px;
+    font-size: calc(var(--h1-font-size) + var(--font-size-plus-four));
   }
 
   h2 {
-    font-size: 28px;
+    font-size: calc(var(--h2-font-size) + var(--font-size-plus-four));
   }
 
   h3,
   label,
   #contact-submit,
   #resume-link {
-    font-size: 24px;
+    font-size: calc(var(--h3-font-size) + var(--font-size-plus-four));
   }
 
   h4,
-  p,
+  #last-name,
+  .navmenu a,
   ul li,
   input,
   textarea {
-    font-size: 20px;
+    font-size: calc(var(--h4-font-size) + var(--font-size-plus-four));
   }
 
-  /*-----------------------------header styles------------------------------*/
-  #last-name,
-  nav a {
-    font-size: 28px; /* same as h2 */
+  p {
+    font-size: calc(var(--h5-font-size) + var(--font-size-plus-four));
   }
-
-  /*-----------------------------main styles------------------------------*/
-  .main a {
-    font-size: 20px; /* same as p */
-  }
-
-  .main li {
-    margin-left: 5%;
-  }
-
-  /*-----------------------------footer styles------------------------------*/
 }
+/*---------------ends md (992px < 1199px) small laptops styles----------------*/
 
-/*----------------------------- lg (>= 1200px) laptops & desktops styles------------------------------*/
+/*--------------starts lg (>= 1200px) laptops & desktops styles---------------*/
 @media screen and (min-width: 1200px) {
-  .flex-list {
-    width: 33%;
+  h1 {
+    font-size: calc(var(--h1-font-size) + var(--font-size-plus-six));
+  }
+
+  h2 {
+    font-size: calc(var(--h2-font-size) + var(--font-size-plus-six));
+  }
+
+  h3,
+  label,
+  #contact-submit,
+  #resume-link {
+    font-size: calc(var(--h3-font-size) + var(--font-size-plus-six));
+  }
+
+  h4,
+  #last-name,
+  .navmenu a,
+  ul li,
+  input,
+  textarea {
+    font-size: calc(var(--h4-font-size) + var(--font-size-plus-six));
+  }
+
+  p {
+    font-size: calc(var(--h5-font-size) + var(--font-size-plus-six));
   }
 
   .public-repo article,
   .private-repo article {
-    width: 31%;
+    width: 28.33%;
   }
 
   .public-repo article:nth-of-type(even),
@@ -522,8 +545,8 @@ footer a {
 
   .public-repo article:nth-of-type(3n + 2),
   .private-repo article:nth-of-type(3n + 2) {
-    margin-right: 3.5%;
-    margin-left: 3.5%;
+    margin-right: 5%;
+    margin-left: 5%;
   }
 
   label,
@@ -533,7 +556,12 @@ footer a {
     width: 40%;
   }
 
+  .flex-list {
+    width: 33%;
+  }
+
   .social-media img {
-    height: 50px;
+    height: 70px;
   }
 }
+/*---------------ends lg (>= 1200px) laptops & desktops styles----------------*/

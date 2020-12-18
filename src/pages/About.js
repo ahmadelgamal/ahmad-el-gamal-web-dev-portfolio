@@ -11,8 +11,8 @@ function About() {
         />
       </section>
 
-      <h1>About Ahmad El Gamal</h1>
-      <div id="about" className="container">
+      <section id="about" className="container">
+        <h1>About Ahmad El Gamal</h1>
         <p>
           Entrepreneur, strategic planner, software developer, and civil
           engineer. Imam, educator, and lifelong learner. Ahmad is a highly
@@ -39,7 +39,7 @@ function About() {
           Ahmad was born in Egypt and is also a United States citizen. He lives
           in Irvine, California, with his wife and five children.
         </p>
-      </div>
+      </section>
     </>
   )
 }

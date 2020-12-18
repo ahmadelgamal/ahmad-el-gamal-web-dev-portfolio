@@ -27,17 +27,6 @@ function Project() {
       repo: "https://github.com/ahmadelgamal/BootCamp-Travel"
     },
     {
-      id: "ucb-note-taker",
-      name: "Note Taker",
-      category: "templates",
-      description: "A web application for users to add, delete and retrieve notes. Your data will be saved to the cloud and you can access it from any browser with internet access.",
-      tech: "HTML5 | CSS3 | JavaScript | JSON | Node.js | Express.js | Uniqid.js",
-      screenshot: "note-taker.gif",
-      alt: "Note Taker",
-      link: "https://ucb-note-taker.herokuapp.com/",
-      repo: "https://github.com/ahmadelgamal/ucb-note-taker"
-    },
-    {
       id: "readme-gen-pro",
       name: "Readme Gen Pro",
       category: "featured",
@@ -47,6 +36,17 @@ function Project() {
       alt: "Readme Gen Pro",
       link: "https://github.com/ahmadelgamal/README-Gen-Pro",
       repo: "https://github.com/ahmadelgamal/README-Gen-Pro"
+    },
+    {
+      id: "ucb-note-taker",
+      name: "Note Taker",
+      category: "templates",
+      description: "A web application for users to add, delete and retrieve notes. Your data will be saved to the cloud and you can access it from any browser with internet access.",
+      tech: "HTML5 | CSS3 | JavaScript | JSON | Node.js | Express.js | Uniqid.js",
+      screenshot: "note-taker.gif",
+      alt: "Note Taker",
+      link: "https://ucb-note-taker.herokuapp.com/",
+      repo: "https://github.com/ahmadelgamal/ucb-note-taker"
     },
     {
       id: "ucb-weather-dashboard",
@@ -93,16 +93,6 @@ function Project() {
       repo: "https://github.com/ahmadelgamal/horiseon/"
     },
     {
-      id: "ahmad-el-gamal-web-dev-portfolio",
-      name: "My Web‑Dev Portfolio",
-      category: "private",
-      description: "This website!",
-      tech: "HTML5 | CSS3 | JavaScript | React",
-      screenshot: "portfolio.gif",
-      alt: "Ahmad El Gamal's Portfolio",
-      link: "https://ahmadelgamal.github.io/",
-      repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
-    }, {
       id: "ucb-git-it-done",
       name: "Git it Done",
       category: "templates",
@@ -156,6 +146,17 @@ function Project() {
       alt: "Taskmaster Pro",
       link: "https://ahmadelgamal.github.io/ucb-taskmaster-pro/",
       repo: "https://github.com/ahmadelgamal/ucb-taskmaster-pro"
+    },
+    {
+      id: "ahmad-el-gamal-web-dev-portfolio",
+      name: "My Web‑Dev Portfolio",
+      category: "private",
+      description: "This website!",
+      tech: "HTML5 | CSS3 | JavaScript | React",
+      screenshot: "portfolio.gif",
+      alt: "Ahmad El Gamal's Portfolio",
+      link: "https://ahmadelgamal.github.io/",
+      repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
     },
   ]);
 
@@ -222,8 +223,8 @@ function Project() {
         />
       </section>
 
+      <section id="projects" className="container">
       <h1>Coding Portfolio</h1>
-      <div id="projects" className="container">
         <div className="public-repo">
 
           <h2 id="public-repo-title">PUBLIC REPO PROJECTS</h2>
@@ -233,7 +234,6 @@ function Project() {
               <h3>
                 { project.name }
               </h3>
-
               <a
                 href={ project.link }
                 target="_blank"
@@ -256,9 +256,9 @@ function Project() {
                   alt="GitHub Repo link"
                 />
               </a>
-              <h5>
+              <h4>
                 { project.tech }
-              </h5>
+              </h4>
               <p>
                 { project.description }
               </p>
@@ -276,7 +276,6 @@ function Project() {
               <h3>
                 { project.name }
               </h3>
-
               <a
                 href={ project.link }
                 target="_blank"
@@ -288,16 +287,16 @@ function Project() {
                   alt={ project.alt }
                 />
               </a>
-              <h5>
+              <h4>
                 { project.tech }
-              </h5>
+              </h4>
               <p>
                 { project.description }
               </p>
             </article>
           )) }
         </div>
-      </div>
+      </section>
     </>
   );
 };
