@@ -132,9 +132,11 @@ function Resume() {
           <ul>
             <li>Android Studio</li>
             <li>Brackets</li>
+            <li>FileZilla (FTP)</li>
             <li>iTerm2</li>
             <li>Photoshop</li>
             <li>Screencastify</li>
+            <li>Slack</li>
             <li>Xamarin</li>
             <li>Xcode</li>
           </ul>
