@@ -27,10 +27,9 @@
   /* font-size settings */
   --h1-font-size: 24px;
   --h2-font-size: 21px;
-  --h3-font-size: 18px; /* same as navbar */
+  --h3-font-size: 18px; /* used for sizes of p & navbar */
   --h4-font-size: 16px;
-  --h5-font-size: 16px; /* used for size of p (no h5 used so far) */
-  --h6-font-size: 16px; /* (no h6 used so far) */
+  --h5-font-size: 16px;
   --footer-p-font-size: 14px;
   --font-size-plus-two: 2px;
   --font-size-plus-four: 4px;
