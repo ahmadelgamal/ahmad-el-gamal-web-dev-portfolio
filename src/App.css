@@ -26,9 +26,9 @@
 
   /* font-size settings */
   --h1-font-size: 24px;
-  --h2-font-size: 22px;
-  --h3-font-size: 20px; /* same as navbar */
-  --h4-font-size: 18px;
+  --h2-font-size: 21px;
+  --h3-font-size: 18px; /* same as navbar */
+  --h4-font-size: 16px;
   --h5-font-size: 16px; /* same as p (no h5 used so far) */
   --h6-font-size: 16px; /* same as p (no h6 used so far) */
   --footer-p-font-size: 14px;
@@ -127,7 +127,7 @@ hr {
   vertical-align: top;
   padding-left: 10px;
   color: var(--tertiary-color-hex);
-  font-size: var(--h4-font-size); /* same as navmenu a */
+  font-size: var(--h3-font-size); /* same as navmenu a */
   font-weight: 700;
 }
 
@@ -159,7 +159,7 @@ hr {
   padding-left: 10px;
   color: var(--tertiary-color-hex);
   line-height: 50px;
-  font-size: var(--h4-font-size);
+  font-size: var(--h3-font-size);
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -360,6 +360,8 @@ footer a {
   }
 
   h3,
+  #last-name,
+  .navmenu a,
   label,
   #contact-submit,
   #resume-link {
@@ -367,8 +369,6 @@ footer a {
   }
 
   h4,
-  #last-name,
-  .navmenu a,
   ul li,
   input,
   textarea {
@@ -482,6 +482,8 @@ footer a {
   }
 
   h3,
+  #last-name,
+  .navmenu a,
   label,
   #contact-submit,
   #resume-link {
@@ -489,8 +491,6 @@ footer a {
   }
 
   h4,
-  #last-name,
-  .navmenu a,
   ul li,
   input,
   textarea {
@@ -514,6 +514,8 @@ footer a {
   }
 
   h3,
+  #last-name,
+  .navmenu a,
   label,
   #contact-submit,
   #resume-link {
@@ -521,8 +523,6 @@ footer a {
   }
 
   h4,
-  #last-name,
-  .navmenu a,
   ul li,
   input,
   textarea {
