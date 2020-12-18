@@ -125,7 +125,7 @@ hr {
 }
 
 #public-repo-title {
-  margin-top:0;
+  margin-top: 0;
 }
 
 /*-----------------------------header styles------------------------------*/
@@ -209,17 +209,14 @@ hr {
   text-decoration: underline;
 }
 
-#jumbotron {
+.hero-images {
   margin-top: 50px;
-}
-
-.jumbotronPics {
   z-index: 0;
   position: relative;
   text-align: center;
 }
 
-.jumbotronPics img {
+.hero-images img {
   width: 100%;
   display: block;
 }
@@ -395,7 +392,7 @@ footer a {
     padding-left: 2rem;
   }
 
-  #jumbotron {
+  .hero-images {
     margin-top: 70px;
   }
 
@@ -514,8 +511,8 @@ footer a {
     margin-left: 0px;
   }
 
-  .public-repo article:nth-of-type(3n+2),
-  .private-repo article:nth-of-type(3n+2) {
+  .public-repo article:nth-of-type(3n + 2),
+  .private-repo article:nth-of-type(3n + 2) {
     margin-right: 3.5%;
     margin-left: 3.5%;
   }

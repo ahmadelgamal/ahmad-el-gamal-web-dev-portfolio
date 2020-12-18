@@ -39,13 +39,11 @@ function Contact() {
 
   return (
     <>
-      <section id="jumbotron">
-        <div key="carousel-7" id="carousel-7" className="jumbotronPics">
-          <img
-            src={ require(`../assets/images/carousel/carousel-7.jpg`).default }
-            alt={ "Ahmad El Gamal at home in Irvine, CA." }
-          />
-        </div>
+      <section key="hero-contact" id="hero-contact" className="hero-images">
+        <img
+          src={ require(`../assets/images/hero/cairo-skyline.jpg`).default }
+          alt={ "View of Cairo skyline from Ahmad's home in Giza, Egypt." }
+        />
       </section>
 
       <h1>Contact Ahmad El Gamal</h1>

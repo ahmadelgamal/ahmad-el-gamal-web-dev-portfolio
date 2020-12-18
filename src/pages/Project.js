@@ -215,13 +215,11 @@ function Project() {
 
   return (
     <>
-      <section id="jumbotron">
-        <div key="carousel-5" id="carousel-5" className="jumbotronPics">
-          <img
-            src={ require(`../assets/images/carousel/carousel-5.jpg`).default }
-            alt={ "Mobile, pencils, notes, eraser and scissors." }
-          />
-        </div>
+      <section key="hero-portfolio" id="hero-portfolio" className="hero-images">
+        <img
+          src={ require(`../assets/images/hero/code-macbook.jpg`).default }
+          alt={ "Eyeglasses focusing on MacBook screen with code on it." }
+        />
       </section>
 
       <h1>Coding Portfolio</h1>

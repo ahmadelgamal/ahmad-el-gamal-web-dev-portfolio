@@ -4,13 +4,11 @@ import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pd
 function Resume() {
   return (
     <>
-      <section id="jumbotron">
-        <div key="carousel-2" id="carousel-2" className="jumbotronPics">
-          <img
-            src={ require(`../assets/images/carousel/carousel-2.jpg`).default }
-            alt={ "Ahmad El Gamal at New Vision International School's construction site in Giza, Egypt." }
-          />
-        </div>
+      <section key="hero-resume" id="hero-resume" className="hero-images">
+        <img
+          src={ require(`../assets/images/hero/ahmad-nvis.jpg`).default }
+          alt={ "Ahmad in a hard hat supervising the construction of New Vision International School in Giza, Egypt." }
+        />
       </section>
 
       <h1>Technical Skills</h1>
