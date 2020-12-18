@@ -240,6 +240,7 @@ function Project() {
                 rel="noreferrer"
               >
                 <img
+                  className="project-screenshot"
                   src={ require(`../assets/images/screenshots/${project.screenshot}`).default }
                   alt={ project.alt }
                 />
@@ -282,6 +283,7 @@ function Project() {
                 rel="noreferrer"
               >
                 <img
+                  className="project-screenshot"
                   src={ require(`../assets/images/screenshots/${project.screenshot}`).default }
                   alt={ project.alt }
                 />

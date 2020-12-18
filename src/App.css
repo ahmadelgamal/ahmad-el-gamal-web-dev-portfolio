@@ -6,13 +6,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   border-collapse: collapse;
   font-family: 'Cairo', sans-serif;
   /*The following line fixes issue of bold text not displaying correctly on Google Chrome*/
   -webkit-font-smoothing: antialiased;
   /*The following line fixes ensures that viewport is 100% after changing orientation, by telling browser not to adjust text size*/
   -webkit-text-size-adjust: 100%;
-  --main-bg-color: #13073a; /* rgb: 19,7,58 */
+  --primary-color-hex: #13073a; /* dark blue */
+  --primary-color-rgb: 19, 7, 58;
+  --secondary-color-hex: #ff9800; /* materialize orange */
+  --secondary-color-rgb: 255, 152, 0;
+  --tertiary-color-hex: #ffffff;
+  --tertiary-color-rgb: 255, 255, 255;
 }
 
 /*----------------------- xs (<= 768px) - phone styles------------------------*/
@@ -86,7 +93,7 @@ textarea {
 #contact-submit {
   border: none;
   border-radius: 20px;
-  background-color: #daa520;
+  background-color: var(--secondary-color-hex);
 }
 
 #contact-form {
@@ -118,10 +125,10 @@ p {
 }
 
 hr {
-  color: #13073a;
+  color: var(--primary-color-hex);
+  background-color: var(--primary-color-hex);
   border-style: solid;
-  background-color: #13073a;
-  height: 2px;
+  height: 1px;
 }
 
 #public-repo-title {
@@ -137,7 +144,7 @@ hr {
   width: 100%;
   height: 50px;
   transition: height 0.5s;
-  background-color: rgba(19, 7, 58, 1);
+  background-color: var(--primary-color-hex);
 }
 
 #logo {
@@ -159,7 +166,7 @@ hr {
   line-height: 40px;
   vertical-align: top;
   padding-left: 10px;
-  color: #ffffff;
+  color: var(--tertiary-color-hex);
   font-size: 18px; /* same as navmenu */
   font-weight: 700;
 }
@@ -188,7 +195,7 @@ hr {
 .navmenu a {
   display: inline-block;
   padding-left: 10px;
-  color: white;
+  color: var(--tertiary-color-hex);
   font-weight: 700;
   text-decoration: none;
   text-align: center;
@@ -198,11 +205,11 @@ hr {
 }
 
 .navmenu a:visited {
-  color: #ffffff;
+  color: var(--tertiary-color-hex);
 }
 
 .navmenu a.active {
-  color: #daa520;
+  color: var(--secondary-color-hex);
 }
 
 .navmenu a:hover {
@@ -223,17 +230,15 @@ hr {
 
 /*-----------------------------main styles------------------------------*/
 .main {
-  color: var(--main-bg-color);
+  color: var(--primary-color-hex);
 }
 
 .main a,
 .main a:visited {
   text-decoration: none;
-  color: var(--main-bg-color);
-  text-align: justify;
+  color: var(--primary-color-hex);
   font-size: 16px; /* same as p */
   font-weight: 700;
-  padding: 0px 0px 20px 0px;
 }
 
 .main li {
@@ -253,24 +258,28 @@ hr {
   transform: scale(1.05);
 }
 
-#projects h4 {
+#projects h3 {
   text-align: center;
   width: 100%;
-  padding-bottom: 10px;
+  background-color: rgba(var(--primary-color-rgb), 0.8);
+  color: var(--tertiary-color-hex);
 }
 
 #projects h5 {
   z-index: 1;
   width: 100%;
-  padding: 0 10px;
-  background-color: rgba(19, 7, 58, 0.75);
-  color: #ffffff;
+  padding: 0 5px;
   text-align: center;
+  background-color: rgba(var(--secondary-color-rgb), 0.8);
 }
 
 #projects img {
   z-index: 0;
   width: 100%;
+}
+
+.project-screenshot {
+  border: solid var(--primary-color-hex) 1px;
 }
 
 #projects .public-repo .github-logo {
@@ -287,7 +296,7 @@ hr {
 }
 
 #resume-link {
-  color: #daa520;
+  color: var(--secondary-color-hex);
 }
 
 #skills h3 {
@@ -299,8 +308,8 @@ footer {
   width: 100%;
   margin-top: 2rem;
   padding: 20px;
-  background-color: var(--main-bg-color);
-  color: #ffffff;
+  background-color: var(--primary-color-hex);
+  color: var(--tertiary-color-hex);
 }
 
 footer p {
@@ -311,7 +320,7 @@ footer p {
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--tertiary-color-hex);
 }
 
 .social-media ul {
