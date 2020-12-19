@@ -291,6 +291,7 @@ textarea {
 }
 
 #contact-submit {
+  margin-top: 20px;
   border: none;
   border-radius: 20px;
   background-color: var(--secondary-color-hex);
@@ -425,7 +426,7 @@ footer a {
     width: 47.5%;
     margin-bottom: 50px;
   }
-  
+
   #projects hr {
     margin-bottom: 50px;
   }
@@ -450,6 +451,10 @@ footer a {
   #message-input,
   #contact-submit {
     width: 50%;
+  }
+
+  #contact-submit {
+    margin-top: 30px;
   }
 
   #skills {
