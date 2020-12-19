@@ -265,7 +265,7 @@ p {
 }
 
 #projects hr {
-  margin-bottom: var(--h3-font-size);
+  margin-bottom: 40px; /* same as artice */
 }
 /* ----------------- ends styling for Project.js component ------------------ */
 
@@ -423,6 +423,10 @@ footer a {
   .private-repo article {
     display: inline-block;
     width: 47.5%;
+    margin-bottom: 50px;
+  }
+  
+  #projects hr {
     margin-bottom: 50px;
   }
 
