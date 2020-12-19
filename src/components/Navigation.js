@@ -7,33 +7,35 @@ function Navigation(props) {
 
   return (
     <div id="navbar">
-      <span id="navbar-bg"></span>
-      <a
-        href="#About"
-        id="logo"
-        onClick={ () => props.handlePageChange('About') }
-      >
-        <img src={ logo } alt="Logo" /><span id="first-name">Ahmad&nbsp;</span><span id="last-name">El Gamal</span>
-      </a>
+      <div className="container">
+        <span id="navbar-bg"></span>
+        <a
+          href="#About"
+          id="logo"
+          onClick={ () => props.handlePageChange('About') }
+        >
+          <img src={ logo } alt="Logo" /><span id="first-name">Ahmad&nbsp;</span><span id="last-name">El Gamal</span>
+        </a>
 
-      <nav>
-        <div className="navmenu">
-          { tabs.map(tab => (
-            <a
-              key={ tab }
-              href={ '#' + tab }
-              // Whenever a tab is clicked on,
-              // the current page is set through the handlePageChange props.
-              onClick={ () => props.handlePageChange(tab) }
-              className={
-                props.currentPage === tab ? 'active' : ''
-              }
-            >
-              {tab }
-            </a>
-          )) }
-        </div>
-      </nav>
+        <nav>
+          <div className="navmenu">
+            { tabs.map(tab => (
+              <a
+                key={ tab }
+                href={ '#' + tab }
+                // Whenever a tab is clicked on,
+                // the current page is set through the handlePageChange props.
+                onClick={ () => props.handlePageChange(tab) }
+                className={
+                  props.currentPage === tab ? 'active' : ''
+                }
+              >
+                {tab }
+              </a>
+            )) }
+          </div>
+        </nav>
+      </div>
     </div>
   );
 }

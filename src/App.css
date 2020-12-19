@@ -50,7 +50,7 @@
 /*---------------------starts xs (<= 768px) - phone styles--------------------*/
 /*----------------------------starts common styles----------------------------*/
 .container {
-  margin: 0 20px;
+  margin: 0 5%;
 }
 
 h1,
@@ -118,7 +118,6 @@ hr {
   z-index: 10;
   position: fixed;
   top: 10px;
-  left: 10px;
   text-decoration: none;
   transition: top 0.5s;
 }
@@ -144,7 +143,7 @@ hr {
   z-index: 10;
   position: fixed;
   top: 0px;
-  right: 10px;
+  right: 5%;
   width: auto;
   text-align: right;
   background-color: inherit;
@@ -351,10 +350,6 @@ footer a {
 /*------------------starts sm (768px < 992px) tablets styles------------------*/
 @media screen and (min-width: 768px) {
   /*------------------------------common styles-------------------------------*/
-  .container {
-    margin: 0 5%;
-  }
-
   h1 {
     font-size: calc(var(--h1-font-size) + var(--font-size-plus-four));
   }
@@ -390,12 +385,6 @@ footer a {
     transition: height 0.5s;
   }
 
-  #logo {
-    top: 10px;
-    left: 5%;
-    transition: top 0.5s;
-  }
-
   #logo img {
     height: 50px;
     transition: height 0.5s;
@@ -405,10 +394,6 @@ footer a {
     display: inline;
     padding-left: 20px;
     line-height: 50px;
-  }
-
-  .navmenu {
-    right: 5%;
   }
 
   .navmenu a {
