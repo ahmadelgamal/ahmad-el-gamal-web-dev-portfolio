@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.05d7c537.chunk.css",
-    "main.js": "/static/js/main.4a36b4ab.chunk.js",
-    "main.js.map": "/static/js/main.4a36b4ab.chunk.js.map",
+    "main.css": "/static/css/main.b32c8a3c.chunk.css",
+    "main.js": "/static/js/main.cd3151bd.chunk.js",
+    "main.js.map": "/static/js/main.cd3151bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5517ca1c.js",
     "runtime-main.js.map": "/static/js/runtime-main.5517ca1c.js.map",
     "static/js/2.87d79399.chunk.js": "/static/js/2.87d79399.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.aba50302.chunk.js": "/static/js/3.aba50302.chunk.js",
     "static/js/3.aba50302.chunk.js.map": "/static/js/3.aba50302.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.05d7c537.chunk.css.map": "/static/css/main.05d7c537.chunk.css.map",
+    "static/css/main.b32c8a3c.chunk.css.map": "/static/css/main.b32c8a3c.chunk.css.map",
     "static/js/2.87d79399.chunk.js.LICENSE.txt": "/static/js/2.87d79399.chunk.js.LICENSE.txt",
     "static/media/Ahmad-El-Gamal-Web-Development-resume.d45865db.pdf": "/static/media/Ahmad-El-Gamal-Web-Development-resume.d45865db.pdf",
     "static/media/ahmad-ca.jpg": "/static/media/ahmad-ca.c4a6ff0a.jpg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.5517ca1c.js",
     "static/js/2.87d79399.chunk.js",
-    "static/css/main.05d7c537.chunk.css",
-    "static/js/main.4a36b4ab.chunk.js"
+    "static/css/main.b32c8a3c.chunk.css",
+    "static/js/main.cd3151bd.chunk.js"
   ]
 }
