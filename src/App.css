@@ -123,6 +123,7 @@ hr {
   transition: height 0.5s;
 }
 
+#first-name,
 #last-name {
   display: none;
   line-height: 40px;
@@ -362,6 +363,7 @@ footer a {
 
   p,
   h3,
+  #first-name,
   #last-name,
   .navmenu a,
   label,
@@ -484,6 +486,7 @@ footer a {
 
   p,
   h3,
+  #first-name,
   #last-name,
   .navmenu a,
   label,
@@ -501,6 +504,16 @@ footer a {
   h5 {
     font-size: calc(var(--h5-font-size) + var(--font-size-plus-four));
   }
+
+  #first-name {
+    display: inline;
+    padding-left: 20px;
+    line-height: 50px;
+  }
+
+  #last-name {
+    padding-left: 0px;
+  }
 }
 /*---------------ends md (992px < 1199px) small laptops styles----------------*/
 
@@ -516,6 +529,7 @@ footer a {
 
   /* h3, */
   p,
+  #first-name,
   #last-name,
   .navmenu a,
   label,
