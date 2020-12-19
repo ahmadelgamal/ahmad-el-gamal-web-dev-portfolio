@@ -22,7 +22,7 @@ function Navigation(props) {
             { tabs.map(tab => (
               <a
                 key={ tab }
-                href={ '#' + tab }
+                href={ '#' + tab + '#top' }
                 // Whenever a tab is clicked on,
                 // the current page is set through the handlePageChange props.
                 onClick={ () => props.handlePageChange(tab) }

@@ -20,7 +20,7 @@ function Header() {
       case 'Resume':
         return <Resume />;
       default:
-        return <About />;
+        return <About handlePageChange={ handlePageChange } />;
     }
   };
 

@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import githubLogo from '../assets/images/GitHub-Mark-120px-plus.png'
 
 function Project() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [publicProjects] = useState([
     {

@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { validateEmail } from '../utils/helpers';
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [errorMessage, setErrorMessage] = useState('');
 

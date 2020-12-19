@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012151122PM';
 
 function Resume() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <section key="hero-resume" id="hero-resume" className="hero-images">
