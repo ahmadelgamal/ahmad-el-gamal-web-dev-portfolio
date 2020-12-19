@@ -89,16 +89,37 @@ function Resume() {
           </div>
 
           <div className="flex-list">
-            <h3>Concepts &amp; Techniques:</h3>
+            <h3>Web-Dev Tools:</h3>
             <ul>
-              <li>Big O Notation</li>
-              <li>Functional Programming</li>
-              <li>MERN Stack</li>
-              <li>Model‑View‑Controller (MVC) Paradigm</li>
-              <li>Object‑Oriented Programming (OOP)</li>
-              <li>Object‑Relational Mapping (ORM)</li>
-              <li>Progressive Web Applications (PWA)</li>
-              <li>Test-Driven Development (TDD)</li>
+              <li>Chrome DevTools</li>
+              <li>Heroku</li>
+              <li>Insomnia Core</li>
+              <li>Jest</li>
+              <li>npm</li>
+              <li>Terminal</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+
+          <div className="flex-list">
+            <h3>Other Dev Tools:</h3>
+            <ul>
+              <li>Android Studio</li>
+              <li>Brackets</li>
+              <li>FileZilla (FTP)</li>
+              <li>Google Analytics</li>
+              <li>iTerm2</li>
+              <li>Xamarin</li>
+              <li>Xcode</li>
+            </ul>
+          </div>
+
+          <div className="flex-list">
+            <h3>Other Tools:</h3>
+            <ul>
+              <li>Photoshop</li>
+              <li>Screencastify</li>
+              <li>Slack</li>
             </ul>
           </div>
 
@@ -112,30 +133,16 @@ function Resume() {
           </div>
 
           <div className="flex-list">
-            <h3>Dev Tools:</h3>
+            <h3>Concepts &amp; Techniques:</h3>
             <ul>
-              <li>Chrome DevTools</li>
-              <li>Heroku</li>
-              <li>Insomnia Core</li>
-              <li>Jest</li>
-              <li>npm</li>
-              <li>Terminal</li>
-              <li>VS Code</li>
-            </ul>
-          </div>
-
-          <div className="flex-list">
-            <h3>Other Tools:</h3>
-            <ul>
-              <li>Android Studio</li>
-              <li>Brackets</li>
-              <li>FileZilla (FTP)</li>
-              <li>iTerm2</li>
-              <li>Photoshop</li>
-              <li>Screencastify</li>
-              <li>Slack</li>
-              <li>Xamarin</li>
-              <li>Xcode</li>
+              <li>Big O Notation</li>
+              <li>Functional Programming</li>
+              <li>MERN Stack</li>
+              <li>Model‑View‑Controller (MVC) Paradigm</li>
+              <li>Object‑Oriented Programming (OOP)</li>
+              <li>Object‑Relational Mapping (ORM)</li>
+              <li>Progressive Web Applications (PWA)</li>
+              <li>Test-Driven Development (TDD)</li>
             </ul>
           </div>
 

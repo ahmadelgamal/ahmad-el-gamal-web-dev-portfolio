@@ -5,6 +5,17 @@ function Project() {
 
   const [publicProjects] = useState([
     {
+      id: "ahmad-el-gamal-web-dev-portfolio",
+      name: "My Web‑Dev Portfolio",
+      category: "private",
+      description: "This website!",
+      tech: "HTML5 | CSS3 | JavaScript | React",
+      screenshot: "portfolio.gif",
+      alt: "Ahmad El Gamal's Portfolio",
+      link: "https://ahmadelgamal.github.io/",
+      repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
+    },
+    {
       id: "ucb-my-food-choices",
       name: "My Food Choices",
       category: "featured",
@@ -20,7 +31,7 @@ function Project() {
       name: "Bootcamp Travel",
       category: "featured",
       description: "Users can get quick quotes for airfare & lodging costs, and save & retrieve favorites results.",
-      tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js",
+      tech: "HTML5 | CSS3 | JavaScript | jQuery | UIkit | Node.js | Express.js | Heroku",
       screenshot: "bootcamp-travel-flights.gif",
       alt: "Bootcamp Travel",
       link: "https://bootcamp-travel.herokuapp.com/",
@@ -118,7 +129,7 @@ function Project() {
       id: "ucb-run-buddy",
       name: "Run Buddy",
       category: "templates",
-      description: "A webpage for Run Buddy, a fictitious company that matches runners with personal trainers.",
+      description: "A webpage for a fictitious company that matches runners with personal trainers.",
       tech: "HTML5 | CSS3",
       screenshot: "run-buddy.png",
       alt: "Run Buddy",
@@ -146,17 +157,6 @@ function Project() {
       alt: "Taskmaster Pro",
       link: "https://ahmadelgamal.github.io/ucb-taskmaster-pro/",
       repo: "https://github.com/ahmadelgamal/ucb-taskmaster-pro"
-    },
-    {
-      id: "ahmad-el-gamal-web-dev-portfolio",
-      name: "My Web‑Dev Portfolio",
-      category: "private",
-      description: "This website!",
-      tech: "HTML5 | CSS3 | JavaScript | React",
-      screenshot: "portfolio.gif",
-      alt: "Ahmad El Gamal's Portfolio",
-      link: "https://ahmadelgamal.github.io/",
-      repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
     },
   ]);
 
@@ -224,10 +224,10 @@ function Project() {
       </section>
 
       <section id="projects" className="container">
-      <h1>Coding Portfolio</h1>
+        <h1>Coding Portfolio</h1>
         <div className="public-repo">
 
-          <h2 id="public-repo-title">PUBLIC REPO PROJECTS</h2>
+          <h2 id="public-repo-title">PUBLIC-REPO PROJECTS</h2>
           { publicProjects.map((project) => (
 
             <article key={ project.id } id={ project.id } className={ project.category }>
@@ -269,7 +269,7 @@ function Project() {
         <hr />
 
         <div className="private-repo">
-          <h2>PRIVATE REPO PROJECTS</h2>
+          <h2>PRIVATE-REPO PROJECTS</h2>
           { privateProjects.map((project) => (
 
             <article key={ project.id } id={ project.id } className={ project.category }>
