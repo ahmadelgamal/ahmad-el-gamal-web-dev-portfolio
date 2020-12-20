@@ -36,7 +36,7 @@ function About(props) {
           In July 2020, Ahmad upgraded his coding knowledge &amp; skills, advanced his techniques and updated his development tools by joining an online coding bootcamp, for full‑stack web‑development, at the University of California, Berkeley (UCB), extension.
         </p>
         <p>
-          Samples of his work can be seen in the <a href="#Portfolio" onClick={ () => props.handlePageChange('Portfolio') }>Portfolio</a> section of this website, which demonstrate proficiency in both the front‑end and back‑end stacks. Please feel free to visit the deployed websites of each project and browse their code repositories on <a href="https://github.com/ahmadelgamal" target="_blank" rel="noreferrer">GitHub</a>.
+          Samples of his work can be seen in the <a href="#Portfolio" onClick={ () => props.handlePageChange('Portfolio') }>Portfolio</a> section of this website, which demonstrate proficiency in both the front‑end and back‑end stacks. Please feel free to visit the deployed website of each project and browse their code repositories on <a href="https://github.com/ahmadelgamal" target="_blank" rel="noreferrer">GitHub</a>.
         </p>
         <p>
           Ahmad was born in Egypt and is also a United States citizen. He lives
