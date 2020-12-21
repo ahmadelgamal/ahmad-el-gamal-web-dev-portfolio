@@ -55,7 +55,7 @@ https://github.com/ahmadelgamal/ahmadelgamal.github.io
 
 ## Roadmap
 1. Add burger menu for mobile screens.
-1. Develop backend for contact form.
+1. Add filtering and sorting of projects.
 
 ## Questions
 Please send your questions and / or comments to **Ahmad El Gamal** at ahmadelgamal@gmail.com, or contact me on [GitHub](https://github.com/ahmadelgamal).
