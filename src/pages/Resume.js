@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012200648PM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012210342PM';
 
 function Resume() {
   useEffect(() => {
@@ -43,7 +43,6 @@ function Resume() {
             <ul>
               <li>jQuery</li>
               <li>jQuery UI</li>
-              <li>Moment.js</li>
               <li>React</li>
             </ul>
           </div>
@@ -51,7 +50,7 @@ function Resume() {
           <div className="flex-list">
             <h3>Front‑End Frameworks:</h3>
             <ul>
-              <li>Bootstrap 4</li>
+              <li>Bootstrap</li>
               <li>Materialize</li>
               <li>UIkit</li>
             </ul>
@@ -72,7 +71,7 @@ function Resume() {
             <h3>Back‑End:</h3>
             <ul>
               <li>Authentication</li>
-              <li>EJS</li>
+              <li>Embedded JavaScript Templates (EJS)</li>
               <li>Express.js</li>
               <li>Handlebars.js</li>
               <li>Node.js</li>
@@ -143,6 +142,7 @@ function Resume() {
               <li>Functional Programming</li>
               <li>MERN Stack</li>
               <li>Model‑View‑Controller (MVC) Paradigm</li>
+              <li>Object Data Modeling (ODM)</li>
               <li>Object‑Oriented Programming (OOP)</li>
               <li>Object‑Relational Mapping (ORM)</li>
               <li>Progressive Web Applications (PWA)</li>
