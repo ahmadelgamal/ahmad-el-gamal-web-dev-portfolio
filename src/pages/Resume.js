@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012210342PM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012220717PM';
 
 function Resume() {
   useEffect(() => {
@@ -63,6 +63,7 @@ function Resume() {
               <li>APIs</li>
               <li>GraphQL</li>
               <li>JSON</li>
+              <li>Redux</li>
               <li>Regex</li>
             </ul>
           </div>
@@ -70,11 +71,19 @@ function Resume() {
           <div className="flex-list">
             <h3>Back‑End:</h3>
             <ul>
-              <li>Authentication</li>
               <li>Embedded JavaScript Templates (EJS)</li>
               <li>Express.js</li>
               <li>Handlebars.js</li>
               <li>Node.js</li>
+            </ul>
+          </div>
+
+          <div className="flex-list">
+            <h3>Authentication:</h3>
+            <ul>
+              <li>JWT</li>
+              <li>OAuth</li>
+              <li>Sessions</li>
             </ul>
           </div>
 
@@ -84,7 +93,9 @@ function Resume() {
               <li>MongoDB</li>
               <li>Mongoose</li>
               <li>MySQL</li>
+              <li>MySQLWorkbench</li>
               <li>NoSQL</li>
+              <li>Robo 3T</li>
               <li>Sequelize</li>
               <li>SQL</li>
               <li>SQLite</li>
