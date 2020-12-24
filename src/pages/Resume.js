@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012220717PM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012240113AM';
 
 function Resume() {
   useEffect(() => {
@@ -91,11 +91,11 @@ function Resume() {
             <h3>Database:</h3>
             <ul>
               <li>MongoDB</li>
+              <li>MongoDB Compass</li>
               <li>Mongoose</li>
               <li>MySQL</li>
               <li>MySQLWorkbench</li>
               <li>NoSQL</li>
-              <li>Robo 3T</li>
               <li>Sequelize</li>
               <li>SQL</li>
               <li>SQLite</li>
@@ -123,6 +123,7 @@ function Resume() {
               <li>FileZilla (FTP)</li>
               <li>Google Analytics</li>
               <li>iTerm2</li>
+              <li>Robo 3T</li>
               <li>Xamarin</li>
               <li>Xcode</li>
             </ul>
