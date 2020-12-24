@@ -91,10 +91,10 @@ function Resume() {
             <h3>Database:</h3>
             <ul>
               <li>MongoDB</li>
-              <li>MongoDB Compass</li>
+              <li>MongoDB Compass</li>
               <li>Mongoose</li>
               <li>MySQL</li>
-              <li>MySQLWorkbench</li>
+              <li>MySQL Workbench</li>
               <li>NoSQL</li>
               <li>Sequelize</li>
               <li>SQL</li>
