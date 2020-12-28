@@ -133,6 +133,7 @@ function Resume() {
             <h3>Other Tools:</h3>
             <ul>
               <li>Photoshop</li>
+              <li>QuickTime Player</li>
               <li>Screencastify</li>
               <li>Slack</li>
             </ul>
