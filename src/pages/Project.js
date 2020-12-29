@@ -52,6 +52,17 @@ function Project() {
       repo: "https://github.com/ahmadelgamal/README-Gen-Pro"
     },
     {
+      id: "social-network-api",
+      name: "Social Network API",
+      category: "templates",
+      description: "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+      tech: "JavaScript | Node.js | Express.js | MongoDB | Mongoose.js",
+      screenshot: "social-network-api.gif",
+      alt: "Social Network API",
+      link: "https://github.com/ahmadelgamal/social-network-api",
+      repo: "https://github.com/ahmadelgamal/social-network-api"
+    },
+    {
       id: "ucb-note-taker",
       name: "Note Taker",
       category: "templates",
