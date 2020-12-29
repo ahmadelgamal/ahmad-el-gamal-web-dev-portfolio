@@ -124,6 +124,7 @@ hr {
 
 #logo img {
   height: 30px;
+  width: 30px;
   transition: height 0.5s;
 }
 
@@ -387,6 +388,7 @@ footer a {
 
   #logo img {
     height: 50px;
+    width: 50px;
     transition: height 0.5s;
   }
 

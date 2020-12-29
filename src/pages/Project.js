@@ -79,7 +79,7 @@ function Project() {
       category: "templates",
       description: "A weather dashboard that uses the OpenWeather API to retrieve weather data for cities.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "weather-dashboard.png",
+      screenshot: "min/weather-dashboard-min.png",
       alt: "Weather Dashboard",
       link: "https://ahmadelgamal.github.io/ucb-weather-dashboard/",
       repo: "https://github.com/ahmadelgamal/ucb-weather-dashboard"
@@ -90,7 +90,7 @@ function Project() {
       category: "templates",
       description: "A timed code quiz with multiple-choice questions.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "code-quiz.png",
+      screenshot: "min/code-quiz-min.png",
       alt: "Code Quiz",
       link: "https://ahmadelgamal.github.io/ucb-code-quiz/",
       repo: "https://github.com/ahmadelgamal/ucb-code-quiz"
@@ -101,7 +101,7 @@ function Project() {
       category: "templates",
       description: "This app can be used by an employee to generate a random password based on criteria they’ve selected.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "password-generator.png",
+      screenshot: "min/password-generator-min.png",
       alt: "Password Generator",
       link: "https://ahmadelgamal.github.io/ucb-password-generator/",
       repo: "https://github.com/ahmadelgamal/ucb-password-generator"
@@ -112,7 +112,7 @@ function Project() {
       category: "templates",
       description: "A static website for a web-development company.",
       tech: "HTML5 | CSS3",
-      screenshot: "horiseon.png",
+      screenshot: "min/horiseon-min.png",
       alt: "Horiseon",
       link: "https://ahmadelgamal.github.io/ucb-horiseon/",
       repo: "https://github.com/ahmadelgamal/horiseon/"
@@ -134,7 +134,7 @@ function Project() {
       category: "templates",
       description: "A game where a player's robot can fight another robot until one of them loses.",
       tech: "JavaScript",
-      screenshot: "robot-gladiators.png",
+      screenshot: "min/robot-gladiators-min.png",
       alt: "Robot Gladiators",
       link: "https://ahmadelgamal.github.io/ucb-robot-gladiators/",
       repo: "https://github.com/ahmadelgamal/ucb-robot-gladiators"
@@ -145,7 +145,7 @@ function Project() {
       category: "templates",
       description: "A webpage for a fictitious company that matches runners with personal trainers.",
       tech: "HTML5 | CSS3",
-      screenshot: "run-buddy.png",
+      screenshot: "min/run-buddy-min.png",
       alt: "Run Buddy",
       link: "https://ahmadelgamal.github.io/ucb-run-buddy/",
       repo: "https://github.com/ahmadelgamal/ucb-run-buddy"
@@ -156,7 +156,7 @@ function Project() {
       category: "templates",
       description: "A task-tracker application.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "taskinator.png",
+      screenshot: "min/taskinator-min.png",
       alt: "Taskinator",
       link: "https://ahmadelgamal.github.io/ucb-taskinator/",
       repo: "https://github.com/ahmadelgamal/ucb-taskinator"
@@ -167,7 +167,7 @@ function Project() {
       category: "templates",
       description: "A web app for managing tasks.",
       tech: "HTML5 | CSS3 | JavaScript | jQuery | jQuery UI",
-      screenshot: "taskmaster-pro.png",
+      screenshot: "min/taskmaster-pro-min.png",
       alt: "Taskmaster Pro",
       link: "https://ahmadelgamal.github.io/ucb-taskmaster-pro/",
       repo: "https://github.com/ahmadelgamal/ucb-taskmaster-pro"
@@ -181,7 +181,7 @@ function Project() {
       category: "featured",
       description: "A catalog of products, with specifications, pictures and prices, for a furniture company.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "lifetime-egypt.png",
+      screenshot: "min/lifetime-egypt-min.png",
       alt: "Lifetime Egypt",
       link: "https://lifetimeegypt.com/",
       repo: "https://github.com/ahmadelgamal/lifetime-egypt"
@@ -192,7 +192,7 @@ function Project() {
       category: "private",
       description: "A website for an import/export company.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "crescent-trade.png",
+      screenshot: "min/crescent-trade-min.png",
       alt: "Crescent Trade",
       link: "https://crescenttrade.com/",
     },
@@ -202,7 +202,7 @@ function Project() {
       category: "private",
       description: "A website for a real-estate company.",
       tech: "iWeb",
-      screenshot: "elgamal-group.png",
+      screenshot: "min/elgamal-group-min.png",
       alt: "El Gamal Group",
       link: "http://elgamalgroup.com/",
     },
@@ -212,7 +212,7 @@ function Project() {
       category: "private",
       description: "A quick reference for students of Al-Azhar online program.",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "alazhar.png",
+      screenshot: "min/alazhar-min.png",
       alt: "El Gamal's Azhari Guide",
       link: "https://ahmadelgamal.com/alazhar/",
     },
@@ -222,7 +222,7 @@ function Project() {
       category: "private",
       description: "My personal page!",
       tech: "HTML5 | CSS3 | JavaScript",
-      screenshot: "imam-ahmad.png",
+      screenshot: "min/imam-ahmad-min.png",
       alt: "Imam Ahmad El Gamal",
       link: "https://ahmadelgamal.com/",
     },
@@ -232,7 +232,7 @@ function Project() {
     <>
       <section key="hero-portfolio" id="hero-portfolio" className="hero-images">
         <img
-          src={ require(`../assets/images/hero/code-macbook.jpg`).default }
+          src={ require(`../assets/images/hero/min/code-macbook-min.jpg`).default }
           alt={ "Eyeglasses focusing on MacBook screen with code on it." }
         />
       </section>
