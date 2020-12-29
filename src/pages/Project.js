@@ -166,7 +166,7 @@ function Project() {
       name: "Taskmaster Pro",
       category: "templates",
       description: "A web app for managing tasks.",
-      tech: "HTML5 | CSS3 | JavaScript | jQuery | jQuery UI",
+      tech: "HTML5 | CSS3 | JavaScript | jQuery | jQuery UI",
       screenshot: "taskmaster-pro.png",
       alt: "Taskmaster Pro",
       link: "https://ahmadelgamal.github.io/ucb-taskmaster-pro/",
