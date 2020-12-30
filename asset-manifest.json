@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.463c98d5.chunk.css",
-    "main.js": "/static/js/main.f961a741.chunk.js",
-    "main.js.map": "/static/js/main.f961a741.chunk.js.map",
+    "main.js": "/static/js/main.8d0ff00a.chunk.js",
+    "main.js.map": "/static/js/main.8d0ff00a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b243c904.js",
     "runtime-main.js.map": "/static/js/runtime-main.b243c904.js.map",
     "static/js/2.8afdb38b.chunk.js": "/static/js/2.8afdb38b.chunk.js",
@@ -36,7 +36,7 @@
     "static/media/imam-ahmad.png": "/static/media/imam-ahmad.a6f026a4.png",
     "static/media/lifetime-egypt-min.png": "/static/media/lifetime-egypt-min.04459eaf.png",
     "static/media/lifetime-egypt.png": "/static/media/lifetime-egypt.0668df1a.png",
-    "static/media/logo-ahmad.1782308a.png": "/static/media/logo-ahmad.1782308a.png",
+    "static/media/logo-ahmad.757af87c.png": "/static/media/logo-ahmad.757af87c.png",
     "static/media/mfc-user-update-profile.gif": "/static/media/mfc-user-update-profile.0c597056.gif",
     "static/media/note-taker.gif": "/static/media/note-taker.d9ee9db4.gif",
     "static/media/password-generator-min.png": "/static/media/password-generator-min.cce473bf.png",
@@ -59,6 +59,6 @@
     "static/js/runtime-main.b243c904.js",
     "static/js/2.8afdb38b.chunk.js",
     "static/css/main.463c98d5.chunk.css",
-    "static/js/main.f961a741.chunk.js"
+    "static/js/main.8d0ff00a.chunk.js"
   ]
 }
