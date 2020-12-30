@@ -14,8 +14,10 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             ><img
-                src={githubIcon}
+                src={ githubIcon }
                 alt="Link to Ahmad El Gamal's GitHub Page"
+                width="50px"
+                height="50px"
               /></a>
           </li>
           <li>
@@ -24,8 +26,10 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             ><img
-                src={linkedinIcon}
+                src={ linkedinIcon }
                 alt="Link to Ahmad El Gamal's LinkedIn Page"
+                width="50px"
+                height="50px"
               /></a>
           </li>
           <li>
@@ -34,8 +38,10 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             ><img
-                src={stackoverflowIcon}
+                src={ stackoverflowIcon }
                 alt="Link to Ahmad El Gamal's StackOverflow Page"
+                width="50px"
+                height="50px"
               /></a>
           </li>
         </ul>

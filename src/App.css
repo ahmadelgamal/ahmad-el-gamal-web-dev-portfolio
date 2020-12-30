@@ -198,6 +198,7 @@ hr {
 
 .hero-images img {
   width: 100%;
+  height: auto;
   display: block;
 }
 /* ------------ ends styling for sections with hero-images class ------------ */
@@ -257,6 +258,7 @@ main a:visited {
   z-index: 1;
   position: absolute;
   width: 70px;
+  height: 70px;
   right: 20px;
   top: 120px;
 }
@@ -344,6 +346,7 @@ footer a {
 
 .social-media img {
   height: 40px;
+  width: 40px;
 }
 /*-----------------------------ends footer styles-----------------------------*/
 /*----------------------ends xs (<= 768px) - phone styles---------------------*/
@@ -466,6 +469,7 @@ footer a {
 
   .social-media img {
     height: 50px;
+    width: 50px;
   }
 }
 /*-------------------ends sm (768px < 992px) tablets styles-------------------*/
@@ -574,6 +578,7 @@ footer a {
 
   .social-media img {
     height: 70px;
+    width: 70px;
   }
 }
 /*---------------ends lg (>= 1200px) laptops & desktops styles----------------*/

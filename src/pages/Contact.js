@@ -59,7 +59,9 @@ function Contact() {
       <section key="hero-contact" id="hero-contact" className="hero-images">
         <img
           src={ require(`../assets/images/hero/min/cairo-skyline-min.jpg`).default }
-          alt={ "View of Cairo skyline from Ahmad's home in Giza, Egypt." }
+          alt="View of Cairo skyline from Ahmad's home in Giza, Egypt."
+          width="1920px"
+          height="900px"
         />
       </section>
 

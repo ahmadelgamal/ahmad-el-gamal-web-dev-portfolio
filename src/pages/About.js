@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 
 function About(props) {
   useEffect(() => {
@@ -10,7 +10,9 @@ function About(props) {
       <section key="hero-about" id="hero-about" className="hero-images">
         <img
           src={ require(`../assets/images/hero/min/ahmad-ca-min.jpg`).default }
-          alt={ "Ahmad El Gamal in his office in Irvine, CA." }
+          alt="Ahmad El Gamal in his office in Irvine, CA."
+          width="1920px"
+          height="900px"
         />
       </section>
 

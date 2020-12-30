@@ -233,7 +233,9 @@ function Project() {
       <section key="hero-portfolio" id="hero-portfolio" className="hero-images">
         <img
           src={ require(`../assets/images/hero/min/code-macbook-min.jpg`).default }
-          alt={ "Eyeglasses focusing on MacBook screen with code on it." }
+          alt="Eyeglasses focusing on MacBook screen with code on it."
+          width="1920px"
+          height="900px"
         />
       </section>
 

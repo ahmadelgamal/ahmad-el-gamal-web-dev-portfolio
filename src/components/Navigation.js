@@ -14,7 +14,7 @@ function Navigation(props) {
           id="logo"
           onClick={ () => props.handlePageChange('About') }
         >
-          <img src={ logo } alt="Logo" /><span id="first-name">Ahmad&nbsp;</span><span id="last-name">El Gamal</span>
+          <img src={ logo } alt="Logo" width="30px" height="30px" /><span id="first-name">Ahmad&nbsp;</span><span id="last-name">El Gamal</span>
         </a>
 
         <nav>

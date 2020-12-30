@@ -11,7 +11,9 @@ function Resume() {
       <section key="hero-resume" id="hero-resume" className="hero-images">
         <img
           src={ require(`../assets/images/hero/min/ahmad-nvis-min.jpg`).default }
-          alt={ "Ahmad in a hard hat supervising the construction of New Vision International School in Giza, Egypt." }
+          alt="Ahmad in a hard hat supervising the construction of New Vision International School in Giza, Egypt."
+          width="1920px"
+          height="900px"
         />
       </section>
 
