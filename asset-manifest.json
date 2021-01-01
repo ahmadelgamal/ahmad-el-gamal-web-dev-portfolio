@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.463c98d5.chunk.css",
-    "main.js": "/static/js/main.b2146e25.chunk.js",
-    "main.js.map": "/static/js/main.b2146e25.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b243c904.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b243c904.js.map",
-    "static/js/2.8afdb38b.chunk.js": "/static/js/2.8afdb38b.chunk.js",
-    "static/js/2.8afdb38b.chunk.js.map": "/static/js/2.8afdb38b.chunk.js.map",
-    "static/js/3.69588b3e.chunk.js": "/static/js/3.69588b3e.chunk.js",
-    "static/js/3.69588b3e.chunk.js.map": "/static/js/3.69588b3e.chunk.js.map",
+    "main.js": "/static/js/main.47877973.chunk.js",
+    "main.js.map": "/static/js/main.47877973.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bf704f7b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bf704f7b.js.map",
+    "static/js/2.7ed78fc5.chunk.js": "/static/js/2.7ed78fc5.chunk.js",
+    "static/js/2.7ed78fc5.chunk.js.map": "/static/js/2.7ed78fc5.chunk.js.map",
+    "static/js/3.f8b90d39.chunk.js": "/static/js/3.f8b90d39.chunk.js",
+    "static/js/3.f8b90d39.chunk.js.map": "/static/js/3.f8b90d39.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.463c98d5.chunk.css.map": "/static/css/main.463c98d5.chunk.css.map",
-    "static/js/2.8afdb38b.chunk.js.LICENSE.txt": "/static/js/2.8afdb38b.chunk.js.LICENSE.txt",
+    "static/js/2.7ed78fc5.chunk.js.LICENSE.txt": "/static/js/2.7ed78fc5.chunk.js.LICENSE.txt",
     "static/media/Ahmad-El-Gamal-Web-Development-resume.723bb940.pdf": "/static/media/Ahmad-El-Gamal-Web-Development-resume.723bb940.pdf",
     "static/media/ahmad-ca-min.jpg": "/static/media/ahmad-ca-min.930ae265.jpg",
     "static/media/ahmad-nvis-min.jpg": "/static/media/ahmad-nvis-min.adcb6a65.jpg",
     "static/media/alazhar-min.png": "/static/media/alazhar-min.ef620471.png",
     "static/media/alazhar.png": "/static/media/alazhar.255b9b1c.png",
     "static/media/bootcamp-travel-flights.gif": "/static/media/bootcamp-travel-flights.5dff5322.gif",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.33479143.png",
     "static/media/cairo-skyline-min.jpg": "/static/media/cairo-skyline-min.23b39aa9.jpg",
     "static/media/code-macbook-min.jpg": "/static/media/code-macbook-min.f7d77a04.jpg",
     "static/media/code-quiz-min.png": "/static/media/code-quiz-min.c54df360.png",
@@ -56,9 +57,9 @@
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.da161e47.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b243c904.js",
-    "static/js/2.8afdb38b.chunk.js",
+    "static/js/runtime-main.bf704f7b.js",
+    "static/js/2.7ed78fc5.chunk.js",
     "static/css/main.463c98d5.chunk.css",
-    "static/js/main.b2146e25.chunk.js"
+    "static/js/main.47877973.chunk.js"
   ]
 }
