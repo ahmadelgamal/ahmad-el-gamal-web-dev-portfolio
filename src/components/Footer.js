@@ -46,7 +46,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <p>Copyright &copy; 2020 Ahmad El Gamal. All rights reserved.</p>
+      <p>Copyright &copy; 2021 Ahmad El Gamal. All rights reserved.</p>
     </footer>
   );
 }
