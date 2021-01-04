@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Development-resume.pdf?202012240113AM';
+import resume from '../assets/downloads/Ahmad-El-Gamal-Web-Dev-Resume.pdf';
 
 function Resume() {
   useEffect(() => {
@@ -135,6 +135,7 @@ function Resume() {
           <div className="flex-list">
             <h3>Other Tools:</h3>
             <ul>
+              <li>Facebook Ads</li>
               <li>Photoshop</li>
               <li>QuickTime Player</li>
               <li>Screencastify</li>
