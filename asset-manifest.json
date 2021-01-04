@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.463c98d5.chunk.css",
-    "main.js": "/static/js/main.47877973.chunk.js",
-    "main.js.map": "/static/js/main.47877973.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bf704f7b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bf704f7b.js.map",
-    "static/js/2.7ed78fc5.chunk.js": "/static/js/2.7ed78fc5.chunk.js",
-    "static/js/2.7ed78fc5.chunk.js.map": "/static/js/2.7ed78fc5.chunk.js.map",
-    "static/js/3.f8b90d39.chunk.js": "/static/js/3.f8b90d39.chunk.js",
-    "static/js/3.f8b90d39.chunk.js.map": "/static/js/3.f8b90d39.chunk.js.map",
+    "main.js": "/static/js/main.a5e02a5d.chunk.js",
+    "main.js.map": "/static/js/main.a5e02a5d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.51145bae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.51145bae.js.map",
+    "static/js/2.7ac571e8.chunk.js": "/static/js/2.7ac571e8.chunk.js",
+    "static/js/2.7ac571e8.chunk.js.map": "/static/js/2.7ac571e8.chunk.js.map",
+    "static/js/3.1b135835.chunk.js": "/static/js/3.1b135835.chunk.js",
+    "static/js/3.1b135835.chunk.js.map": "/static/js/3.1b135835.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.463c98d5.chunk.css.map": "/static/css/main.463c98d5.chunk.css.map",
-    "static/js/2.7ed78fc5.chunk.js.LICENSE.txt": "/static/js/2.7ed78fc5.chunk.js.LICENSE.txt",
-    "static/media/Ahmad-El-Gamal-Web-Development-resume.723bb940.pdf": "/static/media/Ahmad-El-Gamal-Web-Development-resume.723bb940.pdf",
+    "static/js/2.7ac571e8.chunk.js.LICENSE.txt": "/static/js/2.7ac571e8.chunk.js.LICENSE.txt",
+    "static/media/Ahmad-El-Gamal-Web-Development-resume.9f0f761f.pdf": "/static/media/Ahmad-El-Gamal-Web-Development-resume.9f0f761f.pdf",
     "static/media/ahmad-ca-min.jpg": "/static/media/ahmad-ca-min.930ae265.jpg",
     "static/media/ahmad-nvis-min.jpg": "/static/media/ahmad-nvis-min.adcb6a65.jpg",
     "static/media/alazhar-min.png": "/static/media/alazhar-min.ef620471.png",
     "static/media/alazhar.png": "/static/media/alazhar.255b9b1c.png",
     "static/media/bootcamp-travel-flights.gif": "/static/media/bootcamp-travel-flights.5dff5322.gif",
+    "static/media/budget-tracker-min.png": "/static/media/budget-tracker-min.902a92e7.png",
     "static/media/budget-tracker.png": "/static/media/budget-tracker.33479143.png",
     "static/media/cairo-skyline-min.jpg": "/static/media/cairo-skyline-min.23b39aa9.jpg",
     "static/media/code-macbook-min.jpg": "/static/media/code-macbook-min.f7d77a04.jpg",
@@ -48,7 +49,7 @@
     "static/media/robot-gladiators.png": "/static/media/robot-gladiators.422f5064.png",
     "static/media/run-buddy-min.png": "/static/media/run-buddy-min.46b18bba.png",
     "static/media/run-buddy.png": "/static/media/run-buddy.021c4833.png",
-    "static/media/social-network-api.gif": "/static/media/social-network-api.c2d119f1.gif",
+    "static/media/social-network-api-min.gif": "/static/media/social-network-api-min.c5edba99.gif",
     "static/media/taskinator-min.png": "/static/media/taskinator-min.1473abe6.png",
     "static/media/taskinator.png": "/static/media/taskinator.675ab5b7.png",
     "static/media/taskmaster-pro-min.png": "/static/media/taskmaster-pro-min.03c7b7e0.png",
@@ -57,9 +58,9 @@
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.da161e47.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf704f7b.js",
-    "static/js/2.7ed78fc5.chunk.js",
+    "static/js/runtime-main.51145bae.js",
+    "static/js/2.7ac571e8.chunk.js",
     "static/css/main.463c98d5.chunk.css",
-    "static/js/main.47877973.chunk.js"
+    "static/js/main.a5e02a5d.chunk.js"
   ]
 }
