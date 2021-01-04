@@ -9,7 +9,7 @@ function About(props) {
     <>
       <section key="hero-about" id="hero-about" className="hero-images">
         <img
-          src={ require(`../assets/images/hero/min/ahmad-ca-min.jpg`).default }
+          src={ require(`../assets/images/hero/ahmad-ca-min.jpg`).default }
           alt="Ahmad El Gamal in his office in Irvine, CA."
           width="1920px"
           height="900px"

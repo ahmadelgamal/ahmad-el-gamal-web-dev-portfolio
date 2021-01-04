@@ -10,7 +10,7 @@ function Resume() {
     <>
       <section key="hero-resume" id="hero-resume" className="hero-images">
         <img
-          src={ require(`../assets/images/hero/min/ahmad-nvis-min.jpg`).default }
+          src={ require(`../assets/images/hero/ahmad-nvis-min.jpg`).default }
           alt="Ahmad in a hard hat supervising the construction of New Vision International School in Giza, Egypt."
           width="1920px"
           height="900px"
@@ -108,6 +108,7 @@ function Resume() {
             <h3>Web-Dev Tools:</h3>
             <ul>
               <li>Chrome DevTools</li>
+              <li>GraphiQL</li>
               <li>Heroku</li>
               <li>Insomnia Core</li>
               <li>Jest</li>
