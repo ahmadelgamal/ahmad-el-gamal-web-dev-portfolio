@@ -19,6 +19,17 @@ function Project() {
       repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
     },
     {
+      id: "ucb-adopt-me",
+      name: "Adopt Me",
+      category: "featured",
+      description: "Adopt Me is a website for a dog shelter where users (site visitors) can buy and adopt the dogs.",
+      tech: "HTML5 | CSS3 | JavaScript | Node.js | Express.js | Apollo Server | React | GraphQl | JWT | MongoDB | Mongoose | bcrypt | Stripe | Heroku",
+      screenshot: "adopt-me-min.png",
+      alt: "Adopt Me",
+      link: "https://adopt-me-hameed1239.herokuapp.com/",
+      repo: "https://github.com/hameed1239/adopt-me"
+    },
+    {
       id: "ucb-my-food-choices",
       name: "My Food Choices",
       category: "featured",
