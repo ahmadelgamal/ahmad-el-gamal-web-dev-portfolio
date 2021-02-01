@@ -273,10 +273,17 @@ main a:visited {
 /* ----------------- ends styling for Project.js component ------------------ */
 
 /* ---------------- starts styling for Contact.js component ----------------- */
+#contact-form {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  border: 2px solid var(--primary-color-hex);
+  border-radius: 10px;
+}
+
 label,
 input,
-#message-input,
-#contact-submit {
+#message-input {
   display: block;
   width: 100%;
 }
@@ -291,13 +298,22 @@ textarea {
   font-size: var(--h6-font-size);
   margin-bottom: var(--h6-font-size);
   padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color-hex);
 }
 
 #contact-submit {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 120px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--secondary-color-hex);
+}
+
+#contact-form-error-message {
+  margin-top: 10px;
+  text-align: center;
 }
 /* ----------------- ends styling for Contact.js component ------------------ */
 
@@ -437,13 +453,6 @@ footer a {
     margin-left: 0;
   } */
 
-  label,
-  input,
-  #message-input,
-  #contact-submit {
-    width: 50%;
-  }
-
   #contact-submit {
     margin-top: 30px;
   }
@@ -563,13 +572,6 @@ footer a {
   .private-repo article:nth-of-type(3n + 2) {
     margin-right: 5%;
     margin-left: 5%;
-  }
-
-  label,
-  input,
-  #message-input,
-  #contact-submit {
-    width: 40%;
   }
 
   .flex-list {
