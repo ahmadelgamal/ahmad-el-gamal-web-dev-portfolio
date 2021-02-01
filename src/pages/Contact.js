@@ -37,21 +37,37 @@ function Contact() {
   function handleSubmit(event) {
     event.preventDefault();
     // console.log(formState);
-    emailjs.sendForm('service_xbl8m76', 'template_yy13ndc', event.target, 'user_3QlmspmFC6ohkE8C94IEp')
-      .then((result) => {
-        // console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      })
-      .then(() => {
-        setErrorMessage('Message sent successfully!');
-        setTimeout(function () { setErrorMessage(''); }, 3000);
-      })
-      .then(() => {
-        event.target.querySelector("input[name='name'").value = "";
-        event.target.querySelector("input[name='email'").value = "";
-        event.target.querySelector("textarea[name='message'").value = "";
-      });
+
+    let name = false;
+    let email = false;
+    let message = false;
+
+    if (event.target.querySelector("input[name='name'").value.trim() === "") setErrorMessage('Please type your full name');
+    else name = true;
+
+    if (event.target.querySelector("input[name='email'").value.trim() === "") setErrorMessage('Please type your email address');
+    else email = true;
+
+    if (event.target.querySelector("textarea[name='message'").value.trim() === "") setErrorMessage('Please type your message');
+    else message = true;
+
+    if (name && email && message) {
+      emailjs.sendForm('service_xbl8m76', 'template_yy13ndc', event.target, 'user_3QlmspmFC6ohkE8C94IEp')
+        .then((result) => {
+          // console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        })
+        .then(() => {
+          setErrorMessage('Message sent successfully!');
+          setTimeout(function () { setErrorMessage(''); }, 3000);
+        })
+        .then(() => {
+          event.target.querySelector("input[name='name'").value = "";
+          event.target.querySelector("input[name='email'").value = "";
+          event.target.querySelector("textarea[name='message'").value = "";
+        });
+    }
   }
 
   return (
