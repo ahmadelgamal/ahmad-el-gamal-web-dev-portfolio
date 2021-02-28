@@ -3,7 +3,7 @@ import logo from '../logo-ahmad.png';
 
 function Navigation(props) {
 
-  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+  const tabs = ['About', 'Portfolio', 'Skills', 'Resume', 'Contact'];
 
   return (
     <div id="navbar">
