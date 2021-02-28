@@ -30,7 +30,7 @@ function Resume() {
           </a>
         </h2>
 
-        <object width="100%" height="1080px" data={resume} type="application/pdf">   </object>
+        {/* <object width="100%" height="1080px" data={resume} type="application/pdf">   </object> */}
 
       </section>
     </>
