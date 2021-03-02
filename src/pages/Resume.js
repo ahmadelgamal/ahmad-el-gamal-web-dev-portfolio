@@ -74,6 +74,19 @@ function Resume() {
         </ul>
 
         <div className='flex mt-20'>
+          <h4>Online Mobile-App Development Courses</h4>
+          <h4>Jul 2013 - Aug 2015</h4>
+        </div>
+        <div className='flex'>
+          <h4>University of California, Extension</h4>
+          <h4>Irvine, CA</h4>
+        </div>
+        <ul>
+          <li>Intro to mobile-app application design and development on Android, iOS &amp; Windows Phone.</li>
+          <li>Advanced mobile development for Apple iPhone and iPad.</li>
+        </ul>
+
+        <div className='flex mt-20'>
           <h4>Civil Engineer</h4>
         </div>
         <div className='flex'>
@@ -81,7 +94,7 @@ function Resume() {
           <h4>Boulder, CO</h4>
         </div>
         <ul>
-          <li>Bachelor of Science in Civil Engineering</li>
+          <li>Bachelor of Science in Civil Engineering.</li>
         </ul>
       </section>
     </>
