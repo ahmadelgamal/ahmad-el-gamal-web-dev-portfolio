@@ -53,6 +53,14 @@
   margin: 0 5%;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
 h1,
 h2,
 h3,
@@ -328,6 +336,20 @@ textarea {
 
 #skills h3 {
   text-align: left;
+}
+
+#resume h4 {
+  line-height: 0.75;
+}
+
+#resume li {
+  margin-left: 5%;
+}
+
+#resume .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* ------------------ ends styling for Resume.js component ------------------ */
 /*------------------------------ends main styles------------------------------*/
