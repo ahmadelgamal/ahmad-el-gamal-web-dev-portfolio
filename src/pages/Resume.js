@@ -70,7 +70,7 @@ function Resume() {
           <h4>Berkeley, CA</h4>
         </div>
         <ul>
-          <li>Online Full-Stack Web-Development Certificate</li>
+          <li>Online Full-Stack Web-Development Certificate (MERN Stack)</li>
         </ul>
 
         <div className='flex mt-20'>
