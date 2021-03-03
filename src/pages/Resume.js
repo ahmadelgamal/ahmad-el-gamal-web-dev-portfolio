@@ -17,7 +17,7 @@ function Resume() {
         />
       </section>
 
-      <section id="resume" className="container">
+      <section id="resume" className=" limit-width">
         <h1>Resume</h1>
 
         <h2 id="download-header">

@@ -49,7 +49,8 @@
 
 /*---------------------starts xs (<= 768px) - phone styles--------------------*/
 /*----------------------------starts common styles----------------------------*/
-.container {
+.container,
+.limit-width {
   margin: 0 5%;
 }
 
@@ -508,6 +509,11 @@ footer a {
 /*--------------starts md (992px < 1199px) small laptops styles---------------*/
 @media screen and (min-width: 992px) {
   /*------------------------------common styles-------------------------------*/
+  .limit-width {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   h1 {
     font-size: calc(var(--h1-font-size) + var(--font-size-plus-eight));
   }

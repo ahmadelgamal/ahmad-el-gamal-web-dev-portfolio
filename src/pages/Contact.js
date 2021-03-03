@@ -81,7 +81,7 @@ function Contact() {
         />
       </section>
 
-      <section id="contacts" className="container">
+      <section id="contacts" className="container limit-width">
         <h1>Contact Ahmad El Gamal</h1>
         <form id="contact-form" onSubmit={ handleSubmit }>
           <div>

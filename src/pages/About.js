@@ -17,7 +17,7 @@ function About(props) {
         />
       </section>
 
-      <section id="about" className="container">
+      <section id="about" className="container limit-width">
         <h1>About Ahmad El Gamal</h1>
         <p>
           Ahmad is a certified full-stack (MERN) web-developer. He completed a 24-week full-stack online coding bootcamp at the University of California, Berkeley (UCB), extension, in January 2021.
