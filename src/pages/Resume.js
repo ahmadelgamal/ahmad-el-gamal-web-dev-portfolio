@@ -75,7 +75,7 @@ function Resume() {
 
         <div className='flex mt-20'>
           <h4>Online Mobile-App Development Courses</h4>
-          <h4>Jul 2013 - Aug 2015</h4>
+          <h4>April 2013 - Aug 2015</h4>
         </div>
         <div className='flex'>
           <h4>University of California, Extension</h4>
