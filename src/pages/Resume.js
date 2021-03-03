@@ -54,7 +54,7 @@ function Resume() {
           <h4>Irvine, CA</h4>
         </div>
         <ul>
-          <li>Patiently produced a mobile app (iOS and Android), that was downloaded all around the world.</li>
+          <li>Patiently produced a mobile app (iOS and Android), that was downloaded in many countries around the world.</li>
           <li>Aggressively launched an online furniture store with a facebook page that exceeded 50k likes in year 1.</li>
           <li>Created an online women’s fashion store that had two physical storefronts in Orange County, CA.</li>
         </ul>
