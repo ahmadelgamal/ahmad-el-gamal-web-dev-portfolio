@@ -12,7 +12,7 @@ function Project() {
       name: "Adopt Me",
       category: "featured",
       description: "Adopt Me is a website for a dog shelter where users (site visitors) can buy and adopt the dogs.",
-      tech: "HTML5 | CSS3 | JavaScript | Node.js | Express.js | Apollo Server | React | GraphQl | JWT | MongoDB | Mongoose | bcrypt | Stripe | Heroku",
+      tech: "HTML5 | CSS3 | JavaScript | Node.js | Express.js | Apollo Server | React | GraphQL | JWT | MongoDB | Mongoose | bcrypt | Stripe | Heroku",
       screenshot: "adopt-me-min.png",
       alt: "Adopt Me",
       link: "https://adopt-me-hameed1239.herokuapp.com/",
