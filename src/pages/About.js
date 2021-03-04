@@ -20,13 +20,13 @@ function About(props) {
       <section id="about" className="container limit-width">
         <h1>About Ahmad El Gamal</h1>
         <p>
-          Ahmad is a certified full-stack (MERN) web-developer. He completed a 24-week full-stack online coding bootcamp at the University of California, Berkeley (UCB), extension, in January 2021.
+          Entrepreneur, strategic planner, software developer and civil engineer. Imam, educator and lifelong learner. Ahmad is a highly effective and experienced leader with excellent communication skills, strong attention to detail and a remarkable ability to patiently organize and sort almost anything!
         </p>
         <p>
-          He also has experience and education in mobile-app development.
+          Ahmad founded and led many businesses in the fields of software development, education, construction, trade, retail and advertising.
         </p>
         <p>
-          Ahmad played many roles during his career, including entrepreneur, strategic planner, software developer, civil engineer, and educator. He is a highly effective and experienced leader with excellent communication skills, strong attention to detail and a remarkable ability to patiently organize and sort almost anything!
+          Ahmad continuously studies in multiple disciplines. In the specialty of software development, Ahmad studied several mobile-app development courses at the University of California, Irvine (UCI), extension. He also successfully completed a 24-week online coding bootcamp at the University of California, Berkeley (UCB), extension. He is certified by UCB as a full-stack (MERN) web-developer.
         </p>
         <p>
           Samples of his work can be seen in the <a href="#Portfolio" onClick={ () => props.handlePageChange('Portfolio') }>Portfolio</a> section of this website, which demonstrate proficiency in both the front‑end and back‑end stacks. Please feel free to visit the deployed website of each project and browse its code repository on <a href="https://github.com/ahmadelgamal" target="_blank" rel="noreferrer">GitHub</a>.
