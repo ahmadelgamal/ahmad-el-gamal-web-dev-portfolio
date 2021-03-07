@@ -23,6 +23,7 @@
   --secondary-color-rgb: 255, 152, 0;
   --tertiary-color-hex: #ffffff;
   --tertiary-color-rgb: 255, 255, 255;
+  --color-blue-grey-l5: #eceff1;
 
   /* font-size settings */
   --h1-font-size: 24px;
@@ -49,6 +50,10 @@
 
 /*---------------------starts xs (<= 768px) - phone styles--------------------*/
 /*----------------------------starts common styles----------------------------*/
+body {
+  background-color: var(--color-blue-grey-l5);
+}
+
 .container,
 .limit-width {
   margin: 0 5%;
@@ -80,6 +85,12 @@ h2 {
   font-size: var(--h2-font-size);
 }
 
+#first-name,
+#last-name,
+.navmenu a {
+  font-size: var(--h2-font-size);
+}
+
 h3 {
   padding: calc(var(--h3-font-size) * 0.5) 0;
   font-size: var(--h3-font-size);
@@ -108,6 +119,10 @@ hr {
   border-style: solid;
   height: 1px;
 }
+
+.hidden {
+  display: none;
+}
 /*-----------------------------ends common styles-----------------------------*/
 
 /*----------------------------starts header styles----------------------------*/
@@ -125,8 +140,7 @@ hr {
 
 #logo {
   z-index: 10;
-  position: fixed;
-  top: 10px;
+  margin-top: 10px;
   text-decoration: none;
   transition: top 0.5s;
 }
@@ -140,43 +154,40 @@ hr {
 #first-name,
 #last-name {
   display: none;
-  line-height: 40px;
-  vertical-align: top;
-  padding-left: 10px;
-  color: var(--tertiary-color-hex);
-  font-size: var(--h3-font-size); /* same as navmenu a */
-  font-weight: 700;
+}
+
+.navburger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar {
+  display: none;
+}
+
+.menu-bars,
+.menu-times {
+  z-index: 10;
+  color: var(--color-blue-grey-l5);
+  font-size: 25px;
+  transform: translateY(4px);
 }
 
 .navmenu {
-  display: inline-block;
-  z-index: 10;
+  z-index: 11;
   position: fixed;
-  top: 0px;
-  right: 5%;
-  width: auto;
-  text-align: right;
-  background-color: inherit;
-}
-
-/* The following lines were used for burger menu in navbar */
-/* .navmenu {
-  display: none;
   top: 50px;
   width: 100%;
   background-color: rgba(19, 7, 58, 0.8);
-} */
-
-/* .navmenu a {
-  display: block;
-} */
+}
 
 .navmenu a {
-  display: inline-block;
-  padding-left: 10px;
-  color: var(--tertiary-color-hex);
+  display: block;
+}
+
+.navmenu a {
+  color: var(--color-blue-grey-l5);
   line-height: 50px;
-  font-size: var(--h3-font-size);
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -184,7 +195,7 @@ hr {
 }
 
 .navmenu a:visited {
-  color: var(--tertiary-color-hex);
+  color: var(--color-blue-grey-l5);
 }
 
 .navmenu a.active {
@@ -199,7 +210,6 @@ hr {
 /*-----------------------------starts main styles-----------------------------*/
 /* ----------- starts styling for sections with hero-images class ----------- */
 .hero-images {
-  margin-top: 50px;
   z-index: 0;
   position: relative;
   text-align: center;
@@ -247,7 +257,7 @@ main a:visited {
 #projects h3 {
   width: 100%;
   background-color: rgba(var(--primary-color-rgb), 0.8);
-  color: var(--tertiary-color-hex);
+  color: var(--color-blue-grey-l5);
 }
 
 #projects h4 {
@@ -361,7 +371,7 @@ footer {
   margin-top: 40px;
   padding: 20px;
   background-color: var(--primary-color-hex);
-  color: var(--tertiary-color-hex);
+  color: var(--color-blue-grey-l5);
 }
 
 footer p {
@@ -370,7 +380,7 @@ footer p {
 }
 
 footer a {
-  color: var(--tertiary-color-hex);
+  color: var(--color-blue-grey-l5);
 }
 
 .social-media ul {
@@ -403,9 +413,6 @@ footer a {
 
   p,
   h3,
-  #first-name,
-  #last-name,
-  .navmenu a,
   label,
   #contact-submit {
     font-size: calc(var(--h3-font-size) + var(--font-size-plus-four));
@@ -424,29 +431,52 @@ footer a {
 
   /*-----------------------------header styles------------------------------*/
   #navbar-bg {
-    height: 70px;
     transition: height 0.5s;
   }
 
   #logo img {
-    height: 50px;
-    width: 50px;
     transition: height 0.5s;
+  }
+
+  #navbar .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   #last-name {
     display: inline;
     padding-left: 20px;
-    line-height: 50px;
+    color: var(--color-blue-grey-l5);
+    font-weight: 700;
+    transform: translateY(-5px);
   }
 
+  .menu-bars,
+  .menu-times {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .topbar {
+    display: inline;
+  }
+  .navmenu {
+    display: inline-block;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    right: 5%;
+    width: auto;
+    text-align: right;
+    background-color: inherit;
+  }
   .navmenu a {
-    line-height: 70px;
+    display: inline-block;
+    padding-left: 10px;
+    line-height: 50px;
     padding-left: 2rem;
-  }
-
-  .hero-images {
-    margin-top: 70px;
   }
 
   /*-----------------------------main styles------------------------------*/
@@ -465,16 +495,6 @@ footer a {
   .private-repo article:nth-of-type(even) {
     margin-left: 5%;
   }
-
-  /* The following code makes the featured projects span 100% width */
-  /* 
-  .public-repo article.featured {
-    display: block;
-    width: 100%;
-  }
-  .public-repo article.featured:nth-of-type(even) {
-    margin-left: 0;
-  } */
 
   #contact-submit {
     margin-top: 30px;
@@ -524,9 +544,6 @@ footer a {
 
   p,
   h3,
-  #first-name,
-  #last-name,
-  .navmenu a,
   label,
   #contact-submit {
     font-size: calc(var(--h3-font-size) + var(--font-size-plus-six));
@@ -546,7 +563,9 @@ footer a {
   #first-name {
     display: inline;
     padding-left: 20px;
-    line-height: 50px;
+    color: var(--color-blue-grey-l5);
+    font-weight: 700;
+    transform: translateY(-5px);
   }
 
   #last-name {
@@ -565,26 +584,11 @@ footer a {
     font-size: calc(var(--h2-font-size) + var(--font-size-plus-ten));
   }
 
-  /* h3, */
   p,
-  #first-name,
-  #last-name,
-  .navmenu a,
   label,
   #contact-submit {
     font-size: calc(var(--h3-font-size) + var(--font-size-plus-eight));
   }
-
-  /* h4,
-  ul li,
-  input,
-  textarea {
-    font-size: calc(var(--h4-font-size) + var(--font-size-plus-four));
-  } */
-
-  /* h5 {
-    font-size: calc(var(--h5-font-size) + var(--font-size-plus-four));
-  } */
 
   .public-repo article,
   .private-repo article {
