@@ -545,7 +545,7 @@ footer a {
 @media screen and (min-width: 992px) {
   /*------------------------------common styles-------------------------------*/
   .limit-width {
-    max-width: 1024px;
+    max-width: 912px;
     margin-left: auto;
     margin-right: auto;
   }
