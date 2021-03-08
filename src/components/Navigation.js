@@ -11,14 +11,19 @@ function Navigation(props) {
   const showSideBar = () => setSidebar(true);
   const hideSidebar = () => setSidebar(false);
 
+  const updateWidth = () => {
+    if (window.innerWidth >= 768) hideSidebar();
+  };
+  window.addEventListener('resize', updateWidth);
+
   return (
-    <div id="navbar">
-      <span id="navbar-bg"></span>
-      <div className='container navburger'>
+    <section id="navigation">
+      <div id="navbar-bg"></div>
+      <div className='container navbar'>
         <a
           href="#About"
           id="logo"
-          onClick={ () => props.handlePageChange('About') }
+          onClick={ () => { props.handlePageChange('About'); hideSidebar() } }
         >
           <div className='flex'>
             <img src={ logo } alt="Logo" width="30px" height="30px" />
@@ -42,44 +47,49 @@ function Navigation(props) {
         </a>
       </div>
 
-      <nav className={ sidebar ? "" : "hidden" }>
-        <div className="navmenu">
-          { tabs.map(tab => (
-            <a
-              key={ tab }
-              href={ '#' + tab }
-              // Whenever a tab is clicked on,
-              // the current page is set through the handlePageChange props.
-              onClick={ () => props.handlePageChange(tab) }
-              className={
-                props.currentPage === tab ? 'active' : ''
-              }
-            >
-              { tab }
-            </a>
-          )) }
-        </div>
+      <nav className='topNavBar'>
+        { tabs.map(tab => (
+          <a
+            key={ tab }
+            href={ '#' + tab }
+            // Whenever a tab is clicked on,
+            // the current page is set through the handlePageChange props.
+            onClick={ () => props.handlePageChange(tab) }
+            className={
+              props.currentPage === tab ? 'active' : ''
+            }
+          >
+            { tab }
+          </a>
+        )) }
       </nav>
 
-      <nav className='topbar'>
-        <div className="navmenu">
-          { tabs.map(tab => (
-            <a
-              key={ tab }
-              href={ '#' + tab }
-              // Whenever a tab is clicked on,
-              // the current page is set through the handlePageChange props.
-              onClick={ () => props.handlePageChange(tab) }
-              className={
-                props.currentPage === tab ? 'active' : ''
-              }
-            >
-              { tab }
-            </a>
-          )) }
-        </div>
+      <div className='push-content-under-navbar'></div>
+
+      <nav className={ sidebar ? "dropNavMenu" : "dropNavMenu hidden" }>
+        { tabs.map(tab => (
+          <a
+            key={ tab }
+            href={ '#' + tab }
+            // Whenever a tab is clicked on,
+            // the current page is set through the handlePageChange props.
+            onClick={ () => { props.handlePageChange(tab); hideSidebar(); } }
+            className={
+              props.currentPage === tab ? 'active' : ''
+            }
+          >
+            { tab }
+          </a>
+        )) }
       </nav>
-    </div >
+
+      {/* this layer is used to hideSidebar when clicking outside of it */ }
+      <div
+        className={ sidebar ? 'bottom-layer-active' : 'hidden' }
+        onClick={ hideSidebar }>
+      </div>
+
+    </section >
   );
 }
 

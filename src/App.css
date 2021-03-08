@@ -87,7 +87,8 @@ h2 {
 
 #first-name,
 #last-name,
-.navmenu a {
+.dropNavMenu a,
+.topNavBar a {
   font-size: var(--h2-font-size);
 }
 
@@ -140,6 +141,7 @@ hr {
 
 #logo {
   z-index: 10;
+  position: fixed;
   margin-top: 10px;
   text-decoration: none;
   transition: top 0.5s;
@@ -156,24 +158,21 @@ hr {
   display: none;
 }
 
-.navburger {
-  display: flex;
-  justify-content: space-between;
-}
-
-.topbar {
+.topNavBar {
   display: none;
 }
 
 .menu-bars,
 .menu-times {
   z-index: 10;
+  position: fixed;
+  right: 5%;
   color: var(--color-blue-grey-l5);
   font-size: 25px;
   transform: translateY(4px);
 }
 
-.navmenu {
+.dropNavMenu {
   z-index: 11;
   position: fixed;
   top: 50px;
@@ -181,11 +180,12 @@ hr {
   background-color: rgba(19, 7, 58, 0.8);
 }
 
-.navmenu a {
+.dropNavMenu a {
   display: block;
 }
 
-.navmenu a {
+.dropNavMenu a,
+.topNavBar a {
   color: var(--color-blue-grey-l5);
   line-height: 50px;
   font-weight: 700;
@@ -194,16 +194,31 @@ hr {
   transition: font-size 0.5s;
 }
 
-.navmenu a:visited {
+.dropNavMenu a:visited,
+.topNavBar a:visited {
   color: var(--color-blue-grey-l5);
 }
 
-.navmenu a.active {
+.dropNavMenu a.active,
+.topNavBar a.active {
   color: var(--secondary-color-hex);
 }
 
-.navmenu a:hover {
+.dropNavMenu a:hover,
+.topNavBar a:hover {
   text-decoration: underline;
+}
+
+.push-content-under-navbar {
+  height: 50px;
+}
+
+.bottom-layer-active {
+  z-index: 1;
+  position: fixed;
+  opacity: 0;
+  height: 100vh;
+  width: 100vw;
 }
 /*------------------------------ends nav styles-------------------------------*/
 
@@ -438,7 +453,7 @@ footer a {
     transition: height 0.5s;
   }
 
-  #navbar .flex {
+  #navigation .flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -456,13 +471,13 @@ footer a {
   .menu-times {
     display: none;
   }
-  .sidebar {
+  .dropNavMenu {
     display: none;
   }
-  .topbar {
+  .topNavBar {
     display: inline;
   }
-  .navmenu {
+  .topNavBar {
     display: inline-block;
     z-index: 10;
     position: fixed;
@@ -472,7 +487,7 @@ footer a {
     text-align: right;
     background-color: inherit;
   }
-  .navmenu a {
+  .topNavBar a {
     display: inline-block;
     padding-left: 10px;
     line-height: 50px;
