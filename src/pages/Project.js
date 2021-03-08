@@ -7,6 +7,17 @@ function Project() {
   }, []);
 
   const [publicProjects] = useState([
+    // {
+    //   id: "ahmad-el-gamal-web-dev-portfolio",
+    //   name: "My Web‑Dev Portfolio",
+    //   category: "private",
+    //   description: "This website!",
+    //   tech: "HTML5 | CSS3 | JavaScript | React",
+    //   screenshot: "portfolio.gif",
+    //   alt: "Ahmad El Gamal's Portfolio",
+    //   link: "https://ahmadelgamal.github.io/",
+    //   repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
+    // },
     {
       id: "ucb-adopt-me",
       name: "Adopt Me",
@@ -186,17 +197,6 @@ function Project() {
   ]);
 
   const [privateProjects] = useState([
-    {
-      id: "ahmad-el-gamal-web-dev-portfolio",
-      name: "My Web‑Dev Portfolio",
-      category: "private",
-      description: "This website!",
-      tech: "HTML5 | CSS3 | JavaScript | React",
-      screenshot: "portfolio.gif",
-      alt: "Ahmad El Gamal's Portfolio",
-      link: "https://ahmadelgamal.github.io/",
-      repo: "https://github.com/ahmadelgamal/ahmadelgamal.github.io"
-    },
     {
       id: "lifetime-egypt",
       name: "Lifetime Egypt",
