@@ -47,11 +47,11 @@ function Resume() {
 
         <div className='flex mt-20'>
           <h4>President</h4>
-          <h4>November 2011 - Present</h4>
+          <h4>November 2011 - Present</h4>
         </div>
         <div className='flex'>
           <h4>Crescent Holdings LLC</h4>
-          <h4>Irvine, CA</h4>
+          <h4>Irvine, CA</h4>
         </div>
         <ul>
           <li>Patiently produced a mobile app (iOS and Android), that was downloaded in many countries around the world.</li>
@@ -63,7 +63,7 @@ function Resume() {
 
         <div className='flex mt-20'>
           <h4>Certified Full-Stack Web-Developer</h4>
-          <h4>Jan 2021</h4>
+          <h4>Jan 2021</h4>
         </div>
         <div className='flex'>
           <h4>University of California, Extension</h4>
@@ -75,7 +75,7 @@ function Resume() {
 
         <div className='flex mt-20'>
           <h4>Online Mobile-App Development Courses</h4>
-          <h4>April 2013 - Aug 2015</h4>
+          <h4>April 2013 - Aug 2015</h4>
         </div>
         <div className='flex'>
           <h4>University of California, Extension</h4>
